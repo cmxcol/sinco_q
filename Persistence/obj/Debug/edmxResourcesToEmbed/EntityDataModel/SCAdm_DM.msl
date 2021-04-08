@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PersistenceStoreContainer" CdmEntityContainer="SCDBAdmEntities">
+    <FunctionImportMapping FunctionImportName="FIRepUsr" FunctionName="Persistence.Store.SP_RepUsr">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Persistence.EntityDataModel.RepUsr">
+          <ScalarProperty Name="CemexID" ColumnName="CemexID" />
+          <ScalarProperty Name="NUsuario" ColumnName="NUsuario" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="NRol" ColumnName="NRol" />
+          <ScalarProperty Name="NStaRg" ColumnName="NStaRg" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FIIU_R_URP" FunctionName="Persistence.Store.SPIU_R_URP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Persistence.EntityDataModel.IU_R_URP">
+          <ScalarProperty Name="IdR" ColumnName="IdR" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FIIU_Usr" FunctionName="Persistence.Store.SPIU_Usr">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Persistence.EntityDataModel.IU_Usr">
+          <ScalarProperty Name="IdR" ColumnName="IdR" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="catLS">
+      <EntityTypeMapping TypeName="Persistence.EntityDataModel.catLS">
+        <MappingFragment StoreEntitySet="catLS">
+          <ScalarProperty Name="DescLvl" ColumnName="DescLvl" />
+          <ScalarProperty Name="IdLvl" ColumnName="IdLvl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="catRol">
+      <EntityTypeMapping TypeName="Persistence.EntityDataModel.catRol">
+        <MappingFragment StoreEntitySet="catRol">
+          <ScalarProperty Name="NRol" ColumnName="NRol" />
+          <ScalarProperty Name="IdRol" ColumnName="IdRol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="catUsr">
+      <EntityTypeMapping TypeName="Persistence.EntityDataModel.catUsr">
+        <MappingFragment StoreEntitySet="catUsr">
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="NUsuario" ColumnName="NUsuario" />
+          <ScalarProperty Name="CemexID" ColumnName="CemexID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="relPaRolMPg">
+      <EntityTypeMapping TypeName="Persistence.EntityDataModel.relPaRolMPg">
+        <MappingFragment StoreEntitySet="relPaRolMPg">
+          <ScalarProperty Name="IdMPage" ColumnName="IdMPage" />
+          <ScalarProperty Name="IdRol" ColumnName="IdRol" />
+          <ScalarProperty Name="IdPais" ColumnName="IdPais" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="relPaRolPg">
+      <EntityTypeMapping TypeName="Persistence.EntityDataModel.relPaRolPg">
+        <MappingFragment StoreEntitySet="relPaRolPg">
+          <ScalarProperty Name="IdPage" ColumnName="IdPage" />
+          <ScalarProperty Name="IdRol" ColumnName="IdRol" />
+          <ScalarProperty Name="IdPais" ColumnName="IdPais" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="relPaUsrRol">
+      <EntityTypeMapping TypeName="Persistence.EntityDataModel.relPaUsrRol">
+        <MappingFragment StoreEntitySet="relPaUsrRol">
+          <ScalarProperty Name="IdStaRg" ColumnName="IdStaRg" />
+          <ScalarProperty Name="IdRol" ColumnName="IdRol" />
+          <ScalarProperty Name="IdPais" ColumnName="IdPais" />
+          <ScalarProperty Name="CemexID" ColumnName="CemexID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="catStaRg">
+      <EntityTypeMapping TypeName="Persistence.EntityDataModel.catStaRg">
+        <MappingFragment StoreEntitySet="catStaRg">
+          <ScalarProperty Name="NStaRg" ColumnName="NStaRg" />
+          <ScalarProperty Name="IdStaRg" ColumnName="IdStaRg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="catMPage">
+      <EntityTypeMapping TypeName="Persistence.EntityDataModel.catMPage">
+        <MappingFragment StoreEntitySet="catMPage">
+          <ScalarProperty Name="AppName" ColumnName="AppName" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="DescMPage" ColumnName="DescMPage" />
+          <ScalarProperty Name="IdMPage" ColumnName="IdMPage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="catPage">
+      <EntityTypeMapping TypeName="Persistence.EntityDataModel.catPage">
+        <MappingFragment StoreEntitySet="catPage">
+          <ScalarProperty Name="IdTPage" ColumnName="IdTPage" />
+          <ScalarProperty Name="AppName" ColumnName="AppName" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="DescPage" ColumnName="DescPage" />
+          <ScalarProperty Name="IdPage" ColumnName="IdPage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="catPais">
+      <EntityTypeMapping TypeName="Persistence.EntityDataModel.catPais">
+        <MappingFragment StoreEntitySet="catPais">
+          <ScalarProperty Name="IdStaRg" ColumnName="IdStaRg" />
+          <ScalarProperty Name="NPaisA" ColumnName="NPaisA" />
+          <ScalarProperty Name="NPais" ColumnName="NPais" />
+          <ScalarProperty Name="IdPais" ColumnName="IdPais" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="catTPage">
+      <EntityTypeMapping TypeName="Persistence.EntityDataModel.catTPage">
+        <MappingFragment StoreEntitySet="catTPage">
+          <ScalarProperty Name="DescTPage" ColumnName="DescTPage" />
+          <ScalarProperty Name="IdTPage" ColumnName="IdTPage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="relRolLS" TypeName="Persistence.EntityDataModel.relRolLS" StoreEntitySet="relRolLS">
+      <EndProperty Name="catRol">
+        <ScalarProperty Name="IdRol" ColumnName="IdRol" />
+      </EndProperty>
+      <EndProperty Name="catLS">
+        <ScalarProperty Name="IdLvl" ColumnName="IdLvl" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="relPgMPg" TypeName="Persistence.EntityDataModel.relPgMPg" StoreEntitySet="relPgMPg">
+      <EndProperty Name="catPage">
+        <ScalarProperty Name="IdPage" ColumnName="IdPage" />
+      </EndProperty>
+      <EndProperty Name="catMPage">
+        <ScalarProperty Name="IdMPage" ColumnName="IdMPage" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="FISID_R_RJ" FunctionName="Persistence.Store.SPSID_R_RJ">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Persistence.EntityDataModel.SID_R_RJ">
+          <ScalarProperty Name="IdR" ColumnName="IdR" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="catTEx">
+      <EntityTypeMapping TypeName="Persistence.EntityDataModel.catTEx">
+        <MappingFragment StoreEntitySet="catTEx">
+          <ScalarProperty Name="NTEx" ColumnName="NTEx" />
+          <ScalarProperty Name="IdTEx" ColumnName="IdTEx" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Fn_IUD_Ex" FunctionName="Persistence.Store.SPIUD_Ex">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Persistence.EntityDataModel.SPIUD_R">
+          <ScalarProperty Name="Response" ColumnName="Response" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="tbExCli">
+      <EntityTypeMapping TypeName="Persistence.EntityDataModel.tbExCli">
+        <MappingFragment StoreEntitySet="tbExCli">
+          <ScalarProperty Name="IdEmp" ColumnName="IdEmp" />
+          <ScalarProperty Name="MsgEx" ColumnName="MsgEx" />
+          <ScalarProperty Name="IdRol" ColumnName="IdRol" />
+          <ScalarProperty Name="IdPais" ColumnName="IdPais" />
+          <ScalarProperty Name="dtVig" ColumnName="dtVig" />
+          <ScalarProperty Name="IdTEx" ColumnName="IdTEx" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="IdEx" ColumnName="IdEx" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Fn_I_Ex" FunctionName="Persistence.Store.SPI_Ex">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Persistence.EntityDataModel.SPIUD_R">
+          <ScalarProperty Name="Response" ColumnName="Response" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Fn_U_Ex" FunctionName="Persistence.Store.SPU_Ex">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Persistence.EntityDataModel.SPIUD_R">
+          <ScalarProperty Name="Response" ColumnName="Response" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Fn_S_Emp" FunctionName="Persistence.Store.SPS_EmpCNC">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Persistence.EntityDataModel.SPEmp_R">
+          <ScalarProperty Name="NEmp" ColumnName="NEmp" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Fn_S_ExMsg" FunctionName="Persistence.Store.SPS_ExMsg">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Persistence.EntityDataModel.Fn_S_ExMsg_Result">
+          <ScalarProperty Name="IdExMsg" ColumnName="IdExMsg" />
+          <ScalarProperty Name="Msg" ColumnName="Msg" />
+          <ScalarProperty Name="IdTEx" ColumnName="IdTEx" />
+          <ScalarProperty Name="IdStaRg" ColumnName="IdStaRg" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,24 @@
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\Services.dll.config
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\Services.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\Services.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\Components.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\DTO Adapter.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\Microsoft.Practices.Unity.Configuration.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\Microsoft.Practices.Unity.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\Microsoft.Practices.Unity.Interception.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\Persistence.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\sapnco.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\SHUtil.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\sapnco_utils.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\Components.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\DTO Adapter.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\Persistence.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\Microsoft.Practices.ServiceLocation.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\Microsoft.Practices.ServiceLocation.xml
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\Microsoft.Practices.Unity.xml
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Release\Microsoft.Practices.Unity.Configuration.xml
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\obj\x86\Release\Services.csprojResolveAssemblyReference.cache
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\obj\x86\Release\Services.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\obj\x86\Release\Services.pdb

@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Persistence.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="PersistenceStoreContainer">
+    <EntitySet Name="catLS" EntityType="Persistence.Store.catLS" store:Type="Tables" Schema="auth_usr" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="catRol" EntityType="Persistence.Store.catRol" store:Type="Tables" Schema="auth_usr" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="catUsr" EntityType="Persistence.Store.catUsr" store:Type="Tables" Schema="auth_usr" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="relPaRolMPg" EntityType="Persistence.Store.relPaRolMPg" store:Type="Tables" Schema="auth_usr" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="relPaRolPg" EntityType="Persistence.Store.relPaRolPg" store:Type="Tables" Schema="auth_usr" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="relPaUsrRol" EntityType="Persistence.Store.relPaUsrRol" store:Type="Tables" Schema="auth_usr" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="relRolLS" EntityType="Persistence.Store.relRolLS" store:Type="Tables" Schema="auth_usr" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="catStaRg" EntityType="Persistence.Store.catStaRg" store:Type="Tables" Schema="cat" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="catTEx" EntityType="Persistence.Store.catTEx" store:Type="Tables" Schema="cat" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tbExCli" EntityType="Persistence.Store.tbExCli" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="catMPage" EntityType="Persistence.Store.catMPage" store:Type="Tables" Schema="sysc" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="catPage" EntityType="Persistence.Store.catPage" store:Type="Tables" Schema="sysc" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="catPais" EntityType="Persistence.Store.catPais" store:Type="Tables" Schema="sysc" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="catTPage" EntityType="Persistence.Store.catTPage" store:Type="Tables" Schema="sysc" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="relPgMPg" EntityType="Persistence.Store.relPgMPg" store:Type="Tables" Schema="sysc" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <AssociationSet Name="FK_catPage_catTPage" Association="Persistence.Store.FK_catPage_catTPage">
+      <End Role="catTPage" EntitySet="catTPage" />
+      <End Role="catPage" EntitySet="catPage" />
+    </AssociationSet>
+    <AssociationSet Name="FK_catPais_catStaRg" Association="Persistence.Store.FK_catPais_catStaRg">
+      <End Role="catStaRg" EntitySet="catStaRg" />
+      <End Role="catPais" EntitySet="catPais" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaRolMPg_catMPage" Association="Persistence.Store.FK_relPaRolMPg_catMPage">
+      <End Role="catMPage" EntitySet="catMPage" />
+      <End Role="relPaRolMPg" EntitySet="relPaRolMPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaRolMPg_catPais" Association="Persistence.Store.FK_relPaRolMPg_catPais">
+      <End Role="catPais" EntitySet="catPais" />
+      <End Role="relPaRolMPg" EntitySet="relPaRolMPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaRolMPg_catRol" Association="Persistence.Store.FK_relPaRolMPg_catRol">
+      <End Role="catRol" EntitySet="catRol" />
+      <End Role="relPaRolMPg" EntitySet="relPaRolMPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaRolPg_catPage" Association="Persistence.Store.FK_relPaRolPg_catPage">
+      <End Role="catPage" EntitySet="catPage" />
+      <End Role="relPaRolPg" EntitySet="relPaRolPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaRolPg_catPais" Association="Persistence.Store.FK_relPaRolPg_catPais">
+      <End Role="catPais" EntitySet="catPais" />
+      <End Role="relPaRolPg" EntitySet="relPaRolPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaRolPg_catRol" Association="Persistence.Store.FK_relPaRolPg_catRol">
+      <End Role="catRol" EntitySet="catRol" />
+      <End Role="relPaRolPg" EntitySet="relPaRolPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaUsr_catPais" Association="Persistence.Store.FK_relPaUsr_catPais">
+      <End Role="catPais" EntitySet="catPais" />
+      <End Role="relPaUsrRol" EntitySet="relPaUsrRol" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaUsr_catRol" Association="Persistence.Store.FK_relPaUsr_catRol">
+      <End Role="catRol" EntitySet="catRol" />
+      <End Role="relPaUsrRol" EntitySet="relPaUsrRol" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaUsr_catUsr" Association="Persistence.Store.FK_relPaUsr_catUsr">
+      <End Role="catUsr" EntitySet="catUsr" />
+      <End Role="relPaUsrRol" EntitySet="relPaUsrRol" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPgMPg_catMPage" Association="Persistence.Store.FK_relPgMPg_catMPage">
+      <End Role="catMPage" EntitySet="catMPage" />
+      <End Role="relPgMPg" EntitySet="relPgMPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPgMPg_catPage" Association="Persistence.Store.FK_relPgMPg_catPage">
+      <End Role="catPage" EntitySet="catPage" />
+      <End Role="relPgMPg" EntitySet="relPgMPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relRolLS_catLS" Association="Persistence.Store.FK_relRolLS_catLS">
+      <End Role="catLS" EntitySet="catLS" />
+      <End Role="relRolLS" EntitySet="relRolLS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relRolLS_catRol" Association="Persistence.Store.FK_relRolLS_catRol">
+      <End Role="catRol" EntitySet="catRol" />
+      <End Role="relRolLS" EntitySet="relRolLS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbExCli_catPais" Association="Persistence.Store.FK_tbExCli_catPais">
+      <End Role="catPais" EntitySet="catPais" />
+      <End Role="tbExCli" EntitySet="tbExCli" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbExCli_catRol" Association="Persistence.Store.FK_tbExCli_catRol">
+      <End Role="catRol" EntitySet="catRol" />
+      <End Role="tbExCli" EntitySet="tbExCli" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbExCli_catTEx" Association="Persistence.Store.FK_tbExCli_catTEx">
+      <End Role="catTEx" EntitySet="catTEx" />
+      <End Role="tbExCli" EntitySet="tbExCli" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="catLS">
+    <Key>
+      <PropertyRef Name="IdLvl" />
+    </Key>
+    <Property Name="IdLvl" Type="int" Nullable="false" />
+    <Property Name="DescLvl" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="catRol">
+    <Key>
+      <PropertyRef Name="IdRol" />
+    </Key>
+    <Property Name="IdRol" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NRol" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="catUsr">
+    <Key>
+      <PropertyRef Name="CemexID" />
+    </Key>
+    <Property Name="CemexID" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="NUsuario" Type="nvarchar" MaxLength="200" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="relPaRolMPg">
+    <Key>
+      <PropertyRef Name="IdPais" />
+      <PropertyRef Name="IdRol" />
+    </Key>
+    <Property Name="IdPais" Type="int" Nullable="false" />
+    <Property Name="IdRol" Type="int" Nullable="false" />
+    <Property Name="IdMPage" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="relPaRolPg">
+    <Key>
+      <PropertyRef Name="IdPais" />
+      <PropertyRef Name="IdRol" />
+      <PropertyRef Name="IdPage" />
+    </Key>
+    <Property Name="IdPais" Type="int" Nullable="false" />
+    <Property Name="IdRol" Type="int" Nullable="false" />
+    <Property Name="IdPage" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="relPaUsrRol">
+    <Key>
+      <PropertyRef Name="CemexID" />
+      <PropertyRef Name="IdPais" />
+    </Key>
+    <Property Name="CemexID" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="IdPais" Type="int" Nullable="false" />
+    <Property Name="IdRol" Type="int" Nullable="false" />
+    <Property Name="IdStaRg" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="relRolLS">
+    <Key>
+      <PropertyRef Name="IdRol" />
+      <PropertyRef Name="IdLvl" />
+    </Key>
+    <Property Name="IdRol" Type="int" Nullable="false" />
+    <Property Name="IdLvl" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="catStaRg">
+    <Key>
+      <PropertyRef Name="IdStaRg" />
+    </Key>
+    <Property Name="IdStaRg" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NStaRg" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="catTEx">
+    <Key>
+      <PropertyRef Name="IdTEx" />
+    </Key>
+    <Property Name="IdTEx" Type="nvarchar" Nullable="false" MaxLength="5" />
+    <Property Name="NTEx" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbExCli">
+    <Key>
+      <PropertyRef Name="IdEx" />
+    </Key>
+    <Property Name="IdEx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="IdCliente" Type="bigint" Nullable="false" />
+    <Property Name="IdTEx" Type="nvarchar" Nullable="false" MaxLength="5" />
+    <Property Name="dtVig" Type="date" />
+    <Property Name="IdPais" Type="int" Nullable="false" />
+    <Property Name="IdRol" Type="int" Nullable="false" />
+    <Property Name="MsgEx" Type="nvarchar" MaxLength="50" />
+    <Property Name="IdEmp" Type="bigint" />
+  </EntityType>
+  <EntityType Name="catMPage">
+    <Key>
+      <PropertyRef Name="IdMPage" />
+    </Key>
+    <Property Name="IdMPage" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DescMPage" Type="nvarchar" MaxLength="100" />
+    <Property Name="Url" Type="nvarchar(max)" />
+    <Property Name="AppName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="catPage">
+    <Key>
+      <PropertyRef Name="IdPage" />
+    </Key>
+    <Property Name="IdPage" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DescPage" Type="nvarchar" MaxLength="100" />
+    <Property Name="Url" Type="nvarchar(max)" />
+    <Property Name="AppName" Type="nvarchar" MaxLength="50" />
+    <Property Name="IdTPage" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="catPais">
+    <Key>
+      <PropertyRef Name="IdPais" />
+    </Key>
+    <Property Name="IdPais" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NPais" Type="nvarchar" MaxLength="50" />
+    <Property Name="NPaisA" Type="nvarchar" MaxLength="10" />
+    <Property Name="IdStaRg" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="catTPage">
+    <Key>
+      <PropertyRef Name="IdTPage" />
+    </Key>
+    <Property Name="IdTPage" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DescTPage" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="relPgMPg">
+    <Key>
+      <PropertyRef Name="IdMPage" />
+      <PropertyRef Name="IdPage" />
+    </Key>
+    <Property Name="IdMPage" Type="int" Nullable="false" />
+    <Property Name="IdPage" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_catPage_catTPage">
+    <End Role="catTPage" Type="Persistence.Store.catTPage" Multiplicity="1" />
+    <End Role="catPage" Type="Persistence.Store.catPage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catTPage">
+        <PropertyRef Name="IdTPage" />
+      </Principal>
+      <Dependent Role="catPage">
+        <PropertyRef Name="IdTPage" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_catPais_catStaRg">
+    <End Role="catStaRg" Type="Persistence.Store.catStaRg" Multiplicity="1" />
+    <End Role="catPais" Type="Persistence.Store.catPais" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catStaRg">
+        <PropertyRef Name="IdStaRg" />
+      </Principal>
+      <Dependent Role="catPais">
+        <PropertyRef Name="IdStaRg" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaRolMPg_catMPage">
+    <End Role="catMPage" Type="Persistence.Store.catMPage" Multiplicity="1" />
+    <End Role="relPaRolMPg" Type="Persistence.Store.relPaRolMPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catMPage">
+        <PropertyRef Name="IdMPage" />
+      </Principal>
+      <Dependent Role="relPaRolMPg">
+        <PropertyRef Name="IdMPage" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaRolMPg_catPais">
+    <End Role="catPais" Type="Persistence.Store.catPais" Multiplicity="1" />
+    <End Role="relPaRolMPg" Type="Persistence.Store.relPaRolMPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catPais">
+        <PropertyRef Name="IdPais" />
+      </Principal>
+      <Dependent Role="relPaRolMPg">
+        <PropertyRef Name="IdPais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaRolMPg_catRol">
+    <End Role="catRol" Type="Persistence.Store.catRol" Multiplicity="1" />
+    <End Role="relPaRolMPg" Type="Persistence.Store.relPaRolMPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catRol">
+        <PropertyRef Name="IdRol" />
+      </Principal>
+      <Dependent Role="relPaRolMPg">
+        <PropertyRef Name="IdRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaRolPg_catPage">
+    <End Role="catPage" Type="Persistence.Store.catPage" Multiplicity="1" />
+    <End Role="relPaRolPg" Type="Persistence.Store.relPaRolPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catPage">
+        <PropertyRef Name="IdPage" />
+      </Principal>
+      <Dependent Role="relPaRolPg">
+        <PropertyRef Name="IdPage" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaRolPg_catPais">
+    <End Role="catPais" Type="Persistence.Store.catPais" Multiplicity="1" />
+    <End Role="relPaRolPg" Type="Persistence.Store.relPaRolPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catPais">
+        <PropertyRef Name="IdPais" />
+      </Principal>
+      <Dependent Role="relPaRolPg">
+        <PropertyRef Name="IdPais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaRolPg_catRol">
+    <End Role="catRol" Type="Persistence.Store.catRol" Multiplicity="1" />
+    <End Role="relPaRolPg" Type="Persistence.Store.relPaRolPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catRol">
+        <PropertyRef Name="IdRol" />
+      </Principal>
+      <Dependent Role="relPaRolPg">
+        <PropertyRef Name="IdRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaUsr_catPais">
+    <End Role="catPais" Type="Persistence.Store.catPais" Multiplicity="1" />
+    <End Role="relPaUsrRol" Type="Persistence.Store.relPaUsrRol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catPais">
+        <PropertyRef Name="IdPais" />
+      </Principal>
+      <Dependent Role="relPaUsrRol">
+        <PropertyRef Name="IdPais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaUsr_catRol">
+    <End Role="catRol" Type="Persistence.Store.catRol" Multiplicity="1" />
+    <End Role="relPaUsrRol" Type="Persistence.Store.relPaUsrRol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catRol">
+        <PropertyRef Name="IdRol" />
+      </Principal>
+      <Dependent Role="relPaUsrRol">
+        <PropertyRef Name="IdRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaUsr_catUsr">
+    <End Role="catUsr" Type="Persistence.Store.catUsr" Multiplicity="1" />
+    <End Role="relPaUsrRol" Type="Persistence.Store.relPaUsrRol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catUsr">
+        <PropertyRef Name="CemexID" />
+      </Principal>
+      <Dependent Role="relPaUsrRol">
+        <PropertyRef Name="CemexID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPgMPg_catMPage">
+    <End Role="catMPage" Type="Persistence.Store.catMPage" Multiplicity="1" />
+    <End Role="relPgMPg" Type="Persistence.Store.relPgMPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catMPage">
+        <PropertyRef Name="IdMPage" />
+      </Principal>
+      <Dependent Role="relPgMPg">
+        <PropertyRef Name="IdMPage" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPgMPg_catPage">
+    <End Role="catPage" Type="Persistence.Store.catPage" Multiplicity="1" />
+    <End Role="relPgMPg" Type="Persistence.Store.relPgMPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catPage">
+        <PropertyRef Name="IdPage" />
+      </Principal>
+      <Dependent Role="relPgMPg">
+        <PropertyRef Name="IdPage" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relRolLS_catLS">
+    <End Role="catLS" Type="Persistence.Store.catLS" Multiplicity="1" />
+    <End Role="relRolLS" Type="Persistence.Store.relRolLS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catLS">
+        <PropertyRef Name="IdLvl" />
+      </Principal>
+      <Dependent Role="relRolLS">
+        <PropertyRef Name="IdLvl" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relRolLS_catRol">
+    <End Role="catRol" Type="Persistence.Store.catRol" Multiplicity="1" />
+    <End Role="relRolLS" Type="Persistence.Store.relRolLS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catRol">
+        <PropertyRef Name="IdRol" />
+      </Principal>
+      <Dependent Role="relRolLS">
+        <PropertyRef Name="IdRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbExCli_catPais">
+    <End Role="catPais" Type="Persistence.Store.catPais" Multiplicity="1" />
+    <End Role="tbExCli" Type="Persistence.Store.tbExCli" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catPais">
+        <PropertyRef Name="IdPais" />
+      </Principal>
+      <Dependent Role="tbExCli">
+        <PropertyRef Name="IdPais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbExCli_catRol">
+    <End Role="catRol" Type="Persistence.Store.catRol" Multiplicity="1" />
+    <End Role="tbExCli" Type="Persistence.Store.tbExCli" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catRol">
+        <PropertyRef Name="IdRol" />
+      </Principal>
+      <Dependent Role="tbExCli">
+        <PropertyRef Name="IdRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbExCli_catTEx">
+    <End Role="catTEx" Type="Persistence.Store.catTEx" Multiplicity="1" />
+    <End Role="tbExCli" Type="Persistence.Store.tbExCli" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catTEx">
+        <PropertyRef Name="IdTEx" />
+      </Principal>
+      <Dependent Role="tbExCli">
+        <PropertyRef Name="IdTEx" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="SP_RepUsr" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="auth_usr">
+    <Parameter Name="TCOM" Type="int" Mode="In" />
+    <Parameter Name="IDPAIS" Type="int" Mode="In" />
+    <Parameter Name="IDROL" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SPIU_R_URP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="auth_usr">
+    <Parameter Name="TCOM" Type="int" Mode="In" />
+    <Parameter Name="CEMEXID" Type="nvarchar" Mode="In" />
+    <Parameter Name="IDPAIS" Type="int" Mode="In" />
+    <Parameter Name="IDROL" Type="int" Mode="In" />
+    <Parameter Name="IDSTARG" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SPIU_Usr" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="auth_usr">
+    <Parameter Name="TCOM" Type="int" Mode="In" />
+    <Parameter Name="CEMEXID" Type="nvarchar" Mode="In" />
+    <Parameter Name="NUSUARIO" Type="nvarchar" Mode="In" />
+    <Parameter Name="EMAIL" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="SPSID_R_RJ" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="auth_usr">
+    <Parameter Name="TCOM" Type="int" Mode="In" />
+    <Parameter Name="IDROL" Type="int" Mode="In" />
+    <Parameter Name="IDROLA" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SPI_Ex" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IdCliente" Type="bigint" Mode="In" />
+    <Parameter Name="IdTEx" Type="nvarchar" Mode="In" />
+    <Parameter Name="dtVig" Type="nvarchar" Mode="In" />
+    <Parameter Name="IdPais" Type="int" Mode="In" />
+    <Parameter Name="IdRol" Type="int" Mode="In" />
+    <Parameter Name="IdUsr" Type="nvarchar" Mode="In" />
+    <Parameter Name="MsgEx" Type="nvarchar" Mode="In" />
+    <Parameter Name="IdEmp" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="SPIUD_Ex" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TCOM" Type="int" Mode="In" />
+    <Parameter Name="IdEx" Type="int" Mode="In" />
+    <Parameter Name="IDCLIENTE" Type="bigint" Mode="In" />
+    <Parameter Name="IDTEX" Type="nvarchar" Mode="In" />
+    <Parameter Name="DTVIG" Type="nvarchar" Mode="In" />
+    <Parameter Name="IdPais" Type="int" Mode="In" />
+    <Parameter Name="IdRol" Type="int" Mode="In" />
+    <Parameter Name="IdUsr" Type="nvarchar" Mode="In" />
+    <Parameter Name="MsgEx" Type="nvarchar" Mode="In" />
+    <Parameter Name="IdEmp" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="SPU_Ex" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IdEx" Type="int" Mode="In" />
+    <Parameter Name="IdCliente" Type="bigint" Mode="In" />
+    <Parameter Name="IdTEx" Type="nvarchar" Mode="In" />
+    <Parameter Name="dtVig" Type="nvarchar" Mode="In" />
+    <Parameter Name="IdPais" Type="int" Mode="In" />
+    <Parameter Name="IdRol" Type="int" Mode="In" />
+    <Parameter Name="IdUsr" Type="nvarchar" Mode="In" />
+    <Parameter Name="MsgEx" Type="nvarchar" Mode="In" />
+    <Parameter Name="IdEmp" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="SPS_ExMsg" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ex">
+    <Parameter Name="IdExMsg" Type="int" Mode="In" />
+    <Parameter Name="Msg" Type="nvarchar" Mode="In" />
+    <Parameter Name="IdTEx" Type="nvarchar" Mode="In" />
+    <Parameter Name="IdStaRg" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SPS_EmpCNC" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="hr">
+    <Parameter Name="IdEmp" Type="bigint" Mode="In" />
+    <Parameter Name="NEmp" Type="nvarchar" Mode="In" />
+    <Parameter Name="IdCargo" Type="int" Mode="In" />
+  </Function>
+</Schema>

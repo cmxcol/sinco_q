@@ -1,0 +1,1882 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="04AB015C-0745-486C-8295-DE21BE90AFC0/d:PTO/d:Cache/f:ObjCache.cs" caret="0" fromTop="0" />
+      <File id="A238625B-C29E-4ACD-B689-6BF868542F74/d:Cache/f:CacheServ.cs" caret="938" fromTop="31" />
+      <File id="04AB015C-0745-486C-8295-DE21BE90AFC0/d:PTO/d:Pg/f:PagePTO.cs" caret="0" fromTop="0" />
+      <File id="04AB015C-0745-486C-8295-DE21BE90AFC0/d:PTO/d:StaRg/f:StaRgPTO.cs" caret="0" fromTop="0" />
+      <File id="04AB015C-0745-486C-8295-DE21BE90AFC0/d:PTO/d:Pais/f:PaisPTO.cs" caret="408" fromTop="16" />
+      <File id="04AB015C-0745-486C-8295-DE21BE90AFC0/d:PTO/d:Usr/f:IUsrPTO.cs" caret="482" fromTop="20" />
+      <File id="04AB015C-0745-486C-8295-DE21BE90AFC0/d:PTO/d:Usr/f:UsrPTO.cs" caret="251" fromTop="12" />
+      <File id="A238625B-C29E-4ACD-B689-6BF868542F74/d:Usr/f:UsrServ.cs" caret="880" fromTop="27" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Adm/f:CBloqueos.aspx" caret="1551" fromTop="12" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Adm/f:CBloqueos.aspx.cs" caret="365" fromTop="14" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Adm/f:EConfig.aspx.cs" caret="40304" fromTop="3" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Adm/f:EConfig.aspx" caret="0" fromTop="0" />
+      <File id="04AB015C-0745-486C-8295-DE21BE90AFC0/d:BCfg/f:CmpBCfg.cs" caret="804" fromTop="25" />
+      <File id="A238625B-C29E-4ACD-B689-6BF868542F74/d:BCfg/f:BCfgServ.cs" caret="685" fromTop="23" />
+      <File id="95053D38-BC11-49A9-A731-02085FDE2B4F/d:DAO/d:BCfg/f:BusinessConfigDao.cs" caret="1168" fromTop="32" />
+      <File id="F9BB9D76-B0E5-40C1-83D6-2B0FF75D481A/d:HttpModule/f:CustomAuthenticationModule.cs" caret="2277" fromTop="26" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:Styles/f:SPublic.css" caret="7705" fromTop="39" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:Styles/f:SMaster.css" caret="17543" fromTop="33" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:MP/f:UsrP.Master" caret="7474" fromTop="19" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:MP/f:UsrSp.Master" caret="7684" fromTop="10" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:MP/f:AdmCS.Master" caret="0" fromTop="0" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:MP/f:AdmC.Master" caret="0" fromTop="0" />
+      <File id="95053D38-BC11-49A9-A731-02085FDE2B4F/d:DAO/d:Pg/f:PageDAO.cs" caret="1208" fromTop="20" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Usr/f:ProgPedidos.aspx.cs" caret="141738" fromTop="37" />
+      <File id="F9BB9D76-B0E5-40C1-83D6-2B0FF75D481A/d:Security/d:Usuario/f:Usr.cs" caret="4613" fromTop="115" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Usr/f:ProgPedidos.aspx" caret="790" fromTop="0" />
+      <File id="F9BB9D76-B0E5-40C1-83D6-2B0FF75D481A/d:Cache/f:UsrCache.cs" caret="2404" fromTop="65" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:Account/f:Login.aspx" caret="0" fromTop="0" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:Account/f:Login.aspx.cs" caret="659" fromTop="21" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/f:Web.config" caret="15075" fromTop="228" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:Styles/f:SPublic.css" caret="7705" fromTop="39" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:MP/f:AdmC.Master" caret="9340" fromTop="10" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:MP/f:AdmCS.Master" caret="8916" fromTop="10" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:MP/f:UsrP.Master" caret="7474" fromTop="19" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:MP/f:UsrSp.Master" caret="7684" fromTop="10" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Usr/f:ProgPedidos.aspx" caret="65482" fromTop="22" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Usr/f:ProgPedidos.aspx.cs" caret="140447" fromTop="17" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Usr/f:ProgPedidos.aspx.cs" caret="140445" fromTop="21" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Usr/f:ProgPedidos.aspx.cs" caret="140406" fromTop="21" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Usr/f:ProgPedidos.aspx.cs" caret="140071" fromTop="17" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Usr/f:ProgPedidos.aspx.cs" caret="140638" fromTop="22" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Usr/f:ProgPedidos.aspx.cs" caret="129048" fromTop="29" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Usr/f:ProgPedidos.aspx.cs" caret="129277" fromTop="30" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Usr/f:ProgPedidos.aspx.cs" caret="140850" fromTop="18" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Usr/f:ProgPedidos.aspx.cs" caret="141036" fromTop="22" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Usr/f:ProgPedidos.aspx.cs" caret="141520" fromTop="31" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Usr/f:ProgPedidos.aspx" caret="64502" fromTop="14" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Usr/f:ProgPedidos.aspx" caret="68647" fromTop="14" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/d:CO/d:PG/d:Usr/f:ProgPedidos.aspx.cs" caret="133183" fromTop="26" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/f:Web.config" caret="9048" fromTop="20" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/f:Web.config" caret="1175" fromTop="14" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/f:Web.config" caret="2706" fromTop="45" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/f:Web.config" caret="1525" fromTop="18" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/f:Web.config" caret="12294" fromTop="8" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/f:Web.config" caret="14824" fromTop="35" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/f:Web.config" caret="16372" fromTop="37" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/f:Web.config" caret="14824" fromTop="5" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/f:Web.config" caret="14824" fromTop="3" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/f:Web.config" caret="14824" fromTop="21" />
+      <File id="C8E97C9D-5289-43CA-885A-09F3925630FA/f:Web.config" caret="14073" fromTop="27" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="using" priority="133" />
+      <Item value="Persistence" priority="53" />
+      <Item value="EntityDataModel" priority="10" />
+      <Item value="SCDBEntities`0" priority="0" />
+      <Item value="private" priority="29" />
+      <Item value="public" priority="156" />
+      <Item value="return" priority="89" />
+      <Item value="static" priority="5" />
+      <Item value="SCDBAdmEntities`0" priority="5" />
+      <Item value="null" priority="118" />
+      <Item value="SCAdmEnt" priority="2" />
+      <Item value="new" priority="201" />
+      <Item value="SCDBAdmEntities" priority="0" />
+      <Item value="IObjCtxSCAdm`0" priority="3" />
+      <Item value="EntityDataModelObjectContext" priority="1" />
+      <Item value="ObJectContextSCAdm" priority="0" />
+      <Item value="ObjCtxSCAdm" priority="1" />
+      <Item value="a" priority="19" />
+      <Item value="instance" priority="4" />
+      <Item value="IObjCtxSC`0" priority="0" />
+      <Item value="IUsr`0" priority="11" />
+      <Item value="IGeneric" priority="2" />
+      <Item value="catUsr`0" priority="24" />
+      <Item value="string" priority="12" />
+      <Item value="Generic" priority="10" />
+      <Item value="Usr`0" priority="6" />
+      <Item value="base" priority="6" />
+      <Item value="this" priority="41" />
+      <Item value="DAO" priority="22" />
+      <Item value="DAOGeneric" priority="3" />
+      <Item value="catRol`0" priority="5" />
+      <Item value="int" priority="45" />
+      <Item value="Int32`0" priority="48" />
+      <Item value="IRol`0" priority="4" />
+      <Item value="Rol`0" priority="5" />
+      <Item value="Base64FormattingOptions`0" priority="1" />
+      <Item value="Context" priority="8" />
+      <Item value="ObjCtxSCAdmIns`0" priority="24" />
+      <Item value="IPais`0" priority="6" />
+      <Item value="catPais`0" priority="4" />
+      <Item value="IDictionary" priority="0" />
+      <Item value="interface" priority="4" />
+      <Item value="Pais`0" priority="4" />
+      <Item value="EntityDataModelObjectContext.ObjectContextSCAdm" priority="1" />
+      <Item value="IPage`0" priority="0" />
+      <Item value="catPage`0" priority="3" />
+      <Item value="Page`0" priority="2" />
+      <Item value="IMPage`0" priority="0" />
+      <Item value="catMPage`0" priority="2" />
+      <Item value="Components" priority="26" />
+      <Item value="Usr" priority="36" />
+      <Item value="ICmpUsr`0" priority="3" />
+      <Item value="DAOUsr" priority="0" />
+      <Item value="CmpUsr`0" priority="2" />
+      <Item value="container" priority="9" />
+      <Item value="IEnumerable" priority="32" />
+      <Item value="String`0" priority="88" />
+      <Item value="var" priority="97" />
+      <Item value="CmpUsr" priority="5" />
+      <Item value="IUsrServ`0" priority="3" />
+      <Item value="System" priority="19" />
+      <Item value="Security" priority="16" />
+      <Item value="Web" priority="4" />
+      <Item value="Principal" priority="2" />
+      <Item value="IHttpModule`0" priority="1" />
+      <Item value="IPrincipal`0" priority="0" />
+      <Item value="IFPrincipal`0" priority="0" />
+      <Item value="Master" priority="2" />
+      <Item value="MenuItem`0" priority="1" />
+      <Item value="MenuItem" priority="0" />
+      <Item value="Form" priority="4" />
+      <Item value="Usuario" priority="8" />
+      <Item value="true" priority="39" />
+      <Item value="UsrCache`0" priority="2" />
+      <Item value="CemexId" priority="1" />
+      <Item value="PassWord" priority="0" />
+      <Item value="cemexId" priority="18" />
+      <Item value="passWord" priority="0" />
+      <Item value="value" priority="4" />
+      <Item value="_idPais" priority="1" />
+      <Item value="Rol" priority="17" />
+      <Item value="Infrastructure" priority="12" />
+      <Item value="Pais" priority="10" />
+      <Item value="_rol" priority="4" />
+      <Item value="usr" priority="46" />
+      <Item value="_domainName" priority="1" />
+      <Item value="_passWord" priority="0" />
+      <Item value="Configuration" priority="2" />
+      <Item value="_Pais" priority="0" />
+      <Item value="getRol`0" priority="0" />
+      <Item value="pais" priority="9" />
+      <Item value="Cache" priority="14" />
+      <Item value="key" priority="0" />
+      <Item value="idPais" priority="19" />
+      <Item value="Data" priority="1" />
+      <Item value="DataSet`0" priority="5" />
+      <Item value="DataSet" priority="0" />
+      <Item value="GetPages`0" priority="0" />
+      <Item value="idRol" priority="19" />
+      <Item value="nRol" priority="1" />
+      <Item value="_idRol" priority="0" />
+      <Item value="txtUsuario" priority="1" />
+      <Item value="txtPass" priority="0" />
+      <Item value="if" priority="97" />
+      <Item value="else" priority="75" />
+      <Item value="List" priority="38" />
+      <Item value="Object`0" priority="38" />
+      <Item value="object" priority="13" />
+      <Item value="b" priority="4" />
+      <Item value="ToList`1" priority="0" />
+      <Item value="list" priority="6" />
+      <Item value="Double`0" priority="8" />
+      <Item value="bool" priority="6" />
+      <Item value="E" priority="4" />
+      <Item value="Linq" priority="0" />
+      <Item value="from" priority="28" />
+      <Item value="where" priority="28" />
+      <Item value="void" priority="13" />
+      <Item value="Boolean`0" priority="6" />
+      <Item value="CemexID" priority="0" />
+      <Item value="false" priority="30" />
+      <Item value="UsrServI`0" priority="4" />
+      <Item value="UsrServ`0" priority="1" />
+      <Item value="UnityContainer`0" priority="1" />
+      <Item value="UnityContainer" priority="1" />
+      <Item value="CUsr" priority="0" />
+      <Item value="Services" priority="14" />
+      <Item value="_cemexId" priority="0" />
+      <Item value="IRolDTO`0" priority="2" />
+      <Item value="IUsrDTO`0" priority="5" />
+      <Item value="IPaisDTO`0" priority="4" />
+      <Item value="override" priority="4" />
+      <Item value="DTO" priority="17" />
+      <Item value="UsrDTO`0" priority="3" />
+      <Item value="UsrDTO" priority="2" />
+      <Item value="EntityToDTO`0" priority="0" />
+      <Item value="virtual" priority="1" />
+      <Item value="IPaisPTO`0" priority="1" />
+      <Item value="IRolPTO`0" priority="4" />
+      <Item value="IUsrPTO`0" priority="4" />
+      <Item value="relPaRolPg`0" priority="1" />
+      <Item value="relPaUsrRol`0" priority="2" />
+      <Item value="ctx" priority="5" />
+      <Item value="IStaRgDTO`0" priority="2" />
+      <Item value="StaRg" priority="6" />
+      <Item value="StaRgDTO`0" priority="5" />
+      <Item value="PaisDTO`0" priority="5" />
+      <Item value="StaRgDTO" priority="0" />
+      <Item value="IdStaRg" priority="0" />
+      <Item value="NStaRg" priority="0" />
+      <Item value="_pais" priority="0" />
+      <Item value="select" priority="26" />
+      <Item value="RolDTO`0" priority="5" />
+      <Item value="get" priority="0" />
+      <Item value="set" priority="1" />
+      <Item value="nUsr" priority="0" />
+      <Item value="TimeSpan`0" priority="1" />
+      <Item value="eMail" priority="0" />
+      <Item value="rol" priority="9" />
+      <Item value="staRg" priority="2" />
+      <Item value="nPais" priority="0" />
+      <Item value="nPaisA" priority="0" />
+      <Item value="RolDTO" priority="0" />
+      <Item value="join" priority="8" />
+      <Item value="on" priority="6" />
+      <Item value="equals" priority="6" />
+      <Item value="relPU" priority="2" />
+      <Item value="usrD" priority="0" />
+      <Item value="ListItem" priority="3" />
+      <Item value="p" priority="5" />
+      <Item value="IsPostBack" priority="0" />
+      <Item value="ddlPa" priority="0" />
+      <Item value="catRol" priority="2" />
+      <Item value="asrt" priority="0" />
+      <Item value="IRolDAO`0" priority="0" />
+      <Item value="paisD" priority="0" />
+      <Item value="RolDAO" priority="0" />
+      <Item value="rDAO" priority="0" />
+      <Item value="IDisposable`0" priority="0" />
+      <Item value="finally" priority="1" />
+      <Item value="catch" priority="0" />
+      <Item value="throw" priority="2" />
+      <Item value="IObjCache`0" priority="6" />
+      <Item value="IPageDTO`0" priority="3" />
+      <Item value="ITPageDAO`0" priority="1" />
+      <Item value="IGenericDAO" priority="3" />
+      <Item value="catTPage`0" priority="2" />
+      <Item value="TPageDAO`0" priority="2" />
+      <Item value="ITPageDTO`0" priority="2" />
+      <Item value="TPageDTO`0" priority="1" />
+      <Item value="idTPage" priority="1" />
+      <Item value="descTPage" priority="0" />
+      <Item value="TPage" priority="4" />
+      <Item value="PageDTO`0" priority="2" />
+      <Item value="idPage" priority="0" />
+      <Item value="descPage" priority="0" />
+      <Item value="url" priority="1" />
+      <Item value="appName" priority="0" />
+      <Item value="tPage" priority="2" />
+      <Item value="IMPageDTO`0" priority="1" />
+      <Item value="IMPagePTO`0" priority="5" />
+      <Item value="ITPagePTO`0" priority="1" />
+      <Item value="IPagePTO`0" priority="10" />
+      <Item value="PTO" priority="20" />
+      <Item value="Pg" priority="14" />
+      <Item value="Mpg" priority="0" />
+      <Item value="ObjCache`0" priority="1" />
+      <Item value="pages" priority="1" />
+      <Item value="mPage" priority="5" />
+      <Item value="ICmpCache`0" priority="2" />
+      <Item value="ICmpMPg`0" priority="1" />
+      <Item value="CmpCache`0" priority="0" />
+      <Item value="ObjCache" priority="1" />
+      <Item value="MPg" priority="9" />
+      <Item value="ICmpPg`0" priority="2" />
+      <Item value="ICacheServ`0" priority="2" />
+      <Item value="sealed" priority="0" />
+      <Item value="CacheServ" priority="0" />
+      <Item value="CacheServ`0" priority="0" />
+      <Item value="_cmpPg" priority="4" />
+      <Item value="_cmpCache" priority="0" />
+      <Item value="CacheServI`0" priority="0" />
+      <Item value="IPageDAO`0" priority="1" />
+      <Item value="IMPageDAO`0" priority="1" />
+      <Item value="_cmpMPg" priority="0" />
+      <Item value="_cnv" priority="3" />
+      <Item value="Page" priority="9" />
+      <Item value="_page" priority="2" />
+      <Item value="PageDAO`0" priority="0" />
+      <Item value="relPUR" priority="5" />
+      <Item value="relPRP" priority="5" />
+      <Item value="P" priority="1" />
+      <Item value="page" priority="8" />
+      <Item value="PagePTO" priority="1" />
+      <Item value="TPagePTO" priority="0" />
+      <Item value="Pages" priority="0" />
+      <Item value="Cnv" priority="1" />
+      <Item value="_mPage" priority="1" />
+      <Item value="objCache" priority="6" />
+      <Item value="for" priority="20" />
+      <Item value="foreach" priority="10" />
+      <Item value="pName" priority="1" />
+      <Item value="HttpContext`0" priority="3" />
+      <Item value="FormsAuthentication`0" priority="4" />
+      <Item value="FormsAuthentication" priority="0" />
+      <Item value="FormsAuthenticationTicket" priority="0" />
+      <Item value="DateTime`0" priority="31" />
+      <Item value="authTicket" priority="1" />
+      <Item value="HttpCookie`0" priority="0" />
+      <Item value="HttpCookie" priority="0" />
+      <Item value="crypTicket" priority="0" />
+      <Item value="Response" priority="4" />
+      <Item value="Uri`0" priority="0" />
+      <Item value="cP" priority="2" />
+      <Item value="dPage" priority="0" />
+      <Item value="Session" priority="9" />
+      <Item value="ticket" priority="0" />
+      <Item value="MasterPageFile" priority="0" />
+      <Item value="WebApplication.Client.Web" priority="12" />
+      <Item value="WebApplication" priority="1" />
+      <Item value="Client.Web" priority="1" />
+      <Item value="Account" priority="0" />
+      <Item value="App_Code" priority="10" />
+      <Item value="switch" priority="6" />
+      <Item value="case" priority="11" />
+      <Item value="break" priority="23" />
+      <Item value="r" priority="15" />
+      <Item value="roles" priority="0" />
+      <Item value="Concat`1" priority="0" />
+      <Item value="Contains`1" priority="0" />
+      <Item value="ICmpDTOtoPTO`0" priority="1" />
+      <Item value="CmpDTOtoPTO`0" priority="0" />
+      <Item value="cnv" priority="1" />
+      <Item value="IStaRgPTO`0" priority="2" />
+      <Item value="IStaRgDAO`0" priority="2" />
+      <Item value="CmpRol" priority="0" />
+      <Item value="IRolServ`0" priority="0" />
+      <Item value="RolServI`0" priority="0" />
+      <Item value="StaRgServI`0" priority="0" />
+      <Item value="IUsrsRepDTO`0" priority="1" />
+      <Item value="Rep" priority="1" />
+      <Item value="UsrsRepDTO`0" priority="0" />
+      <Item value="Equals`0" priority="1" />
+      <Item value="u" priority="4" />
+      <Item value="Sta" priority="0" />
+      <Item value="sta" priority="0" />
+      <Item value="ICmpRepUsr`0" priority="1" />
+      <Item value="ObjectContextSCAdm" priority="0" />
+      <Item value="ObjCtxSCAdm`0" priority="0" />
+      <Item value="tCom" priority="1" />
+      <Item value="IRUsrServ`0" priority="1" />
+      <Item value="RUsrServ" priority="0" />
+      <Item value="Rep.Usr" priority="1" />
+      <Item value="CmpRUsr" priority="0" />
+      <Item value="RUsrServI`0" priority="0" />
+      <Item value="UsrDAO`0" priority="0" />
+      <Item value="Save`0" priority="1" />
+      <Item value="catUsr" priority="1" />
+      <Item value="eUsr" priority="3" />
+      <Item value="eRol" priority="0" />
+      <Item value="catStaRg`0" priority="2" />
+      <Item value="catStaRg" priority="1" />
+      <Item value="Exists`0" priority="0" />
+      <Item value="DTOtoE`0" priority="0" />
+      <Item value="q" priority="4" />
+      <Item value="Update`0" priority="0" />
+      <Item value="UsrPTO" priority="0" />
+      <Item value="RolPTO" priority="0" />
+      <Item value="ddlRol" priority="0" />
+      <Item value="PaisPTO" priority="0" />
+      <Item value="StaRgPTO" priority="0" />
+      <Item value="ddlStaRs" priority="0" />
+      <Item value="CmpDTOtoPTO" priority="0" />
+      <Item value="const" priority="0" />
+      <Item value="BPage`0" priority="11" />
+      <Item value="StaRgDAO`0" priority="0" />
+      <Item value="entity" priority="0" />
+      <Item value="LocalDataStoreSlot`0" priority="0" />
+      <Item value="Load`0" priority="0" />
+      <Item value="t" priority="0" />
+      <Item value="StaRgDAO" priority="0" />
+      <Item value="UnauthorizedAccessException`0" priority="0" />
+      <Item value="try" priority="5" />
+      <Item value="ua" priority="0" />
+      <Item value="Label1" priority="0" />
+      <Item value="usuario" priority="1" />
+      <Item value="fixed" priority="2" />
+      <Item value="WSDL_CC_MRP" priority="0" />
+      <Item value="WSDL_SO_MRP" priority="0" />
+      <Item value="ddlVen" priority="1" />
+      <Item value="dtF" priority="0" />
+      <Item value="gvAlShMpU" priority="0" />
+      <Item value="DataTable`0" priority="16" />
+      <Item value="SqlDataReader`0" priority="0" />
+      <Item value="adpEx" priority="1" />
+      <Item value="OleDbDataReader`0" priority="0" />
+      <Item value="cnnCOS" priority="1" />
+      <Item value="gvBlCli" priority="1" />
+      <Item value="Int64`0" priority="30" />
+      <Item value="val" priority="1" />
+      <Item value="DataTable" priority="3" />
+      <Item value="txtSector" priority="8" />
+      <Item value="dtPed" priority="0" />
+      <Item value="txtPed" priority="1" />
+      <Item value="txtCodObra" priority="0" />
+      <Item value="ds" priority="0" />
+      <Item value="gv_Rep1" priority="1" />
+      <Item value="ECmSp`0" priority="1" />
+      <Item value="txtDIniRFE" priority="1" />
+      <Item value="txtDFinRFE" priority="1" />
+      <Item value="rbFecha" priority="2" />
+      <Item value="rbPed" priority="1" />
+      <Item value="gv_ExCli" priority="1" />
+      <Item value="txtCodMat" priority="0" />
+      <Item value="txtVol" priority="2" />
+      <Item value="gvExCli" priority="6" />
+      <Item value="protected" priority="1" />
+      <Item value="EventArgs`0" priority="1" />
+      <Item value="dtVg" priority="1" />
+      <Item value="out" priority="11" />
+      <Item value="res" priority="29" />
+      <Item value="e" priority="6" />
+      <Item value="Label`0" priority="0" />
+      <Item value="MS" priority="0" />
+      <Item value="Internal" priority="0" />
+      <Item value="IdEx" priority="2" />
+      <Item value="DropDownList`0" priority="0" />
+      <Item value="gv_Alertas" priority="1" />
+      <Item value="txtIdBusq" priority="0" />
+      <Item value="txtMSGBusq" priority="0" />
+      <Item value="OutOfMemoryException`0" priority="0" />
+      <Item value="EnvironmentVariableTarget`0" priority="1" />
+      <Item value="fp_Doc_xls" priority="3" />
+      <Item value="dt" priority="10" />
+      <Item value="FileDependencies" priority="0" />
+      <Item value="IO" priority="0" />
+      <Item value="File`0" priority="0" />
+      <Item value="inputStream" priority="0" />
+      <Item value="StreamReader`0" priority="1" />
+      <Item value="Stream`0" priority="1" />
+      <Item value="byte" priority="3" />
+      <Item value="Byte`0" priority="1" />
+      <Item value="Text" priority="0" />
+      <Item value="UTF32Encoding`0" priority="1" />
+      <Item value="Excel" priority="0" />
+      <Item value="IExcelDataReader`0" priority="1" />
+      <Item value="ExcelReaderFactory`0" priority="1" />
+      <Item value="ExcelBinaryReader`0" priority="0" />
+      <Item value="er" priority="1" />
+      <Item value="class" priority="9" />
+      <Item value="IExcp`0" priority="5" />
+      <Item value="Excp`0" priority="4" />
+      <Item value="idCliente" priority="2" />
+      <Item value="IdCliente" priority="0" />
+      <Item value="TEx" priority="0" />
+      <Item value="tEx" priority="8" />
+      <Item value="DtVig" priority="0" />
+      <Item value="dtVig" priority="0" />
+      <Item value="msgEx" priority="1" />
+      <Item value="MsgEx" priority="0" />
+      <Item value="Excp" priority="14" />
+      <Item value="Exception`0" priority="1" />
+      <Item value="Ex" priority="3" />
+      <Item value="List&lt;Excp&gt;" priority="0" />
+      <Item value="ex" priority="56" />
+      <Item value="List&lt;object&gt;" priority="2" />
+      <Item value="excp" priority="7" />
+      <Item value="ICmpEx`0" priority="2" />
+      <Item value="ref" priority="1" />
+      <Item value="eX" priority="10" />
+      <Item value="tbExCli`0" priority="2" />
+      <Item value="IExCli`0" priority="0" />
+      <Item value="ExCli`0" priority="0" />
+      <Item value="Excp.TExcp" priority="2" />
+      <Item value="ITExcp`0" priority="2" />
+      <Item value="TExcp`0" priority="2" />
+      <Item value="catTEx`0" priority="4" />
+      <Item value="GenericDAO" priority="0" />
+      <Item value="ITExcpDTO`0" priority="4" />
+      <Item value="TExcpDTO`0" priority="4" />
+      <Item value="idTEx" priority="0" />
+      <Item value="IdTEx" priority="1" />
+      <Item value="NTEx" priority="0" />
+      <Item value="nTEx" priority="0" />
+      <Item value="te" priority="0" />
+      <Item value="EtoDTO`0" priority="1" />
+      <Item value="tex" priority="0" />
+      <Item value="TExcpDAO`0" priority="3" />
+      <Item value="ITExcpDAO`0" priority="1" />
+      <Item value="TExcpDAO" priority="0" />
+      <Item value="CmpEx`0" priority="1" />
+      <Item value="IExcpPTO`0" priority="9" />
+      <Item value="ExS`0" priority="0" />
+      <Item value="_cmpEx" priority="4" />
+      <Item value="v" priority="12" />
+      <Item value="z" priority="1" />
+      <Item value="CmpEx" priority="0" />
+      <Item value="List&lt;IExcpPTO&gt;" priority="1" />
+      <Item value="invalid" priority="1" />
+      <Item value="List&lt;List&lt;IExcpPTO&gt;&gt;" priority="0" />
+      <Item value="ret" priority="1" />
+      <Item value="is" priority="1" />
+      <Item value="Nullable`0" priority="3" />
+      <Item value="IExcpDTO`0" priority="4" />
+      <Item value="TExcp" priority="3" />
+      <Item value="idEx" priority="3" />
+      <Item value="ExcpDTO`0" priority="0" />
+      <Item value="ExcpPTO`0" priority="1" />
+      <Item value="IExCliDAO`0" priority="1" />
+      <Item value="exCliDao" priority="0" />
+      <Item value="iDCLIENTE" priority="1" />
+      <Item value="iDTEX" priority="1" />
+      <Item value="dTVIG" priority="0" />
+      <Item value="idUsr" priority="0" />
+      <Item value="IExS`0" priority="1" />
+      <Item value="ExS" priority="0" />
+      <Item value="serv" priority="0" />
+      <Item value="lEx" priority="2" />
+      <Item value="ExcpPTO" priority="0" />
+      <Item value="eMsg" priority="2" />
+      <Item value="default" priority="2" />
+      <Item value="tCOM" priority="0" />
+      <Item value="ExcpDTO" priority="0" />
+      <Item value="tbExCli" priority="0" />
+      <Item value="TExcpDTO" priority="1" />
+      <Item value="PaisDAO`0" priority="3" />
+      <Item value="RolDAO`0" priority="1" />
+      <Item value="exCli" priority="2" />
+      <Item value="PaisDTO" priority="0" />
+      <Item value="CEx`0" priority="0" />
+      <Item value="i64" priority="1" />
+      <Item value="SelectedDatesCollection`0" priority="0" />
+      <Item value="lex" priority="5" />
+      <Item value="lv" priority="0" />
+      <Item value="DateTime" priority="1" />
+      <Item value="DBNull`0" priority="2" />
+      <Item value="exDb" priority="0" />
+      <Item value="gv_Error" priority="6" />
+      <Item value="response" priority="11" />
+      <Item value="resOk" priority="0" />
+      <Item value="ires" priority="1" />
+      <Item value="gv_ClEx" priority="0" />
+      <Item value="Invalid" priority="1" />
+      <Item value="date" priority="0" />
+      <Item value="Excepción" priority="0" />
+      <Item value="as" priority="10" />
+      <Item value="gv_Condition" priority="1" />
+      <Item value="condition" priority="1" />
+      <Item value="c" priority="3" />
+      <Item value="DNum`0" priority="11" />
+      <Item value="List&lt;string&gt;" priority="2" />
+      <Item value="Cond" priority="0" />
+      <Item value="double" priority="1" />
+      <Item value="Decimal`0" priority="4" />
+      <Item value="decimal" priority="1" />
+      <Item value="DataRow`0" priority="0" />
+      <Item value="lblPed_OG" priority="1" />
+      <Item value="pnlPedidos" priority="1" />
+      <Item value="txtPed1" priority="0" />
+      <Item value="txtPed2" priority="0" />
+      <Item value="pnlPedReg" priority="0" />
+      <Item value="row" priority="0" />
+      <Item value="valPed" priority="0" />
+      <Item value="gv_ValPed" priority="4" />
+      <Item value="i" priority="3" />
+      <Item value="pnlA_OG" priority="1" />
+      <Item value="pnlMP_OG" priority="1" />
+      <Item value="MPUP_OG" priority="1" />
+      <Item value="gv_GPed_OG" priority="1" />
+      <Item value="lbldt_OG" priority="0" />
+      <Item value="ddlVenA_OG" priority="0" />
+      <Item value="txtdt_OG" priority="0" />
+      <Item value="found" priority="0" />
+      <Item value="iDt" priority="0" />
+      <Item value="lblAcp_OG" priority="0" />
+      <Item value="gv_Ped" priority="2" />
+      <Item value="continue" priority="0" />
+      <Item value="lblFeHr" priority="0" />
+      <Item value="MasterPage`0" priority="1" />
+      <Item value="BMPage`0" priority="0" />
+      <Item value="WebControls" priority="0" />
+      <Item value="List&lt;List&lt;object&gt;&gt;" priority="0" />
+      <Item value="lData" priority="0" />
+      <Item value="gvNDoc" priority="2" />
+      <Item value="Path`0" priority="1" />
+      <Item value="li" priority="6" />
+      <Item value="ld" priority="3" />
+      <Item value="ContentType" priority="1" />
+      <Item value="IdDocument" priority="0" />
+      <Item value="Bind`0" priority="0" />
+      <Item value="SqlConnection`0" priority="2" />
+      <Item value="SqlConnection" priority="0" />
+      <Item value="SqlCommand`0" priority="0" />
+      <Item value="SqlCommand" priority="0" />
+      <Item value="cmd" priority="7" />
+      <Item value="CommandType`0" priority="1" />
+      <Item value="cnn" priority="3" />
+      <Item value="ConnectionState`0" priority="0" />
+      <Item value="FData" priority="1" />
+      <Item value="lF" priority="5" />
+      <Item value="Nombre" priority="0" />
+      <Item value="FileExt" priority="0" />
+      <Item value="IdAl" priority="0" />
+      <Item value="gvNDocOld" priority="0" />
+      <Item value="lFd" priority="2" />
+      <Item value="First`1" priority="0" />
+      <Item value="gvCDoc" priority="1" />
+      <Item value="IdCli" priority="0" />
+      <Item value="lr" priority="1" />
+      <Item value="LoginFailureAction`0" priority="0" />
+      <Item value="lt" priority="1" />
+      <Item value="sb" priority="1" />
+      <Item value="PageByTPage`0" priority="0" />
+      <Item value="CmpPg`0" priority="0" />
+      <Item value="PgServ`0" priority="1" />
+      <Item value="pg" priority="2" />
+      <Item value="IPgServ`0" priority="1" />
+      <Item value="PgServI`0" priority="0" />
+      <Item value="Request" priority="1" />
+      <Item value="lNDoc" priority="0" />
+      <Item value="emp" priority="0" />
+      <Item value="gvEmpA" priority="0" />
+      <Item value="docs" priority="0" />
+      <Item value="dtNew" priority="0" />
+      <Item value="lblEDoc" priority="1" />
+      <Item value="Count`1" priority="2" />
+      <Item value="lpg" priority="1" />
+      <Item value="pagePto" priority="0" />
+      <Item value="List&lt;IPagePTO&gt;" priority="0" />
+      <Item value="LoginP" priority="1" />
+      <Item value="idEmp" priority="6" />
+      <Item value="IEmp`0" priority="0" />
+      <Item value="EmpDAO`0" priority="0" />
+      <Item value="SHUtil" priority="0" />
+      <Item value="SIUSP`0" priority="0" />
+      <Item value="nEmp" priority="0" />
+      <Item value="idCargo" priority="0" />
+      <Item value="Emp" priority="0" />
+      <Item value="IEmpDAO`0" priority="1" />
+      <Item value="_emp" priority="0" />
+      <Item value="IdEmp" priority="0" />
+      <Item value="context" priority="3" />
+      <Item value="Caching" priority="0" />
+      <Item value="Cache`0" priority="0" />
+      <Item value="EC`0" priority="0" />
+      <Item value="DT_CustomerStatementReq" priority="2" />
+      <Item value="DT_CustomerStatementResp" priority="1" />
+      <Item value="_exec" priority="3" />
+      <Item value="NullReferenceException" priority="0" />
+      <Item value="_response" priority="0" />
+      <Item value="WsUrl" priority="0" />
+      <Item value="Void`0" priority="0" />
+      <Item value="AppWS" priority="0" />
+      <Item value="enum" priority="0" />
+      <Item value="a`0" priority="2" />
+      <Item value="Array`0" priority="0" />
+      <Item value="Dictionary" priority="3" />
+      <Item value="WService" priority="1" />
+      <Item value="TRq`0" priority="3" />
+      <Item value="TRq" priority="1" />
+      <Item value="typeof" priority="0" />
+      <Item value="requestCustomerStatementCompletedEventArgs`0" priority="0" />
+      <Item value="_request" priority="7" />
+      <Item value="IdFCurr" priority="1" />
+      <Item value="parameters" priority="5" />
+      <Item value="CustomerStatementParameters`0" priority="0" />
+      <Item value="IdBusinessEntity" priority="1" />
+      <Item value="IWService" priority="2" />
+      <Item value="Dictionary&lt;string,object&gt;" priority="0" />
+      <Item value="CsResponseDto" priority="0" />
+      <Item value="DT_SimulateHeader" priority="0" />
+      <Item value="Length" priority="2" />
+      <Item value="DT_SimulateItemCRM" priority="1" />
+      <Item value="item" priority="1" />
+      <Item value="HttpStatusCode`0" priority="0" />
+      <Item value="SoResponseErrorMessage`0" priority="0" />
+      <Item value="result" priority="5" />
+      <Item value="SoRespErrorMsgList" priority="5" />
+      <Item value="SoRespOutList" priority="6" />
+      <Item value="SoRespCondList`0" priority="0" />
+      <Item value="outlist" priority="0" />
+      <Item value="conditions" priority="0" />
+      <Item value="SoRespCondList" priority="1" />
+      <Item value="Select`2" priority="0" />
+      <Item value="AsQueryable`0" priority="1" />
+      <Item value="x" priority="0" />
+      <Item value="ToDictionary`3" priority="0" />
+      <Item value="TestMethod" priority="0" />
+      <Item value="CsParametersDto" priority="0" />
+      <Item value="CDist" priority="0" />
+      <Item value="IdSector" priority="0" />
+      <Item value="IdSOrg" priority="0" />
+      <Item value="IdDCurr" priority="0" />
+      <Item value="target" priority="1" />
+      <Item value="Assert`0" priority="8" />
+      <Item value="CsResponseDto`0" priority="2" />
+      <Item value="CsParametersDto`0" priority="1" />
+      <Item value="expected" priority="0" />
+      <Item value="actual" priority="2" />
+      <Item value="CustomerStatement`0" priority="0" />
+      <Item value="Func" priority="0" />
+      <Item value="Func&lt;string&gt;" priority="0" />
+      <Item value="Action`0" priority="0" />
+      <Item value="Action&lt;string&gt;" priority="1" />
+      <Item value="NBusinessEntity" priority="0" />
+      <Item value="SOrder`0" priority="1" />
+      <Item value="SOrder" priority="0" />
+      <Item value="SoParametersDto`0" priority="0" />
+      <Item value="SoParametersDto" priority="0" />
+      <Item value="OrdHeaderDto`0" priority="1" />
+      <Item value="OrdHeaderDto" priority="0" />
+      <Item value="header" priority="0" />
+      <Item value="Header" priority="2" />
+      <Item value="Item" priority="0" />
+      <Item value="OrdItemDto" priority="3" />
+      <Item value="Partner" priority="0" />
+      <Item value="OrdPartnerDto" priority="3" />
+      <Item value="OrdItemDto`0" priority="0" />
+      <Item value="OrdPartnerDto`0" priority="0" />
+      <Item value="SoResponseDto`0" priority="1" />
+      <Item value="SoRespErrorMsgList`0" priority="0" />
+      <Item value="SoRespOutList`0" priority="0" />
+      <Item value="outList" priority="0" />
+      <Item value="ExceptionMessageList" priority="0" />
+      <Item value="OutList" priority="0" />
+      <Item value="items" priority="0" />
+      <Item value="WSGenericDao" priority="0" />
+      <Item value="TWs`0" priority="2" />
+      <Item value="AppWS.WS" priority="0" />
+      <Item value="TP`0" priority="0" />
+      <Item value="TWs" priority="0" />
+      <Item value="rw" priority="1" />
+      <Item value="dr" priority="6" />
+      <Item value="Connection" priority="0" />
+      <Item value="TCnn" priority="0" />
+      <Item value="Reflection" priority="0" />
+      <Item value="SpName" priority="0" />
+      <Item value="Type" priority="0" />
+      <Item value="SqlDbType`0" priority="0" />
+      <Item value="T" priority="3" />
+      <Item value="properties" priority="0" />
+      <Item value="property" priority="0" />
+      <Item value="T`0" priority="1" />
+      <Item value="lRet" priority="0" />
+      <Item value="CommandType" priority="1" />
+      <Item value="TRp`0" priority="3" />
+      <Item value="TRp" priority="2" />
+      <Item value="abstract" priority="3" />
+      <Item value="IRdmsConnection`0" priority="0" />
+      <Item value="SqlParameter`0" priority="0" />
+      <Item value="GenDao" priority="0" />
+      <Item value="TK`0" priority="1" />
+      <Item value="Cnn" priority="2" />
+      <Item value="StoredProcedure" priority="0" />
+      <Item value="KeyRestrictionBehavior`0" priority="0" />
+      <Item value="Nullable" priority="0" />
+      <Item value="BusinessConfigDao`0" priority="2" />
+      <Item value="DBcnn" priority="1" />
+      <Item value="IRdmsConnection" priority="0" />
+      <Item value="Configuration`0" priority="0" />
+      <Item value="ConfigurationManager`0" priority="0" />
+      <Item value="CargosCliDto`0" priority="2" />
+      <Item value="BCfg" priority="4" />
+      <Item value="BusinessConfigDao" priority="1" />
+      <Item value="cfg" priority="0" />
+      <Item value="DTO_Adapter" priority="3" />
+      <Item value="DBCnn" priority="2" />
+      <Item value="DBCnnDto`0" priority="2" />
+      <Item value="DBCnnDto" priority="1" />
+      <Item value="Match" priority="0" />
+      <Item value="ddlPump" priority="2" />
+      <Item value="CmpBCfg`0" priority="2" />
+      <Item value="BConfigDto`0" priority="4" />
+      <Item value="_bCfg" priority="0" />
+      <Item value="CmpBCfg" priority="0" />
+      <Item value="_cmpBcfg" priority="0" />
+      <Item value="BCfgServ`0" priority="1" />
+      <Item value="Instance" priority="0" />
+      <Item value="ServiceI" priority="1" />
+      <Item value="txtdt_Ord" priority="1" />
+      <Item value="BM" priority="1" />
+      <Item value="sc" priority="4" />
+      <Item value="GridViewRow`0" priority="0" />
+      <Item value="p_xy" priority="0" />
+      <Item value="CMin" priority="0" />
+      <Item value="oDbl" priority="2" />
+      <Item value="gv_AVh" priority="0" />
+      <Item value="lblAl_Vol" priority="1" />
+      <Item value="rpctAj" priority="0" />
+      <Item value="l" priority="0" />
+      <Item value="txtVolAuAsg" priority="0" />
+      <Item value="txtNumVh" priority="0" />
+      <Item value="i32" priority="0" />
+      <Item value="lI" priority="0" />
+      <Item value="DT_Condiciones`0" priority="0" />
+      <Item value="cond" priority="2" />
+      <Item value="UpdatePanel`0" priority="0" />
+      <Item value="GridView`0" priority="0" />
+      <Item value="FileUpload`0" priority="0" />
+      <Item value="FormView`0" priority="0" />
+      <Item value="Material" priority="0" />
+      <Item value="Codigo" priority="0" />
+      <Item value="CondMatP" priority="1" />
+      <Item value="lblPUMsg" priority="0" />
+      <Item value="HttpApplication`0" priority="0" />
+      <Item value="oHttpApp" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModelObjectContext.ObjectContextSCAdm.ObjCtxSCAdm">
+      <Item value="SCAdmEntity" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Persistence.EntityDataModelObjectContext.ObjectContextSCAdm.ObjCtxSCAdmIns">
+      <Item value="Instance" priority="25" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModelObjectContext.ObjectContextSCAdm.IObjCtxSCAdm">
+      <Item value="SCAdmEntity`0" priority="25" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.DAOUsr.Usr">
+      <Item value="Context" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.DAORol.Rol">
+      <Item value="Context" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.DAOPais.Pais">
+      <Item value="Context" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.DAOPg.Page">
+      <Item value="Context" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Practices.Unity.UnityContainer">
+      <Item value="Resolve`0" priority="4" />
+      <Item value="Configure`0" priority="0" />
+      <Item value="LoadConfiguration`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.Usr.CmpUsr">
+      <Item value="Usr" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.DAOUsr.IUsr">
+      <Item value="Load`0" priority="1" />
+      <Item value="Exists`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.Usr.ICmpUsr">
+      <Item value="cUsr`0" priority="0" />
+      <Item value="UsrData`0" priority="0" />
+      <Item value="DefaultPage`0" priority="0" />
+      <Item value="InsertUsr`0" priority="0" />
+      <Item value="UpdateUsr`0" priority="0" />
+      <Item value="LoadUsrAsig`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModel.catUsr">
+      <Item value="CemexID" priority="8" />
+      <Item value="catStaRg" priority="5" />
+      <Item value="relPaUsrRol" priority="2" />
+      <Item value="NUsuario" priority="2" />
+      <Item value="Email" priority="2" />
+      <Item value="IdStaRg" priority="2" />
+      <Item value="EntityKey" priority="0" />
+      <Item value="catStaRgReference" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infrastructure.Security.Usuario.Usr">
+      <Item value="CemexId" priority="0" />
+      <Item value="PassWord" priority="0" />
+      <Item value="_rol" priority="0" />
+      <Item value="_pais" priority="0" />
+      <Item value="usr" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="18" />
+      <Item value="TryParse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infrastructure.Security.Usuario.IUsr">
+      <Item value="CemexId" priority="1" />
+      <Item value="Rol" priority="0" />
+      <Item value="IsAuth`0" priority="1" />
+      <Item value="IsActive`0" priority="1" />
+      <Item value="getUserData`0" priority="0" />
+      <Item value="usr" priority="10" />
+      <Item value="GetDataCache`0" priority="0" />
+      <Item value="DefaultPage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infrastructure.Security.Principal.FPrincipal">
+      <Item value="_identity" priority="0" />
+      <Item value="_idPais" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IIdentity">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infrastructure.Security.Rol.Rol">
+      <Item value="_idRol" priority="0" />
+      <Item value="_nRol" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="23" />
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Infrastructure.Security.Pais.Pais">
+      <Item value="GetPais`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Aggregate`3" priority="0" />
+      <Item value="ToString`0" priority="5" />
+      <Item value="ToList`1" priority="25" />
+      <Item value="Distinct`1" priority="0" />
+      <Item value="GetEnumerator`0" priority="0" />
+      <Item value="AsEnumerable`1" priority="0" />
+      <Item value="Concat`1" priority="2" />
+      <Item value="Count`1" priority="5" />
+      <Item value="First`1" priority="7" />
+      <Item value="Contains`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="16" />
+      <Item value="Distinct`1" priority="1" />
+      <Item value="Contains`0" priority="5" />
+      <Item value="Count" priority="20" />
+      <Item value="First`1" priority="8" />
+      <Item value="Indexer" priority="0" />
+      <Item value="RemoveAt`0" priority="0" />
+      <Item value="ToList`1" priority="1" />
+      <Item value="ToArray`0" priority="0" />
+      <Item value="AsEnumerable`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModel.catStaRg">
+      <Item value="IdStaRg" priority="6" />
+      <Item value="NStaRg" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Services.Usr.UsrServI">
+      <Item value="Instance" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Services.Usr.IUsrServ">
+      <Item value="UsrData`0" priority="1" />
+      <Item value="DefaultPage`0" priority="0" />
+      <Item value="InsertUsr`0" priority="0" />
+      <Item value="UpdateUsr`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="16" />
+      <Item value="Format`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.Generic.GenericDAO`2">
+      <Item value="Load`0" priority="0" />
+      <Item value="Context" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.Usr.IUsrDAO">
+      <Item value="Load`0" priority="2" />
+      <Item value="LoadUsr`0" priority="0" />
+      <Item value="DefaultPage`0" priority="0" />
+      <Item value="InsertUsr`0" priority="0" />
+      <Item value="UpdateUsr`0" priority="0" />
+      <Item value="IsActive`0" priority="0" />
+      <Item value="LoadUsrR`0" priority="0" />
+      <Item value="LoadUsrAsig`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.Usr.IUsrDTO">
+      <Item value="Equals`0" priority="0" />
+      <Item value="Rol" priority="1" />
+      <Item value="CemexId" priority="5" />
+      <Item value="Pais" priority="0" />
+      <Item value="StaRg" priority="3" />
+      <Item value="NUsr" priority="1" />
+      <Item value="EMail" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.Usr.IUsrDAO`2">
+      <Item value="Load`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.DataClasses.EntityCollection`1">
+      <Item value="Load`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModel.SCDBAdmEntities">
+      <Item value="catUsr" priority="3" />
+      <Item value="catPais" priority="0" />
+      <Item value="catRol" priority="1" />
+      <Item value="relPaUsrRol" priority="1" />
+      <Item value="relPaRolPg" priority="2" />
+      <Item value="catPage" priority="2" />
+      <Item value="relPaRolMPg" priority="0" />
+      <Item value="catMPage" priority="0" />
+      <Item value="catStaRg" priority="1" />
+      <Item value="FIRepUsr`0" priority="0" />
+      <Item value="FIIU_R_URP`0" priority="0" />
+      <Item value="CommandTimeout" priority="0" />
+      <Item value="FIIU_Usr`0" priority="1" />
+      <Item value="FISID_R_RJ`0" priority="0" />
+      <Item value="catTEx" priority="0" />
+      <Item value="Fn_IUD_Ex`0" priority="0" />
+      <Item value="tbExCli" priority="0" />
+      <Item value="Fn_I_Ex`0" priority="0" />
+      <Item value="Fn_U_Ex`0" priority="0" />
+      <Item value="Fn_S_Emp`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.StaRg.StaRgDTO">
+      <Item value="IdStaRg" priority="3" />
+      <Item value="NStaRg" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infrastructure.Security.Pais.IPais">
+      <Item value="IdPais" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectContext">
+      <Item value="DefaultContainerName" priority="0" />
+      <Item value="ContextOptions" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.Usr.UsrDTO">
+      <Item value="CemexId" priority="1" />
+      <Item value="NUsr" priority="1" />
+      <Item value="EMail" priority="1" />
+      <Item value="Rol" priority="1" />
+      <Item value="Pais" priority="0" />
+      <Item value="StaRg" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.Rol.RolDTO">
+      <Item value="IdRol" priority="2" />
+      <Item value="NRol" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.Pais.PaisDTO">
+      <Item value="IdPais" priority="2" />
+      <Item value="NPais" priority="1" />
+      <Item value="NPaisA" priority="1" />
+      <Item value="StaRg" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModel.catPais">
+      <Item value="IdPais" priority="1" />
+      <Item value="NPais" priority="0" />
+      <Item value="NPaisA" priority="0" />
+      <Item value="IdStaRg" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModel.catRol">
+      <Item value="IdRol" priority="4" />
+      <Item value="NRol" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModel.relPaUsrRol">
+      <Item value="IdRol" priority="1" />
+      <Item value="CemexID" priority="4" />
+      <Item value="IdPais" priority="4" />
+      <Item value="IdStaRg" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItemCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.PTO.Pais.IPaisPTO">
+      <Item value="NPais" priority="1" />
+      <Item value="IdPais" priority="6" />
+      <Item value="NPaisA" priority="0" />
+      <Item value="StaRg" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="16" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="SelectedValue" priority="3" />
+      <Item value="Text" priority="3" />
+      <Item value="Enabled" priority="0" />
+      <Item value="SelectedItem" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.Rol.IRolDAO">
+      <Item value="Load`0" priority="0" />
+      <Item value="LoadAsig`0" priority="0" />
+      <Item value="LoadAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="ToString`0" priority="2" />
+      <Item value="Distinct`1" priority="0" />
+      <Item value="GetEnumerator`0" priority="0" />
+      <Item value="First`1" priority="5" />
+      <Item value="ToList`1" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerator`1">
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.PTO.Usr.IUsrPTO">
+      <Item value="Rol" priority="12" />
+      <Item value="StaRg" priority="1" />
+      <Item value="CemexId" priority="7" />
+      <Item value="Pais" priority="5" />
+      <Item value="NUsr" priority="1" />
+      <Item value="EMail" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.PTO.StaRg.IStaRgPTO">
+      <Item value="IdStaRg" priority="3" />
+      <Item value="NStaRg" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.TPage.TPageDTO">
+      <Item value="IdTPage" priority="0" />
+      <Item value="DescTPage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.Pg.PageDTO">
+      <Item value="IdPage" priority="0" />
+      <Item value="DescPage" priority="0" />
+      <Item value="Url" priority="0" />
+      <Item value="AppName" priority="0" />
+      <Item value="TPage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.PTO.Cache.ObjCache">
+      <Item value="Pages" priority="0" />
+      <Item value="MPage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.Cache.ICmpCache">
+      <Item value="CreateObjCache`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Services.Cache.CacheServI">
+      <Item value="Instance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Services.Cache.ICacheServ">
+      <Item value="DataCache`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.Pg.ICmpPg">
+      <Item value="AuthPages`0" priority="0" />
+      <Item value="PtPage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.MPg.ICmpMPg">
+      <Item value="AuthMPage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.Cnv.ICmpDTOtoPTO">
+      <Item value="DTOtoPTO`0" priority="4" />
+      <Item value="PTOtoDTO`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModel.catPage">
+      <Item value="IdPage" priority="2" />
+      <Item value="DescPage" priority="0" />
+      <Item value="Url" priority="1" />
+      <Item value="AppName" priority="0" />
+      <Item value="catTPage" priority="1" />
+      <Item value="IdTPage" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModel.catTPage">
+      <Item value="IdTPage" priority="0" />
+      <Item value="DescTPage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Persistence.DAO.TPage.TPageDAO">
+      <Item value="EtoDTO`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Persistence.DAO.Pg.PageDAO">
+      <Item value="EtoDTO`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModel.relPaRolPg">
+      <Item value="IdPais" priority="1" />
+      <Item value="IdRol" priority="1" />
+      <Item value="IdPage" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.Pg.IPageDAO">
+      <Item value="LoadAuthPages`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.Pg.IPageDTO">
+      <Item value="IdPage" priority="0" />
+      <Item value="DescPage" priority="0" />
+      <Item value="Url" priority="0" />
+      <Item value="AppName" priority="0" />
+      <Item value="TPage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.TPage.ITPageDTO">
+      <Item value="IdTPage" priority="0" />
+      <Item value="DescTPage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModel.catMPage">
+      <Item value="IdMPage" priority="1" />
+      <Item value="DescMPage" priority="0" />
+      <Item value="Url" priority="0" />
+      <Item value="AppName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModel.relPaRolMPg">
+      <Item value="IdMPage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.MPg.IMPageDTO">
+      <Item value="IdMPage" priority="1" />
+      <Item value="DescMPage" priority="0" />
+      <Item value="Url" priority="0" />
+      <Item value="AppName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.MPg.IMPageDAO">
+      <Item value="LoadAuthMPage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.PTO.Cache.IObjCache">
+      <Item value="Pages" priority="6" />
+      <Item value="MPage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.PTO.Pg.IPagePTO">
+      <Item value="Url" priority="5" />
+      <Item value="AppName" priority="1" />
+      <Item value="TPage" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Infrastructure.Cache.UsrCache">
+      <Item value="AddPagesToCache`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext">
+      <Item value="Current" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="4" />
+      <Item value="Today" priority="4" />
+      <Item value="Parse`0" priority="6" />
+      <Item value="TryParse`0" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="AddMinutes`0" priority="1" />
+      <Item value="AddDays`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.FormsAuthentication">
+      <Item value="FormsCookiePath" priority="1" />
+      <Item value="Encrypt`0" priority="0" />
+      <Item value="FormsCookieName" priority="0" />
+      <Item value="Timeout" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Cookies" priority="0" />
+      <Item value="Redirect`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpCookieCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.PTO.Rol.IRolPTO">
+      <Item value="IdRol" priority="9" />
+      <Item value="NRol" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToCharArray`0" priority="0" />
+      <Item value="ToString`0" priority="10" />
+      <Item value="Trim`0" priority="24" />
+      <Item value="Contains`0" priority="1" />
+      <Item value="toar" priority="0" />
+      <Item value="ToLower`0" priority="2" />
+      <Item value="Length" priority="0" />
+      <Item value="Replace`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.PTO.MPg.IMPagePTO">
+      <Item value="Url" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.Rol.ICmpRol">
+      <Item value="LoadAll`0" priority="0" />
+      <Item value="LoadAsig`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Services.Rol.IRolServ">
+      <Item value="LoadAll`0" priority="0" />
+      <Item value="LoadAsig`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Services.StaRg.IStaRgServ">
+      <Item value="LoadAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.Rep.Usr.ICmpRepUsr">
+      <Item value="RepUsrs`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Services.Rep.Usr.IRUsrServ">
+      <Item value="RepUsrs`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectResult`1">
+      <Item value="ToList`1" priority="5" />
+      <Item value="First`1" priority="5" />
+      <Item value="ToString`0" priority="3" />
+      <Item value="Concat`1" priority="0" />
+      <Item value="Count`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModel.IU_R_URP">
+      <Item value="IdR" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="Request" priority="2" />
+      <Item value="Session" priority="0" />
+      <Item value="Cache" priority="2" />
+      <Item value="GetConfig`0" priority="0" />
+      <Item value="Application" priority="0" />
+      <Item value="ApplicationInstance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="Path" priority="0" />
+      <Item value="ServerVariables" priority="0" />
+      <Item value="Url" priority="0" />
+      <Item value="Form" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Persistence.DAO.StaRg.StaRgDAO">
+      <Item value="DTOtoE`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.Objects.RefreshMode">
+      <Item value="StoreWins" priority="0" />
+      <Item value="ClientWins" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.DataClasses.EntityReference`1">
+      <Item value="EntityKey" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.StaRg.IStaRgDTO">
+      <Item value="IdStaRg" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="TemplateControl" priority="0" />
+      <Item value="Text" priority="13" />
+      <Item value="Visible" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModel.SID_R_RJ">
+      <Item value="ToString`0" priority="0" />
+      <Item value="IdR" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="RowChanged" priority="0" />
+      <Item value="Rows" priority="27" />
+      <Item value="AsEnumerable`0" priority="8" />
+      <Item value="Clone`0" priority="0" />
+      <Item value="AcceptChanges`0" priority="0" />
+      <Item value="Dispose`0" priority="3" />
+      <Item value="ColumnChanged" priority="0" />
+      <Item value="AsDataView`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Count" priority="16" />
+      <Item value="GetEnumerator`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IEnumerator">
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AjaxControlToolkit.ModalPopupExtender">
+      <Item value="Show`0" priority="4" />
+      <Item value="Hide`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
+      <Item value="DataSource" priority="12" />
+      <Item value="DataBind`0" priority="10" />
+      <Item value="Columns" priority="0" />
+      <Item value="Rows" priority="7" />
+      <Item value="EditIndex" priority="2" />
+      <Item value="Visible" priority="5" />
+      <Item value="PageSize" priority="1" />
+      <Item value="PageIndex" priority="1" />
+      <Item value="HeaderRow" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Panel">
+      <Item value="Visible" priority="7" />
+      <Item value="Enabled" priority="0" />
+      <Item value="ClientID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRowCollection">
+      <Item value="Count" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.OleDb.OleDbDataAdapter">
+      <Item value="SelectCommand" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.OleDb.OleDbCommand">
+      <Item value="ExecuteReader`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int64">
+      <Item value="ToString`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int64">
+      <Item value="Parse`0" priority="9" />
+      <Item value="TryParse`0" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataSet">
+      <Item value="Tables" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="43" />
+      <Item value="Type" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RadioButton">
+      <Item value="Checked" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRow">
+      <Item value="Cells" priority="3" />
+      <Item value="FindControl`0" priority="1" />
+      <Item value="Parent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewCommandEventArgs">
+      <Item value="CommandArgument" priority="4" />
+      <Item value="CommandSource" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItem">
+      <Item value="Value" priority="1" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.EnumerableRowCollection`1">
+      <Item value="ToList`1" priority="4" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="Union`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.FileUpload">
+      <Item value="PostedFile" priority="2" />
+      <Item value="FileBytes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpPostedFile">
+      <Item value="InputStream" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="Read`0" priority="1" />
+      <Item value="BeginRead`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Excel.ExcelReaderFactory">
+      <Item value="CreateBinaryReader`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Excel.IExcelDataReader">
+      <Item value="Read`0" priority="0" />
+      <Item value="AsDataSet`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.PTO.Ex.Excp">
+      <Item value="IdCliente" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRow">
+      <Item value="ItemArray" priority="1" />
+      <Item value="Delete`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.PTO.Ex.IExcp">
+      <Item value="EMsg" priority="0" />
+      <Item value="IdCliente" priority="0" />
+      <Item value="DtVig" priority="1" />
+      <Item value="TEx" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.Excp.ExCli">
+      <Item value="Context" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.Excp.TExcp.TExcp">
+      <Item value="Context" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModel.catTEx">
+      <Item value="IdTEx" priority="1" />
+      <Item value="NTEx" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.Excp.TExcp.TExcpDAO">
+      <Item value="Context" priority="0" />
+      <Item value="Load`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.Excp.TExcp.ITExcpDAO">
+      <Item value="Exists`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.Excp.ICmpEx">
+      <Item value="ValIExcp`0" priority="0" />
+      <Item value="ValIcExcp`0" priority="0" />
+      <Item value="InsExcp`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.PTO.Ex.IExcpPTO">
+      <Item value="EMsg" priority="3" />
+      <Item value="TEx" priority="6" />
+      <Item value="IdCliente" priority="4" />
+      <Item value="DtVig" priority="6" />
+      <Item value="MsgEx" priority="1" />
+      <Item value="IdEmp" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.Excp.CmpEx">
+      <Item value="ValIExcp`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.Excp.IExcpDTO">
+      <Item value="IdEx" priority="6" />
+      <Item value="IdCliente" priority="3" />
+      <Item value="TEx" priority="3" />
+      <Item value="DtVig" priority="3" />
+      <Item value="MsgEx" priority="3" />
+      <Item value="Pais" priority="1" />
+      <Item value="Rol" priority="4" />
+      <Item value="IdEmp" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.Excp.TExcp.ITExcpDTO">
+      <Item value="IdTEx" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.Excp.IExCliDAO">
+      <Item value="InsEx_FNI`0" priority="0" />
+      <Item value="InsExFni`0" priority="0" />
+      <Item value="CEx`0" priority="0" />
+      <Item value="UptExFni`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.Pais.IPaisDTO">
+      <Item value="IdPais" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.Rol.IRolDTO">
+      <Item value="IdRol" priority="2" />
+      <Item value="NRol" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Services.Excp.IExS">
+      <Item value="InsEx`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModel.tbExCli">
+      <Item value="IdCliente" priority="2" />
+      <Item value="IdTEx" priority="2" />
+      <Item value="dtVig" priority="1" />
+      <Item value="IdEx" priority="1" />
+      <Item value="IdPais" priority="2" />
+      <Item value="IdRol" priority="1" />
+      <Item value="MsgEx" priority="1" />
+      <Item value="IdEmp" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="Value" priority="0" />
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.Pais.PaisDAO">
+      <Item value="Load`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.Rol.RolDAO">
+      <Item value="Load`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Persistence.DAO.Pais.PaisDAO">
+      <Item value="EtoDTO`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Persistence.DAO.Rol.RolDAO">
+      <Item value="EtoDTO`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DBNull">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.EntityDataModel.SPIUD_R">
+      <Item value="Response" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Persistence.DAO.Excp.TExcp.TExcpDAO">
+      <Item value="EtoDTO`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Visible" priority="1" />
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WebApplication.Client.Web.WSDL_SO_MRP.DT_Condiciones">
+      <Item value="Cond_Code" priority="1" />
+      <Item value="Cond_Name" priority="0" />
+      <Item value="Value_Cond" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Decimal">
+      <Item value="Round`0" priority="3" />
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WebApplication.Client.Web.WSDL_SO_MRP.DT_SimulateItemOUT">
+      <Item value="Item" priority="1" />
+      <Item value="Material" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WebApplication.Client.Web.WSDL_SO_MRP.DT_ResponseSimulateOrderTaking">
+      <Item value="MessageOutList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WebApplication.Client.Web.App_Code.BMPage">
+      <Item value="Init" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.MasterPage">
+      <Item value="Controls" priority="0" />
+      <Item value="FindControl`0" priority="1" />
+      <Item value="MasterPageFile" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="GetExtension`0" priority="1" />
+      <Item value="GetFileName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlCommand">
+      <Item value="CommandText" priority="0" />
+      <Item value="CommandTimeout" priority="0" />
+      <Item value="CommandType" priority="1" />
+      <Item value="Connection" priority="0" />
+      <Item value="ExecuteNonQuery`0" priority="0" />
+      <Item value="Parameters" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.CommandType">
+      <Item value="StoredProcedure" priority="1" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlConnection">
+      <Item value="State" priority="0" />
+      <Item value="Open`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.ConnectionState">
+      <Item value="Closed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlParameterCollection">
+      <Item value="AddWithValue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Services.Pg.PgServI">
+      <Item value="Instance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Services.Pg.IPgServ">
+      <Item value="LoginPage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Infrastructure.Security.Usuario.Usr">
+      <Item value="LoginPage`0" priority="1" />
+      <Item value="LPage`0" priority="0" />
+      <Item value="RUrl`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Uri">
+      <Item value="Host" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.IPHostEntry">
+      <Item value="AddressList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.PTO.TPage.ITPagePTO">
+      <Item value="IdTPage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Caching.Cache">
+      <Item value="Remove`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SHUtil.SIUSP">
+      <Item value="ExSpSqlSrv`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.Emp.IEmpDAO">
+      <Item value="Exist`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewPageEventArgs">
+      <Item value="NewPageIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.TimeSpan">
+      <Item value="FromMinutes`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Caching.Cache">
+      <Item value="NoAbsoluteExpiration" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="Minutes" priority="1" />
+      <Item value="TotalMinutes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Security.FormsAuthenticationTicket">
+      <Item value="Expiration" priority="1" />
+      <Item value="Name" priority="0" />
+      <Item value="UserData" priority="0" />
+      <Item value="IssueDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.WS.BS_SINCO_PRD_GBL_SI_OS_CustomerStatement_x_x">
+      <Item value="Url" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.AppWS.WS.ZS_ORDTAKINGCRM">
+      <Item value="Url" priority="0" />
+      <Item value="SI_IS_SimulateOrderTaking`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.AppWS.WS.DT_CustomerStatementReq">
+      <Item value="I_FCURR" priority="1" />
+      <Item value="I_KUNNR" priority="1" />
+      <Item value="I_VKORG" priority="0" />
+      <Item value="I_VTWEG" priority="0" />
+      <Item value="I_SPART" priority="0" />
+      <Item value="I_TCURR" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.AppWS.CustomerStatementParameters">
+      <Item value="IdFCurr" priority="1" />
+      <Item value="IdBusinessEntity" priority="0" />
+      <Item value="IdSOrg" priority="0" />
+      <Item value="CDist" priority="0" />
+      <Item value="IdSector" priority="0" />
+      <Item value="IdDCurr" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.AppWS.WS.BS_SINCO_PRD_GBL_SI_OS_CustomerStatement_x_x">
+      <Item value="requestCustomerStatement`0" priority="0" />
+      <Item value="Dispose`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.AppWS.WS.DT_CustomerStatementResp">
+      <Item value="E_AUFSD" priority="2" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="E_CNAME" priority="0" />
+      <Item value="E_EXCEPTION" priority="0" />
+      <Item value="E_BITOC" priority="1" />
+      <Item value="E_AUFSO" priority="0" />
+      <Item value="E_TAUSO" priority="0" />
+      <Item value="E_TAUSD" priority="0" />
+      <Item value="E_BITON" priority="0" />
+      <Item value="E_ZTERM" priority="0" />
+      <Item value="E_NTERM" priority="0" />
+      <Item value="E_CARTT" priority="0" />
+      <Item value="E_SLDAF" priority="0" />
+      <Item value="E_CARNT" priority="0" />
+      <Item value="E_LIMCR" priority="0" />
+      <Item value="E_UKURS" priority="0" />
+      <Item value="E_IPFAC" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.WS.CsResponseDto">
+      <Item value="NObra" priority="0" />
+      <Item value="Exception" priority="5" />
+      <Item value="IdBlqObra" priority="0" />
+      <Item value="NBlqObra" priority="0" />
+      <Item value="IdCliente" priority="1" />
+      <Item value="NCliente" priority="0" />
+      <Item value="IdBlqCliente" priority="0" />
+      <Item value="NBlqCliente" priority="0" />
+      <Item value="IdCpObra" priority="0" />
+      <Item value="NCpObra" priority="0" />
+      <Item value="CartT" priority="0" />
+      <Item value="SldAf" priority="0" />
+      <Item value="CartN" priority="0" />
+      <Item value="LimCr" priority="0" />
+      <Item value="FConvCurr" priority="0" />
+      <Item value="VComp" priority="0" />
+      <Item value="NBusinessEntity" priority="1" />
+      <Item value="IdBlqBusinessEntity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.WS.SoParametersDto">
+      <Item value="Header" priority="3" />
+      <Item value="Item" priority="1" />
+      <Item value="Partner" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.AppWS.WS.DT_RequestSimulateOrderTakingCRM">
+      <Item value="Header" priority="1" />
+      <Item value="Item" priority="3" />
+      <Item value="Partners" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.WS.OrdHeaderDto">
+      <Item value="doc_Type" priority="0" />
+      <Item value="sales_Org" priority="0" />
+      <Item value="channel" priority="0" />
+      <Item value="division" priority="0" />
+      <Item value="ship_Cond" priority="0" />
+      <Item value="country" priority="0" />
+      <Item value="currency" priority="0" />
+      <Item value="purch_Ord" priority="0" />
+      <Item value="order_Dte" priority="0" />
+      <Item value="inbo_Outb" priority="0" />
+      <Item value="agent" priority="0" />
+      <Item value="cond_Man" priority="0" />
+      <Item value="cap_Min" priority="0" />
+      <Item value="cap_Max" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.WS.OrdItemDto">
+      <Item value="Item" priority="0" />
+      <Item value="Material" priority="0" />
+      <Item value="Dlv_Grp" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.AppWS.WS.DT_SimulatePartner">
+      <Item value="Part_Number" priority="0" />
+      <Item value="Part_Role" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.WS.OrdPartnerDto">
+      <Item value="Part_Number" priority="0" />
+      <Item value="Part_Role" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.AppWS.WS.DT_ResponseSimulateOrderTaking">
+      <Item value="MessageOutList" priority="2" />
+      <Item value="ItemOutList" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.WS.SoResponseDto">
+      <Item value="ExceptionMessageList" priority="3" />
+      <Item value="OutList" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.WS.SoRespErrorMsgList">
+      <Item value="Type" priority="0" />
+      <Item value="Id" priority="0" />
+      <Item value="Number" priority="2" />
+      <Item value="Message" priority="0" />
+      <Item value="MessageV1" priority="0" />
+      <Item value="MessageV2" priority="0" />
+      <Item value="MessageV3" priority="0" />
+      <Item value="MessageV4" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.AppWS.WS.DT_SimulateMessa">
+      <Item value="Type" priority="0" />
+      <Item value="ID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.AppWS.WS.DT_SimulateItemOUT">
+      <Item value="Item" priority="0" />
+      <Item value="Conditions" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.WS.SoRespCondList">
+      <Item value="Cond_Code" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.AppWS.WS.DT_Condiciones">
+      <Item value="Cond_Code" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.AppWS.CustomerStatement">
+      <Item value="Credentials`0" priority="0" />
+      <Item value="Execute`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsTrue`0" priority="3" />
+      <Item value="Fail`0" priority="0" />
+      <Item value="AreEqual`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.AppWS.IWService`2">
+      <Item value="Execute`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DTO.WS.SoRespOutList">
+      <Item value="Material" priority="0" />
+      <Item value="SubTot" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TWs">
+      <Item value="RequestParameters`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlDataReader">
+      <Item value="GetName`0" priority="2" />
+      <Item value="GetValue`0" priority="0" />
+      <Item value="GetValues`0" priority="0" />
+      <Item value="FieldCount" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlParameter">
+      <Item value="ParameterName" priority="1" />
+      <Item value="Value" priority="0" />
+      <Item value="SqlValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.PropertyInfo">
+      <Item value="Name" priority="0" />
+      <Item value="SetValue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.DBcnn.IRdmsConnection`1">
+      <Item value="Execute`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="ConnectionStrings" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.ConnectionStringSettings">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.BCfg.BusinessConfigDao">
+      <Item value="GetBConfig`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Persistence.DAO.BCfg.CargosCliDao">
+      <Item value="GetCargos`0" priority="0" />
+      <Item value="GetVolMax`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:T">
+      <Item value="ToList`1" priority="1" />
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Components.BCfg.CmpBCfg">
+      <Item value="getPumpM`0" priority="0" />
+      <Item value="getSC_All`0" priority="0" />
+      <Item value="getPctILC`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Services.Instance.ServiceI`1">
+      <Item value="Instance" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Services.BCfg.BCfgServ">
+      <Item value="getPumpM`0" priority="0" />
+      <Item value="getPctILC`0" priority="1" />
+      <Item value="getPctVAjs`0" priority="0" />
+      <Item value="getSC_All`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DTO_Adapter.DBCnn.BConfigDto">
+      <Item value="Value" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableCell">
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Control">
+      <Item value="Parent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlInputText">
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Double">
+      <Item value="TryParse`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DTO_Adapter.DBCnn.CargosCliDto">
+      <Item value="CCargaMin" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DTO_Adapter.DBCnn.VolMaxDto">
+      <Item value="VolMaxVh" priority="0" />
+      <Item value="UMVolMaxVh" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Decimal">
+      <Item value="ToString`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="IsValid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.ScriptManager">
+      <Item value="RegisterPostBackControl`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlForm">
+      <Item value="InnerHtml" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpApplication">
+      <Item value="Application" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

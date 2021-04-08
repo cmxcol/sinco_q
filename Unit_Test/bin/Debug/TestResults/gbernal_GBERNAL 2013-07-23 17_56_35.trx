@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="31a8b9e4-4fd5-48e6-a5e8-bbde106a70ab" name="gbernal@GBERNAL 2013-07-23 17:56:35" runUser="SOAM\gbernal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e3db6095-ce6e-41b0-b542-606337b9d5bd">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gbernal_GBERNAL 2013-07-23 17_56_35" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-23T17:56:35.4519641-05:00" queuing="2013-07-23T17:56:35.7729962-05:00" start="2013-07-23T17:56:36.0440233-05:00" finish="2013-07-23T17:58:56.7370912-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SqlRdmsConnectionTestExecuteCommand" storage="d:\users\gbernal\desktop\aplicaciones\backupapp\sincosap\sc_v16\scsap_d\sincosap\unit_test\bin\debug\unit_test.dll" id="eb06c941-2370-ca6d-a98b-8d42e3b6ce69">
+      <Execution timeOut="1800000" id="fad442fb-c8f2-47e3-9927-332106daaa8a" />
+      <TestMethod codeBase="D:/Users/gbernal/Desktop/Aplicaciones/BackUpApp/SINCOSAP/SC_V16/SCSAP_D/SINCOSAP/Unit_Test/bin/Debug/Unit_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.SqlRdmsConnectionTest, Unit_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SqlRdmsConnectionTestExecuteCommand" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="eb06c941-2370-ca6d-a98b-8d42e3b6ce69" executionId="fad442fb-c8f2-47e3-9927-332106daaa8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fad442fb-c8f2-47e3-9927-332106daaa8a" testId="eb06c941-2370-ca6d-a98b-8d42e3b6ce69" testName="SqlRdmsConnectionTestExecuteCommand" computerName="GBERNAL" duration="00:02:20.3816559" startTime="2013-07-23T17:56:36.1180307-05:00" endTime="2013-07-23T17:58:56.6580833-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fad442fb-c8f2-47e3-9927-332106daaa8a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Unit_Test.SqlRdmsConnectionTest.SqlRdmsConnectionTestExecuteCommand threw exception: 
+System.ArgumentException: Object of type 'System.Int64' cannot be converted to type 'System.String'.</Message>
+          <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Persistence.DAO.DBcnn.SqlRdmsConnection`1.Execute(Boolean hasRet) in D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Persistence\DAO\DBCnn\RdmsConnection.cs:line 112
+   at Unit_Test.SqlRdmsConnectionTest.SqlRdmsConnectionTestExecuteCommand() in D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Unit_Test\SqlRdmsConnectionTest.cs:line 91
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

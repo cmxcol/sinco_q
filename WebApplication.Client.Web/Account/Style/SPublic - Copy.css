@@ -1,0 +1,777 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    /*background: #b6b7bc;*/
+    /*background-image:url('../Images/page_gl.png');*/
+    background-color:White;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 1000px;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    /*border: 1px solid #496077;*/
+}
+
+.header
+{
+    /*position:relative;*/
+    background: #D8D8D8;
+    /*background:url('/Account/Images/Titulos.jpg');*/
+    /*width: 100%;*/
+    /*top: -1px;*/
+    top: -1px;
+    width: 1000px;
+    height: 92px;
+}
+.HeaderOver
+{
+    /*position:relative;*/
+    margin:5px;
+    /*background: #4b6c9e;*/
+    background:url('../Images/header.jpg');
+    /*width: 98%;*/
+    /*top: -1px;*/
+    width: 995px;
+    height: 90px;
+}
+.HeaderOver h1
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    /*color: #f9f9f9;*/
+    /*color:#FFFFFF;*/
+    line-height: 2em;
+    font-size: 2em;
+    height: 50px;
+}
+.HeaderOver h3
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    line-height: 2em;
+    height: 40px;
+}
+.headerBase
+{    
+    color: #f9f9f9;
+    border: none;
+}
+.HeaderOverinner
+{
+    position:relative;
+    margin: 0px;
+    padding: 0px;
+    /*background-image:url('../Images/header.png');*/
+    background: #D8D8D8;
+    left: 0px;
+    height:80px;
+    top: -1px;
+    width: 1000px;
+    height: 92px;
+}
+.HeaderOverOuter
+{
+    position:relative;
+    margin:5px;
+    padding:0px;
+    /*background-image:url('../Images/header.jpg');*/
+    background: #D8D8D8;
+    left: 0px;
+    width: 995px;
+    height: 90px;
+}
+.HeaderOverOuter h1
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    line-height: 2em;
+    font-size: 2em;
+    height: 50px;
+}
+.HeaderOverOuter h3
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    line-height: 2em;
+    height: 40px;
+}
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 0px 8px 0px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+/* Footer */
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    /*background-image:url('../Images/header.jpg');*/
+    text-align: center;
+    line-height: normal;
+}
+.art-footer
+{
+  position: relative;
+  overflow: hidden;
+  width: 1000px;
+  background: #D8D8D8;
+}
+
+.art-footer-b 
+{
+  position: absolute;
+  left:5px;
+  right:5px;
+  bottom:0;
+  height:50px;
+  /*background: #D8D8D8;*/
+  /*background-image: url('../images/footer_b.png');*/
+}
+
+.art-footer-r, .art-footer-l
+{
+  position: absolute;
+  height:50px;
+  background-image: url('../images/footer_s.png');
+  bottom: 0;
+}
+
+.art-footer-l
+{
+  left: 0;
+  width:5px;
+}
+
+.art-footer-r
+{
+  right: 0;
+  width:10px;
+  clip: rect(auto, auto, auto, 5px);
+}
+
+.art-footer-t
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  background-image: url('../images/footer_t.png');
+  background-position: left bottom;
+}
+
+.art-footer-body
+{
+    position:relative;
+    padding: 20px;
+}
+
+.art-footer-body .art-rss-tag-icon
+{
+  position: absolute;
+  left:   6px;
+  bottom:20px;
+  z-index:1;
+}
+
+.art-rss-tag-icon
+{
+  display: block;
+  background-image: url('../Account/Images/rssicon.png');
+  background-position: center right;
+  background-repeat: no-repeat;
+  height: 8px;
+  width: 32px;
+  cursor: default;
+}
+
+.art-footer-text p
+{
+  padding:0;
+  margin:0;
+}
+
+.art-footer,
+.art-footer a,
+.art-footer a:link,
+.art-footer a:visited,
+.art-footer a:hover
+{
+    color: #1A2B47;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.art-footer-text
+{
+  min-height: 8px;
+  padding: 0 10px 0 10px;
+
+}
+
+.art-footer,
+.art-footer-text,
+.art-footer p
+{
+  text-align: center;
+}
+
+.art-footer a,
+.art-footer a:link
+{
+  color: #294470;
+  text-decoration: underline;
+}
+
+.art-footer a:visited
+{
+  color: #685D6F;
+
+}
+
+.art-footer a:hover
+{
+  color: #365B96;
+
+  text-decoration: none;
+}
+/* end Footer */
+
+/* begin PageFooter */
+.art-page-footer, 
+.art-page-footer a,
+.art-page-footer a:link,
+.art-page-footer a:visited,
+.art-page-footer a:hover
+{
+  font-family: Arial;
+  font-size: 10px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: underline;
+  color: #809FD1;
+}
+
+.art-page-footer
+{
+  margin: 1em;
+  text-align: center;
+  text-decoration: none;
+  color: #584F5E;
+}
+.cleared
+{
+  float: none;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 1px;
+}
+
+/* end PageFooter *
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    /*background-color:#3a4f63;*/
+    /*background-color:#0E1725;*/
+    /*background-image:url('../Images/footer_b.png');*/
+    background: #D8D8D8;
+    width:100%;     
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+    /*margin-right:100px;*/
+    float:right;  
+}
+
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    /*background-color: #465c71;*/
+    /*background-image:url('../Images/footer_t.png');*/
+    background: #D8D8D8;
+    border: 1px #4e667d solid;
+    /*color: #dde4ec;*/
+    color:Black;
+    display:block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    /*background-color: #bfcbd6;*/
+    background-color:Gray;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    /*background-color:white;*/
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float:left;
+    text-align: Center;
+    width: 957px;
+    height: 64px;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+
+
+/* Label */
+
+.labelRq
+{
+    color: #000066;
+    font-weight:bold;
+    text-align:justify;
+    width: auto;
+    font-family:Arial;
+    font-size:9pt;
+}
+
+.labelError
+{
+    color: Red;
+    font-weight:bold;
+    text-align:justify;
+    width: auto;
+    font-family:Arial;
+    font-size: 9pt;
+}
+
+.labelInfo
+{
+    color: Green;
+    font-weight:bold;
+    text-align:justify;
+    width: auto;
+    font-family:Arial;    
+}
+
+.labelNorm
+{
+    color:Black;
+    font-weight:bold;
+    text-align:justify;
+    width: auto;
+    font-family:Arial;    
+}
+
+
+/* Button */
+.btnRq
+{
+    font-weight:bold;
+    height:22px;
+    font-family:Arial;
+    font-size:9pt;
+    color:#000066;
+    width:91px;                        
+}
+
+/* TextBox */
+.txtLogin
+{
+    font-family: Arial;
+    font-size: 14px;
+    color:#000066;	
+    background-color:#F2F2F2;
+    font-family: Arial, Sans-Serif;
+    width: 100px;
+}  
+.txtrq
+{
+    text-align:center;
+    Height:16px;
+    font-size:small;
+    font-family:Verdana;
+    color: Gray;
+    width:100px;                                 
+}
+
+.txtrq2
+{
+    Height:16px;
+    text-align:center;
+    font-size:small;
+    font-family:Verdana;
+    color: Gray;
+    width:240px;                                 
+}
+
+.txtDt
+{
+    Height:15px;
+    /*font-weight:700;*/
+    text-align:center;
+    font-size:8pt;
+    font-family:Verdana;
+    color: Gray;
+    width:400px;                                 
+}
+
+.txtrqGVlow
+{
+    Height:16px;
+    font-weight:700;
+    text-align:center;
+    font-size:small;
+    font-family:Verdana;
+    color: Gray;
+    width:150px;                                 
+}
+
+/* GridView */
+.gvDCli
+{
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 9pt; 
+    color: #000066;
+}
+
+.gvECCli
+{
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 9pt; 
+    color: #000066;
+}
+.gvAlSh
+{
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 9pt;
+    width:500px;
+}
+
+.gvAlertas
+{
+    text-align: center; 
+    font-family: Arial; 
+    font-size:x-small; 
+    color:Black;
+}
+
+/* GridView header */
+
+.gvHead1
+{
+    background-color: #000066;
+    color:White;
+    text-align: center; 
+    font-family: Arial; 
+    /*font-size:small; */
+    /*width:100px;   */
+}
+
+/* FileUpload */
+.fUp
+{
+    font-family:Verdana;
+    font-size:small;
+    color:#000066;
+    margin-left:0px;
+}
+
+/* ModalPopUp */
+.modalPopup 
+{
+	border: 1px solid Gray;
+    background-color:#F5F7F8;
+	/*background-color:#4b6c9e;*/
+	padding:3px;
+    margin-bottom: 0px;
+}
+.modalPopupInner
+{
+	/* border: 1px solid Gray; */
+    background-color:#F5F7F8;
+	/*background-color:#4b6c9e;*/
+	padding:3px;
+    margin-bottom: 0px;
+}
+.modalBackground 
+{
+	background-color:Gray;
+    filter:alpha(opacity=70);
+	opacity:0.7;
+}
+ /* DropDownList */
+ .ddlGV
+ {
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 8pt; 
+    color: Gray;
+    width:150px;
+    }
+ /* Calendar*/
+ .cExt
+ {
+     background-color:White;
+     border-bottom-color:Gray;
+ }
+ 
+/* Validator Expression */
+
+.ValidatorExpression
+{
+font-family: Arial;
+font-size: 14px;
+color:Red;	
+text-align:center;
+}
+
+/* Flash */
+
+.FlashLogin
+{
+    width:500px;
+}
+
+/* Panel */
+
+.pnlLogin
+{
+    width:480px;
+}

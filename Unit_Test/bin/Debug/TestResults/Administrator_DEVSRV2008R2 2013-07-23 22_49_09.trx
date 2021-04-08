@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="71b469d1-d516-4797-8426-d1b91220ccc1" name="Administrator@DEVSRV2008R2 2013-07-23 22:49:09" runUser="DEVSRV2008R2\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e3db6095-ce6e-41b0-b542-606337b9d5bd">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_DEVSRV2008R2 2013-07-23 22_49_09" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-23T22:49:09.7945390-05:00" queuing="2013-07-23T22:49:10.3365312-05:00" start="2013-07-23T22:49:10.8267656-05:00" finish="2013-07-23T22:49:11.3238359-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SqlRdmsConnectionTestExecSP_Select" storage="c:\users\administrator\desktop\dev_sinco_2013_07_16\sc_v16\scsap_d\sincosap\unit_test\bin\debug\unit_test.dll" id="ca19b8dc-3f75-c7e9-06ab-23abf9522ec1">
+      <Execution timeOut="1800000" id="9a18abe6-0dba-4079-bf96-f03030539efc" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/Dev_SINCO_2013_07_16/SC_V16/SCSAP_D/SINCOSAP/Unit_Test/bin/Debug/Unit_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.DBCnn.SqlRdmsConnectionTest, Unit_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SqlRdmsConnectionTestExecSP_Select" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ca19b8dc-3f75-c7e9-06ab-23abf9522ec1" executionId="9a18abe6-0dba-4079-bf96-f03030539efc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9a18abe6-0dba-4079-bf96-f03030539efc" testId="ca19b8dc-3f75-c7e9-06ab-23abf9522ec1" testName="SqlRdmsConnectionTestExecSP_Select" computerName="DEVSRV2008R2" duration="00:00:00.2436183" startTime="2013-07-23T22:49:10.8980546-05:00" endTime="2013-07-23T22:49:11.2515703-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a18abe6-0dba-4079-bf96-f03030539efc">
+    </UnitTestResult>
+  </Results>
+</TestRun>

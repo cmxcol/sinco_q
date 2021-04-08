@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bbf73ed3-69db-4e18-b164-c042da4109e9" name="gbernal@GBERNAL 2013-07-18 17:03:24" runUser="SOAM\gbernal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e3db6095-ce6e-41b0-b542-606337b9d5bd">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gbernal_GBERNAL 2013-07-18 17_03_24" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-18T17:03:24.1777804-05:00" queuing="2013-07-18T17:03:24.5658192-05:00" start="2013-07-18T17:03:24.7328359-05:00" finish="2013-07-18T17:03:33.1906816-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CustomerStatementTest_Execution_Regular_Mock" storage="d:\users\gbernal\desktop\aplicaciones\backupapp\sincosap\sc_v16\scsap_d\sincosap\unit_test\bin\debug\unit_test.dll" id="723dbe34-4823-0b26-5b5b-78ca5fb64a04">
+      <Execution timeOut="1800000" id="a065bdca-31cd-4450-9fa8-2cc0c12e8ae9" />
+      <TestMethod codeBase="D:/Users/gbernal/Desktop/Aplicaciones/BackUpApp/SINCOSAP/SC_V16/SCSAP_D/SINCOSAP/Unit_Test/bin/Debug/Unit_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.CustomerStatementTest, Unit_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CustomerStatementTest_Execution_Regular_Mock" />
+    </UnitTest>
+    <UnitTest name="CustomerStatementTest_Execution_Regular" storage="d:\users\gbernal\desktop\aplicaciones\backupapp\sincosap\sc_v16\scsap_d\sincosap\unit_test\bin\debug\unit_test.dll" id="5a3eb674-9ff7-9093-8b06-3adae1062bee">
+      <Execution timeOut="1800000" id="4abe866e-64d6-4874-8253-3fd0c63a0dff" />
+      <TestMethod codeBase="D:/Users/gbernal/Desktop/Aplicaciones/BackUpApp/SINCOSAP/SC_V16/SCSAP_D/SINCOSAP/Unit_Test/bin/Debug/Unit_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.CustomerStatementTest, Unit_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CustomerStatementTest_Execution_Regular" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5a3eb674-9ff7-9093-8b06-3adae1062bee" executionId="4abe866e-64d6-4874-8253-3fd0c63a0dff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="723dbe34-4823-0b26-5b5b-78ca5fb64a04" executionId="a065bdca-31cd-4450-9fa8-2cc0c12e8ae9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4abe866e-64d6-4874-8253-3fd0c63a0dff" testId="5a3eb674-9ff7-9093-8b06-3adae1062bee" testName="CustomerStatementTest_Execution_Regular" computerName="GBERNAL" duration="00:00:07.2275904" startTime="2013-07-18T17:03:24.7778404-05:00" endTime="2013-07-18T17:03:32.0985724-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4abe866e-64d6-4874-8253-3fd0c63a0dff">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at Unit_Test.CustomerStatementTest.CustomerStatementTest_Execution_Regular() in D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Unit_Test\CustomerStatementTest.cs:line 85
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a065bdca-31cd-4450-9fa8-2cc0c12e8ae9" testId="723dbe34-4823-0b26-5b5b-78ca5fb64a04" testName="CustomerStatementTest_Execution_Regular_Mock" computerName="GBERNAL" duration="00:00:01.0241821" startTime="2013-07-18T17:03:32.1055731-05:00" endTime="2013-07-18T17:03:33.1336759-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a065bdca-31cd-4450-9fa8-2cc0c12e8ae9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Persistence.DTO.WS.CsResponseDto&gt;. Actual:&lt;Persistence.DTO.WS.CsResponseDto&gt;. </Message>
+          <StackTrace>   at Unit_Test.CustomerStatementTest.CustomerStatementTest_Execution_Regular_Mock() in D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Unit_Test\CustomerStatementTest.cs:line 105
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

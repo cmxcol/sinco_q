@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{95053D38-BC11-49A9-A731-02085FDE2B4F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Persistence</RootNamespace>
+    <AssemblyName>Persistence</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.1.505.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.2.1.505.2\lib\NET35\Microsoft.Practices.Unity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=2.1.505.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.2.1.505.2\lib\NET35\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="sapnco">
+      <HintPath>..\packages\SAPNCo.x86.3.0.13.1\lib\net40\sapnco.dll</HintPath>
+    </Reference>
+    <Reference Include="sapnco_utils">
+      <HintPath>..\packages\SAPNCo.x86.3.0.13.1\lib\net40\sapnco_utils.dll</HintPath>
+    </Reference>
+    <Reference Include="SHUtil, Version=1.0.0.1, Culture=neutral, PublicKeyToken=511bef7958a6cf5e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SHUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppWS\IWService.cs" />
+    <Compile Include="AppWS\SOrderT.cs" />
+    <Compile Include="DAO\BCfg\BusinessConfigDao.cs" />
+    <Compile Include="DAO\BCfg\CargosCliDao.cs" />
+    <Compile Include="DAO\CBloqueados\ICBloqueadosDAO.cs" />
+    <Compile Include="DAO\CBloqueados\CBloqueadosDAO.cs" />
+    <Compile Include="DAO\CTG\CtgDAO.cs" />
+    <Compile Include="DAO\CTG\ICtgDao.cs" />
+    <Compile Include="DAO\DBCnn\RdmsConnection.cs" />
+    <Compile Include="DAO\Emp\EmpDAO.cs" />
+    <Compile Include="DAO\Emp\IEmpDAO.cs" />
+    <Compile Include="DAO\Excp\ExCliDAO.cs" />
+    <Compile Include="DAO\Excp\ExMsg\ExMsgDAO.cs" />
+    <Compile Include="DAO\Excp\ExMsg\IExMsgDAO.cs" />
+    <Compile Include="DAO\Excp\IExCliDAO.cs" />
+    <Compile Include="DAO\Excp\TExcp\ITExcpDAO.cs" />
+    <Compile Include="DAO\Excp\TExcp\TExcpDAO.cs" />
+    <Compile Include="DAO\Generic\GenericDAO.cs" />
+    <Compile Include="DAO\Generic\IGenericDAO.cs" />
+    <Compile Include="DAO\Logs\ILogsDAO.cs" />
+    <Compile Include="DAO\Logs\LogsDAO.cs" />
+    <Compile Include="DAO\MPg\IMPageDAO.cs" />
+    <Compile Include="DAO\MPg\MPageDAO.cs" />
+    <Compile Include="DAO\Pais\IPaisDAO.cs" />
+    <Compile Include="DAO\Pais\PaisDAO.cs" />
+    <Compile Include="DAO\Pg\IPageDAO.cs" />
+    <Compile Include="DAO\Pg\PageDAO.cs" />
+    <Compile Include="DAO\Proforma\IProformaDAO.cs" />
+    <Compile Include="DAO\Proforma\ProformaDAO.cs" />
+    <Compile Include="DAO\Rol\IRolDAO.cs" />
+    <Compile Include="DAO\Rol\RolDAO.cs" />
+    <Compile Include="DAO\Sim\ISimDAO.cs" />
+    <Compile Include="DAO\Sim\SimDAO.cs" />
+    <Compile Include="DAO\StaRg\IStaRgDAO.cs" />
+    <Compile Include="DAO\StaRg\StaRgDAO.cs" />
+    <Compile Include="DAO\TPage\ITPageDAO.cs" />
+    <Compile Include="DAO\TPage\TPageDAO.cs" />
+    <Compile Include="DAO\Usr\IUsrDAO.cs" />
+    <Compile Include="DAO\Usr\UsrDAO.cs" />
+    <Compile Include="DAO\Ws\CustomerStatementDao.cs" />
+    <Compile Include="DAO\Ws\WSGenericDao.cs" />
+    <Compile Include="DBConn\RdmsConnection.cs" />
+    <Compile Include="DTO\Excp\ExcpDTO.cs" />
+    <Compile Include="DTO\Excp\ExMsg\ExMsgDTO.cs" />
+    <Compile Include="DTO\Excp\ExMsg\IExMsgDTO.cs" />
+    <Compile Include="DTO\Excp\ExMsg\IExMsgTDTO.cs" />
+    <Compile Include="DTO\Excp\IExcpDTO.cs" />
+    <Compile Include="DTO\Excp\TExcp\ITExcpDTO.cs" />
+    <Compile Include="DTO\Excp\TExcp\TExcpDTO.cs" />
+    <Compile Include="DTO\MPg\IMPageDTO.cs" />
+    <Compile Include="DTO\MPg\MPageDTO.cs" />
+    <Compile Include="DTO\Pais\IPaisDTO.cs" />
+    <Compile Include="DTO\Pais\PaisDTO.cs" />
+    <Compile Include="DTO\Pg\IPageDTO.cs" />
+    <Compile Include="DTO\Pg\PageDTO.cs" />
+    <Compile Include="DTO\Rol\IRolDTO.cs" />
+    <Compile Include="DTO\Rol\RolDTO.cs" />
+    <Compile Include="DTO\StaRg\IStaRgDTO.cs" />
+    <Compile Include="DTO\StaRg\StaRgDTO.cs" />
+    <Compile Include="DTO\TPage\ITPageDTO.cs" />
+    <Compile Include="DTO\TPage\TPageDTO.cs" />
+    <Compile Include="DTO\Usr\IUsrDTO.cs" />
+    <Compile Include="DTO\Usr\Rep\IUsrsRepDTO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DTO\Usr\Rep\UsrsRepDTO.cs" />
+    <Compile Include="DTO\Usr\UsrDTO.cs" />
+    <Compile Include="EntityDataModelObjectContext\ObjectContextSCAdm\ObjCtxSCAdmIns.cs" />
+    <Compile Include="EntityDataModelObjectContext\ObjectContextSCAdm\IObjCtxSCAdm.cs" />
+    <Compile Include="EntityDataModelObjectContext\ObjectContextSCAdm\ObjCtxSCAdm.cs" />
+    <Compile Include="EntityDataModel\SCAdm_DM.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SCAdm_DM.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Proforma\IMasterDAO.cs" />
+    <Compile Include="Proforma\MasterDAO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AppWS\EC.cs" />
+    <Compile Include="AppWS\WS\WS_EC.cs" />
+    <Compile Include="AppWS\WS\WS_SOT.cs" />
+    <Compile Include="SAP\Proxy\BAPI_ACCESS.cs" />
+    <Compile Include="SAP\Proxy\BAPI_SAP.cs" />
+    <Compile Include="SAP\Proxy\ConfigParameters.cs" />
+    <Compile Include="SAP\Proxy\ISAP_BAPI.cs" />
+    <Compile Include="SQL\ISQLDAO.cs" />
+    <Compile Include="SQL\SQLDAO.cs" />
+    <Compile Include="Utilidades\UtilSh.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTO Adapter\DTO Adapter.csproj">
+      <Project>{91B62D55-5988-4015-8D71-21036839AD3B}</Project>
+      <Name>DTO Adapter</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="EntityDataModel\SCAdm_DM.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SCAdm_DM.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

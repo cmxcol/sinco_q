@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4218d88b-677e-4f31-a771-c32f32efbdd6" name="gbernal@GBERNAL 2013-07-19 17:11:03" runUser="SOAM\gbernal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e3db6095-ce6e-41b0-b542-606337b9d5bd">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gbernal_GBERNAL 2013-07-19 17_11_03" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-19T17:11:03.2231407-05:00" queuing="2013-07-19T17:11:03.6011785-05:00" start="2013-07-19T17:11:03.7441928-05:00" finish="2013-07-19T17:11:13.8982081-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CustomerStatementTest_Execution_Failure_Mock" storage="d:\users\gbernal\desktop\aplicaciones\backupapp\sincosap\sc_v16\scsap_d\sincosap\unit_test\bin\debug\unit_test.dll" id="245a6e24-889a-1977-9a4e-122aa4810c30">
+      <Execution timeOut="1800000" id="2a0c82c3-6876-404f-8816-464d0208621d" />
+      <TestMethod codeBase="D:/Users/gbernal/Desktop/Aplicaciones/BackUpApp/SINCOSAP/SC_V16/SCSAP_D/SINCOSAP/Unit_Test/bin/Debug/Unit_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.WS.CustomerStatementTest, Unit_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CustomerStatementTest_Execution_Failure_Mock" />
+    </UnitTest>
+    <UnitTest name="CustomerStatementTest_Execution_Regular_Mock" storage="d:\users\gbernal\desktop\aplicaciones\backupapp\sincosap\sc_v16\scsap_d\sincosap\unit_test\bin\debug\unit_test.dll" id="8f0bfb61-32ad-bb40-9bb2-8072c54b5f75">
+      <Execution timeOut="1800000" id="63e91f5f-c50b-45d2-8fb2-9135bf010508" />
+      <TestMethod codeBase="D:/Users/gbernal/Desktop/Aplicaciones/BackUpApp/SINCOSAP/SC_V16/SCSAP_D/SINCOSAP/Unit_Test/bin/Debug/Unit_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.WS.CustomerStatementTest, Unit_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CustomerStatementTest_Execution_Regular_Mock" />
+    </UnitTest>
+    <UnitTest name="CustomerStatementTest_Execution_Failure" storage="d:\users\gbernal\desktop\aplicaciones\backupapp\sincosap\sc_v16\scsap_d\sincosap\unit_test\bin\debug\unit_test.dll" id="863f4b9f-e944-600a-2f93-29c66928c91f">
+      <Execution timeOut="1800000" id="5afe45c3-c246-4094-837d-53a60f684946" />
+      <TestMethod codeBase="D:/Users/gbernal/Desktop/Aplicaciones/BackUpApp/SINCOSAP/SC_V16/SCSAP_D/SINCOSAP/Unit_Test/bin/Debug/Unit_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.WS.CustomerStatementTest, Unit_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CustomerStatementTest_Execution_Failure" />
+    </UnitTest>
+    <UnitTest name="CustomerStatementTest_Execution_Regular" storage="d:\users\gbernal\desktop\aplicaciones\backupapp\sincosap\sc_v16\scsap_d\sincosap\unit_test\bin\debug\unit_test.dll" id="ad648db2-6677-0ae7-b114-75df6f472b29">
+      <Execution timeOut="1800000" id="0413f9a8-cffe-4077-b325-feb8950c8a22" />
+      <TestMethod codeBase="D:/Users/gbernal/Desktop/Aplicaciones/BackUpApp/SINCOSAP/SC_V16/SCSAP_D/SINCOSAP/Unit_Test/bin/Debug/Unit_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.WS.CustomerStatementTest, Unit_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CustomerStatementTest_Execution_Regular" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="863f4b9f-e944-600a-2f93-29c66928c91f" executionId="5afe45c3-c246-4094-837d-53a60f684946" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="245a6e24-889a-1977-9a4e-122aa4810c30" executionId="2a0c82c3-6876-404f-8816-464d0208621d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad648db2-6677-0ae7-b114-75df6f472b29" executionId="0413f9a8-cffe-4077-b325-feb8950c8a22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f0bfb61-32ad-bb40-9bb2-8072c54b5f75" executionId="63e91f5f-c50b-45d2-8fb2-9135bf010508" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5afe45c3-c246-4094-837d-53a60f684946" testId="863f4b9f-e944-600a-2f93-29c66928c91f" testName="CustomerStatementTest_Execution_Failure" computerName="GBERNAL" duration="00:00:05.9493540" startTime="2013-07-19T17:11:03.7911975-05:00" endTime="2013-07-19T17:11:09.8228006-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5afe45c3-c246-4094-837d-53a60f684946">
+    </UnitTestResult>
+    <UnitTestResult executionId="2a0c82c3-6876-404f-8816-464d0208621d" testId="245a6e24-889a-1977-9a4e-122aa4810c30" testName="CustomerStatementTest_Execution_Failure_Mock" computerName="GBERNAL" duration="00:00:01.0161428" startTime="2013-07-19T17:11:09.8318015-05:00" endTime="2013-07-19T17:11:10.8509034-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a0c82c3-6876-404f-8816-464d0208621d">
+    </UnitTestResult>
+    <UnitTestResult executionId="0413f9a8-cffe-4077-b325-feb8950c8a22" testId="ad648db2-6677-0ae7-b114-75df6f472b29" testName="CustomerStatementTest_Execution_Regular" computerName="GBERNAL" duration="00:00:01.9527661" startTime="2013-07-19T17:11:10.8599043-05:00" endTime="2013-07-19T17:11:12.8150998-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0413f9a8-cffe-4077-b325-feb8950c8a22">
+    </UnitTestResult>
+    <UnitTestResult executionId="63e91f5f-c50b-45d2-8fb2-9135bf010508" testId="8f0bfb61-32ad-bb40-9bb2-8072c54b5f75" testName="CustomerStatementTest_Execution_Regular_Mock" computerName="GBERNAL" duration="00:00:01.0128611" startTime="2013-07-19T17:11:12.8241007-05:00" endTime="2013-07-19T17:11:13.8392022-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63e91f5f-c50b-45d2-8fb2-9135bf010508">
+    </UnitTestResult>
+  </Results>
+</TestRun>

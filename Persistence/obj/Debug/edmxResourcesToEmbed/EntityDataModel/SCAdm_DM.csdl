@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Persistence.EntityDataModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="SCDBAdmEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="FIRepUsr" ReturnType="Collection(Persistence.EntityDataModel.RepUsr)">
+      <Parameter Name="TCOM" Mode="In" Type="Int32" />
+      <Parameter Name="IDPAIS" Mode="In" Type="Int32" />
+      <Parameter Name="IDROL" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="FIIU_R_URP" ReturnType="Collection(Persistence.EntityDataModel.IU_R_URP)">
+      <Parameter Name="TCOM" Mode="In" Type="Int32" />
+      <Parameter Name="CEMEXID" Mode="In" Type="String" />
+      <Parameter Name="IDPAIS" Mode="In" Type="Int32" />
+      <Parameter Name="IDROL" Mode="In" Type="Int32" />
+      <Parameter Name="IDSTARG" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="FIIU_Usr" ReturnType="Collection(Persistence.EntityDataModel.IU_Usr)">
+      <Parameter Name="TCOM" Mode="In" Type="Int32" />
+      <Parameter Name="CEMEXID" Mode="In" Type="String" />
+      <Parameter Name="NUSUARIO" Mode="In" Type="String" />
+      <Parameter Name="EMAIL" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="catLS" EntityType="Persistence.EntityDataModel.catLS" />
+    <EntitySet Name="catRol" EntityType="Persistence.EntityDataModel.catRol" />
+    <EntitySet Name="catUsr" EntityType="Persistence.EntityDataModel.catUsr" />
+    <EntitySet Name="relPaRolMPg" EntityType="Persistence.EntityDataModel.relPaRolMPg" />
+    <EntitySet Name="relPaRolPg" EntityType="Persistence.EntityDataModel.relPaRolPg" />
+    <EntitySet Name="relPaUsrRol" EntityType="Persistence.EntityDataModel.relPaUsrRol" />
+    <EntitySet Name="catStaRg" EntityType="Persistence.EntityDataModel.catStaRg" />
+    <EntitySet Name="catMPage" EntityType="Persistence.EntityDataModel.catMPage" />
+    <EntitySet Name="catPage" EntityType="Persistence.EntityDataModel.catPage" />
+    <EntitySet Name="catPais" EntityType="Persistence.EntityDataModel.catPais" />
+    <EntitySet Name="catTPage" EntityType="Persistence.EntityDataModel.catTPage" />
+    <AssociationSet Name="FK_relPaRolMPg_catRol" Association="Persistence.EntityDataModel.FK_relPaRolMPg_catRol">
+      <End Role="catRol" EntitySet="catRol" />
+      <End Role="relPaRolMPg" EntitySet="relPaRolMPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaRolPg_catRol" Association="Persistence.EntityDataModel.FK_relPaRolPg_catRol">
+      <End Role="catRol" EntitySet="catRol" />
+      <End Role="relPaRolPg" EntitySet="relPaRolPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaUsr_catRol" Association="Persistence.EntityDataModel.FK_relPaUsr_catRol">
+      <End Role="catRol" EntitySet="catRol" />
+      <End Role="relPaUsrRol" EntitySet="relPaUsrRol" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaUsr_catUsr" Association="Persistence.EntityDataModel.FK_relPaUsr_catUsr">
+      <End Role="catUsr" EntitySet="catUsr" />
+      <End Role="relPaUsrRol" EntitySet="relPaUsrRol" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaRolMPg_catMPage" Association="Persistence.EntityDataModel.FK_relPaRolMPg_catMPage">
+      <End Role="catMPage" EntitySet="catMPage" />
+      <End Role="relPaRolMPg" EntitySet="relPaRolMPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaRolMPg_catPais" Association="Persistence.EntityDataModel.FK_relPaRolMPg_catPais">
+      <End Role="catPais" EntitySet="catPais" />
+      <End Role="relPaRolMPg" EntitySet="relPaRolMPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaRolPg_catPage" Association="Persistence.EntityDataModel.FK_relPaRolPg_catPage">
+      <End Role="catPage" EntitySet="catPage" />
+      <End Role="relPaRolPg" EntitySet="relPaRolPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaRolPg_catPais" Association="Persistence.EntityDataModel.FK_relPaRolPg_catPais">
+      <End Role="catPais" EntitySet="catPais" />
+      <End Role="relPaRolPg" EntitySet="relPaRolPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaUsr_catPais" Association="Persistence.EntityDataModel.FK_relPaUsr_catPais">
+      <End Role="catPais" EntitySet="catPais" />
+      <End Role="relPaUsrRol" EntitySet="relPaUsrRol" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPaUsrRol_catStaRg" Association="Persistence.EntityDataModel.FK_relPaUsrRol_catStaRg">
+      <End Role="catStaRg" EntitySet="catStaRg" />
+      <End Role="relPaUsrRol" EntitySet="relPaUsrRol" />
+    </AssociationSet>
+    <AssociationSet Name="FK_catPais_catStaRg" Association="Persistence.EntityDataModel.FK_catPais_catStaRg">
+      <End Role="catStaRg" EntitySet="catStaRg" />
+      <End Role="catPais" EntitySet="catPais" />
+    </AssociationSet>
+    <AssociationSet Name="FK_catPage_catTPage" Association="Persistence.EntityDataModel.FK_catPage_catTPage">
+      <End Role="catTPage" EntitySet="catTPage" />
+      <End Role="catPage" EntitySet="catPage" />
+    </AssociationSet>
+    <AssociationSet Name="relRolLS" Association="Persistence.EntityDataModel.relRolLS">
+      <End Role="catLS" EntitySet="catLS" />
+      <End Role="catRol" EntitySet="catRol" />
+    </AssociationSet>
+    <AssociationSet Name="relPgMPg" Association="Persistence.EntityDataModel.relPgMPg">
+      <End Role="catMPage" EntitySet="catMPage" />
+      <End Role="catPage" EntitySet="catPage" />
+    </AssociationSet>
+    <FunctionImport Name="FISID_R_RJ" ReturnType="Collection(Persistence.EntityDataModel.SID_R_RJ)">
+      <Parameter Name="TCOM" Mode="In" Type="Int32" />
+      <Parameter Name="IDROL" Mode="In" Type="Int32" />
+      <Parameter Name="IDROLA" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="catTEx" EntityType="Persistence.EntityDataModel.catTEx" />
+    <FunctionImport Name="Fn_IUD_Ex" ReturnType="Collection(Persistence.EntityDataModel.SPIUD_R)">
+      <Parameter Name="TCOM" Mode="In" Type="Int32" />
+      <Parameter Name="IdEx" Mode="In" Type="Int32" />
+      <Parameter Name="IDCLIENTE" Mode="In" Type="Int64" />
+      <Parameter Name="IDTEX" Mode="In" Type="String" />
+      <Parameter Name="DTVIG" Mode="In" Type="String" />
+      <Parameter Name="IdPais" Mode="In" Type="Int32" />
+      <Parameter Name="IdRol" Mode="In" Type="Int32" />
+      <Parameter Name="IdUsr" Mode="In" Type="String" />
+      <Parameter Name="MsgEx" Mode="In" Type="String" />
+      <Parameter Name="IdEmp" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <EntitySet Name="tbExCli" EntityType="Persistence.EntityDataModel.tbExCli" />
+    <AssociationSet Name="FK_tbExCli_catRol" Association="Persistence.EntityDataModel.FK_tbExCli_catRol">
+      <End Role="catRol" EntitySet="catRol" />
+      <End Role="tbExCli" EntitySet="tbExCli" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbExCli_catTEx" Association="Persistence.EntityDataModel.FK_tbExCli_catTEx">
+      <End Role="catTEx" EntitySet="catTEx" />
+      <End Role="tbExCli" EntitySet="tbExCli" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbExCli_catPais" Association="Persistence.EntityDataModel.FK_tbExCli_catPais">
+      <End Role="catPais" EntitySet="catPais" />
+      <End Role="tbExCli" EntitySet="tbExCli" />
+    </AssociationSet>
+    <FunctionImport Name="Fn_I_Ex" ReturnType="Collection(Persistence.EntityDataModel.SPIUD_R)">
+      <Parameter Name="IdCliente" Mode="In" Type="Int64" />
+      <Parameter Name="IdTEx" Mode="In" Type="String" />
+      <Parameter Name="dtVig" Mode="In" Type="String" />
+      <Parameter Name="IdPais" Mode="In" Type="Int32" />
+      <Parameter Name="IdRol" Mode="In" Type="Int32" />
+      <Parameter Name="IdUsr" Mode="In" Type="String" />
+      <Parameter Name="MsgEx" Mode="In" Type="String" />
+      <Parameter Name="IdEmp" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="Fn_U_Ex" ReturnType="Collection(Persistence.EntityDataModel.SPIUD_R)">
+      <Parameter Name="IdEx" Mode="In" Type="Int32" />
+      <Parameter Name="IdCliente" Mode="In" Type="Int64" />
+      <Parameter Name="IdTEx" Mode="In" Type="String" />
+      <Parameter Name="dtVig" Mode="In" Type="String" />
+      <Parameter Name="IdPais" Mode="In" Type="Int32" />
+      <Parameter Name="IdRol" Mode="In" Type="Int32" />
+      <Parameter Name="IdUsr" Mode="In" Type="String" />
+      <Parameter Name="MsgEx" Mode="In" Type="String" />
+      <Parameter Name="IdEmp" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="Fn_S_Emp" ReturnType="Collection(Persistence.EntityDataModel.SPEmp_R)">
+      <Parameter Name="IdEmp" Mode="In" Type="Int64" />
+      <Parameter Name="NEmp" Mode="In" Type="String" />
+      <Parameter Name="IdCargo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Fn_S_ExMsg" ReturnType="Collection(Persistence.EntityDataModel.Fn_S_ExMsg_Result)">
+      <Parameter Name="IdExMsg" Mode="In" Type="Int32" />
+      <Parameter Name="Msg" Mode="In" Type="String" />
+      <Parameter Name="IdTEx" Mode="In" Type="String" />
+      <Parameter Name="IdStaRg" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="RepUsr">
+    <Property Type="String" Name="CemexID" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="NUsuario" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="NRol" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="NStaRg" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="IU_R_URP">
+    <Property Type="Int32" Name="IdR" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="IU_Usr">
+    <Property Type="Int32" Name="IdR" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="catLS">
+    <Key>
+      <PropertyRef Name="IdLvl" />
+    </Key>
+    <Property Type="Int32" Name="IdLvl" Nullable="false" />
+    <Property Type="String" Name="DescLvl" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="catRol" Relationship="Persistence.EntityDataModel.relRolLS" FromRole="catLS" ToRole="catRol" />
+  </EntityType>
+  <EntityType Name="catRol">
+    <Key>
+      <PropertyRef Name="IdRol" />
+    </Key>
+    <Property Type="Int32" Name="IdRol" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="NRol" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="relPaRolMPg" Relationship="Persistence.EntityDataModel.FK_relPaRolMPg_catRol" FromRole="catRol" ToRole="relPaRolMPg" />
+    <NavigationProperty Name="relPaRolPg" Relationship="Persistence.EntityDataModel.FK_relPaRolPg_catRol" FromRole="catRol" ToRole="relPaRolPg" />
+    <NavigationProperty Name="relPaUsrRol" Relationship="Persistence.EntityDataModel.FK_relPaUsr_catRol" FromRole="catRol" ToRole="relPaUsrRol" />
+    <NavigationProperty Name="catLS" Relationship="Persistence.EntityDataModel.relRolLS" FromRole="catRol" ToRole="catLS" />
+    <NavigationProperty Name="tbExCli" Relationship="Persistence.EntityDataModel.FK_tbExCli_catRol" FromRole="catRol" ToRole="tbExCli" />
+  </EntityType>
+  <EntityType Name="catUsr">
+    <Key>
+      <PropertyRef Name="CemexID" />
+    </Key>
+    <Property Type="String" Name="CemexID" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="NUsuario" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Email" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="relPaUsrRol" Relationship="Persistence.EntityDataModel.FK_relPaUsr_catUsr" FromRole="catUsr" ToRole="relPaUsrRol" />
+  </EntityType>
+  <EntityType Name="relPaRolMPg">
+    <Key>
+      <PropertyRef Name="IdPais" />
+      <PropertyRef Name="IdRol" />
+    </Key>
+    <Property Type="Int32" Name="IdPais" Nullable="false" />
+    <Property Type="Int32" Name="IdRol" Nullable="false" />
+    <Property Type="Int32" Name="IdMPage" Nullable="false" />
+    <NavigationProperty Name="catRol" Relationship="Persistence.EntityDataModel.FK_relPaRolMPg_catRol" FromRole="relPaRolMPg" ToRole="catRol" />
+    <NavigationProperty Name="catMPage" Relationship="Persistence.EntityDataModel.FK_relPaRolMPg_catMPage" FromRole="relPaRolMPg" ToRole="catMPage" />
+    <NavigationProperty Name="catPais" Relationship="Persistence.EntityDataModel.FK_relPaRolMPg_catPais" FromRole="relPaRolMPg" ToRole="catPais" />
+  </EntityType>
+  <EntityType Name="relPaRolPg">
+    <Key>
+      <PropertyRef Name="IdPais" />
+      <PropertyRef Name="IdRol" />
+      <PropertyRef Name="IdPage" />
+    </Key>
+    <Property Type="Int32" Name="IdPais" Nullable="false" />
+    <Property Type="Int32" Name="IdRol" Nullable="false" />
+    <Property Type="Int32" Name="IdPage" Nullable="false" />
+    <NavigationProperty Name="catRol" Relationship="Persistence.EntityDataModel.FK_relPaRolPg_catRol" FromRole="relPaRolPg" ToRole="catRol" />
+    <NavigationProperty Name="catPage" Relationship="Persistence.EntityDataModel.FK_relPaRolPg_catPage" FromRole="relPaRolPg" ToRole="catPage" />
+    <NavigationProperty Name="catPais" Relationship="Persistence.EntityDataModel.FK_relPaRolPg_catPais" FromRole="relPaRolPg" ToRole="catPais" />
+  </EntityType>
+  <EntityType Name="relPaUsrRol">
+    <Key>
+      <PropertyRef Name="CemexID" />
+      <PropertyRef Name="IdPais" />
+    </Key>
+    <Property Type="String" Name="CemexID" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="IdPais" Nullable="false" />
+    <Property Type="Int32" Name="IdRol" Nullable="false" />
+    <Property Type="Int32" Name="IdStaRg" Nullable="false" />
+    <NavigationProperty Name="catRol" Relationship="Persistence.EntityDataModel.FK_relPaUsr_catRol" FromRole="relPaUsrRol" ToRole="catRol" />
+    <NavigationProperty Name="catUsr" Relationship="Persistence.EntityDataModel.FK_relPaUsr_catUsr" FromRole="relPaUsrRol" ToRole="catUsr" />
+    <NavigationProperty Name="catPais" Relationship="Persistence.EntityDataModel.FK_relPaUsr_catPais" FromRole="relPaUsrRol" ToRole="catPais" />
+    <NavigationProperty Name="catStaRg" Relationship="Persistence.EntityDataModel.FK_relPaUsrRol_catStaRg" FromRole="relPaUsrRol" ToRole="catStaRg" />
+  </EntityType>
+  <EntityType Name="catStaRg">
+    <Key>
+      <PropertyRef Name="IdStaRg" />
+    </Key>
+    <Property Type="Int32" Name="IdStaRg" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="NStaRg" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="relPaUsrRol" Relationship="Persistence.EntityDataModel.FK_relPaUsrRol_catStaRg" FromRole="catStaRg" ToRole="relPaUsrRol" />
+    <NavigationProperty Name="catPais" Relationship="Persistence.EntityDataModel.FK_catPais_catStaRg" FromRole="catStaRg" ToRole="catPais" />
+  </EntityType>
+  <EntityType Name="catMPage">
+    <Key>
+      <PropertyRef Name="IdMPage" />
+    </Key>
+    <Property Type="Int32" Name="IdMPage" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="DescMPage" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Url" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="AppName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="relPaRolMPg" Relationship="Persistence.EntityDataModel.FK_relPaRolMPg_catMPage" FromRole="catMPage" ToRole="relPaRolMPg" />
+    <NavigationProperty Name="catPage" Relationship="Persistence.EntityDataModel.relPgMPg" FromRole="catMPage" ToRole="catPage" />
+  </EntityType>
+  <EntityType Name="catPage">
+    <Key>
+      <PropertyRef Name="IdPage" />
+    </Key>
+    <Property Type="Int32" Name="IdPage" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="DescPage" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Url" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="AppName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="IdTPage" Nullable="false" />
+    <NavigationProperty Name="relPaRolPg" Relationship="Persistence.EntityDataModel.FK_relPaRolPg_catPage" FromRole="catPage" ToRole="relPaRolPg" />
+    <NavigationProperty Name="catTPage" Relationship="Persistence.EntityDataModel.FK_catPage_catTPage" FromRole="catPage" ToRole="catTPage" />
+    <NavigationProperty Name="catMPage" Relationship="Persistence.EntityDataModel.relPgMPg" FromRole="catPage" ToRole="catMPage" />
+  </EntityType>
+  <EntityType Name="catPais">
+    <Key>
+      <PropertyRef Name="IdPais" />
+    </Key>
+    <Property Type="Int32" Name="IdPais" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="NPais" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="NPaisA" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="IdStaRg" Nullable="false" />
+    <NavigationProperty Name="relPaRolMPg" Relationship="Persistence.EntityDataModel.FK_relPaRolMPg_catPais" FromRole="catPais" ToRole="relPaRolMPg" />
+    <NavigationProperty Name="relPaRolPg" Relationship="Persistence.EntityDataModel.FK_relPaRolPg_catPais" FromRole="catPais" ToRole="relPaRolPg" />
+    <NavigationProperty Name="relPaUsrRol" Relationship="Persistence.EntityDataModel.FK_relPaUsr_catPais" FromRole="catPais" ToRole="relPaUsrRol" />
+    <NavigationProperty Name="catStaRg" Relationship="Persistence.EntityDataModel.FK_catPais_catStaRg" FromRole="catPais" ToRole="catStaRg" />
+    <NavigationProperty Name="tbExCli" Relationship="Persistence.EntityDataModel.FK_tbExCli_catPais" FromRole="catPais" ToRole="tbExCli" />
+  </EntityType>
+  <EntityType Name="catTPage">
+    <Key>
+      <PropertyRef Name="IdTPage" />
+    </Key>
+    <Property Type="Int32" Name="IdTPage" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="DescTPage" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="catPage" Relationship="Persistence.EntityDataModel.FK_catPage_catTPage" FromRole="catTPage" ToRole="catPage" />
+  </EntityType>
+  <Association Name="FK_relPaRolMPg_catRol">
+    <End Type="Persistence.EntityDataModel.catRol" Role="catRol" Multiplicity="1" />
+    <End Type="Persistence.EntityDataModel.relPaRolMPg" Role="relPaRolMPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catRol">
+        <PropertyRef Name="IdRol" />
+      </Principal>
+      <Dependent Role="relPaRolMPg">
+        <PropertyRef Name="IdRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaRolPg_catRol">
+    <End Type="Persistence.EntityDataModel.catRol" Role="catRol" Multiplicity="1" />
+    <End Type="Persistence.EntityDataModel.relPaRolPg" Role="relPaRolPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catRol">
+        <PropertyRef Name="IdRol" />
+      </Principal>
+      <Dependent Role="relPaRolPg">
+        <PropertyRef Name="IdRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaUsr_catRol">
+    <End Type="Persistence.EntityDataModel.catRol" Role="catRol" Multiplicity="1" />
+    <End Type="Persistence.EntityDataModel.relPaUsrRol" Role="relPaUsrRol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catRol">
+        <PropertyRef Name="IdRol" />
+      </Principal>
+      <Dependent Role="relPaUsrRol">
+        <PropertyRef Name="IdRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaUsr_catUsr">
+    <End Type="Persistence.EntityDataModel.catUsr" Role="catUsr" Multiplicity="1" />
+    <End Type="Persistence.EntityDataModel.relPaUsrRol" Role="relPaUsrRol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catUsr">
+        <PropertyRef Name="CemexID" />
+      </Principal>
+      <Dependent Role="relPaUsrRol">
+        <PropertyRef Name="CemexID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaRolMPg_catMPage">
+    <End Type="Persistence.EntityDataModel.catMPage" Role="catMPage" Multiplicity="1" />
+    <End Type="Persistence.EntityDataModel.relPaRolMPg" Role="relPaRolMPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catMPage">
+        <PropertyRef Name="IdMPage" />
+      </Principal>
+      <Dependent Role="relPaRolMPg">
+        <PropertyRef Name="IdMPage" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaRolMPg_catPais">
+    <End Type="Persistence.EntityDataModel.catPais" Role="catPais" Multiplicity="1" />
+    <End Type="Persistence.EntityDataModel.relPaRolMPg" Role="relPaRolMPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catPais">
+        <PropertyRef Name="IdPais" />
+      </Principal>
+      <Dependent Role="relPaRolMPg">
+        <PropertyRef Name="IdPais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaRolPg_catPage">
+    <End Type="Persistence.EntityDataModel.catPage" Role="catPage" Multiplicity="1" />
+    <End Type="Persistence.EntityDataModel.relPaRolPg" Role="relPaRolPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catPage">
+        <PropertyRef Name="IdPage" />
+      </Principal>
+      <Dependent Role="relPaRolPg">
+        <PropertyRef Name="IdPage" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaRolPg_catPais">
+    <End Type="Persistence.EntityDataModel.catPais" Role="catPais" Multiplicity="1" />
+    <End Type="Persistence.EntityDataModel.relPaRolPg" Role="relPaRolPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catPais">
+        <PropertyRef Name="IdPais" />
+      </Principal>
+      <Dependent Role="relPaRolPg">
+        <PropertyRef Name="IdPais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaUsr_catPais">
+    <End Type="Persistence.EntityDataModel.catPais" Role="catPais" Multiplicity="1" />
+    <End Type="Persistence.EntityDataModel.relPaUsrRol" Role="relPaUsrRol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catPais">
+        <PropertyRef Name="IdPais" />
+      </Principal>
+      <Dependent Role="relPaUsrRol">
+        <PropertyRef Name="IdPais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPaUsrRol_catStaRg">
+    <End Type="Persistence.EntityDataModel.catStaRg" Role="catStaRg" Multiplicity="1" />
+    <End Type="Persistence.EntityDataModel.relPaUsrRol" Role="relPaUsrRol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catStaRg">
+        <PropertyRef Name="IdStaRg" />
+      </Principal>
+      <Dependent Role="relPaUsrRol">
+        <PropertyRef Name="IdStaRg" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_catPais_catStaRg">
+    <End Type="Persistence.EntityDataModel.catStaRg" Role="catStaRg" Multiplicity="1" />
+    <End Type="Persistence.EntityDataModel.catPais" Role="catPais" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catStaRg">
+        <PropertyRef Name="IdStaRg" />
+      </Principal>
+      <Dependent Role="catPais">
+        <PropertyRef Name="IdStaRg" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_catPage_catTPage">
+    <End Type="Persistence.EntityDataModel.catTPage" Role="catTPage" Multiplicity="1" />
+    <End Type="Persistence.EntityDataModel.catPage" Role="catPage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catTPage">
+        <PropertyRef Name="IdTPage" />
+      </Principal>
+      <Dependent Role="catPage">
+        <PropertyRef Name="IdTPage" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="relRolLS">
+    <End Type="Persistence.EntityDataModel.catLS" Role="catLS" Multiplicity="*" />
+    <End Type="Persistence.EntityDataModel.catRol" Role="catRol" Multiplicity="*" />
+  </Association>
+  <Association Name="relPgMPg">
+    <End Type="Persistence.EntityDataModel.catMPage" Role="catMPage" Multiplicity="*" />
+    <End Type="Persistence.EntityDataModel.catPage" Role="catPage" Multiplicity="*" />
+  </Association>
+  <ComplexType Name="SID_R_RJ">
+    <Property Type="Int32" Name="IdR" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="catTEx">
+    <Key>
+      <PropertyRef Name="IdTEx" />
+    </Key>
+    <Property Type="String" Name="IdTEx" Nullable="false" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="NTEx" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tbExCli" Relationship="Persistence.EntityDataModel.FK_tbExCli_catTEx" FromRole="catTEx" ToRole="tbExCli" />
+  </EntityType>
+  <ComplexType Name="SPIUD_R">
+    <Property Type="Int32" Name="Response" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="tbExCli">
+    <Key>
+      <PropertyRef Name="IdEx" />
+    </Key>
+    <Property Type="Int32" Name="IdEx" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int64" Name="IdCliente" Nullable="false" />
+    <Property Type="String" Name="IdTEx" Nullable="false" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="dtVig" />
+    <Property Type="Int32" Name="IdPais" Nullable="false" />
+    <Property Type="Int32" Name="IdRol" Nullable="false" />
+    <Property Type="String" Name="MsgEx" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int64" Name="IdEmp" />
+    <NavigationProperty Name="catRol" Relationship="Persistence.EntityDataModel.FK_tbExCli_catRol" FromRole="tbExCli" ToRole="catRol" />
+    <NavigationProperty Name="catTEx" Relationship="Persistence.EntityDataModel.FK_tbExCli_catTEx" FromRole="tbExCli" ToRole="catTEx" />
+    <NavigationProperty Name="catPais" Relationship="Persistence.EntityDataModel.FK_tbExCli_catPais" FromRole="tbExCli" ToRole="catPais" />
+  </EntityType>
+  <Association Name="FK_tbExCli_catRol">
+    <End Type="Persistence.EntityDataModel.catRol" Role="catRol" Multiplicity="1" />
+    <End Type="Persistence.EntityDataModel.tbExCli" Role="tbExCli" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catRol">
+        <PropertyRef Name="IdRol" />
+      </Principal>
+      <Dependent Role="tbExCli">
+        <PropertyRef Name="IdRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbExCli_catTEx">
+    <End Type="Persistence.EntityDataModel.catTEx" Role="catTEx" Multiplicity="1" />
+    <End Type="Persistence.EntityDataModel.tbExCli" Role="tbExCli" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catTEx">
+        <PropertyRef Name="IdTEx" />
+      </Principal>
+      <Dependent Role="tbExCli">
+        <PropertyRef Name="IdTEx" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbExCli_catPais">
+    <End Type="Persistence.EntityDataModel.catPais" Role="catPais" Multiplicity="1" />
+    <End Type="Persistence.EntityDataModel.tbExCli" Role="tbExCli" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catPais">
+        <PropertyRef Name="IdPais" />
+      </Principal>
+      <Dependent Role="tbExCli">
+        <PropertyRef Name="IdPais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="SPEmp_R">
+    <Property Type="String" Name="NEmp" Nullable="false" />
+    <Property Type="Int64" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Cargo" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="SPS_ExM_R">
+    <Property Type="Int32" Name="IdExMsg" Nullable="false" />
+    <Property Type="String" Name="Msg" Nullable="false" />
+    <Property Type="String" Name="IdTEx" Nullable="false" />
+    <Property Type="Int32" Name="IdStaRg" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="Fn_S_ExMsg_Result">
+    <Property Type="Int32" Name="IdExMsg" Nullable="false" />
+    <Property Type="String" Name="Msg" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="IdTEx" Nullable="false" MaxLength="5" />
+    <Property Type="Int32" Name="IdStaRg" Nullable="false" />
+  </ComplexType>
+</Schema>

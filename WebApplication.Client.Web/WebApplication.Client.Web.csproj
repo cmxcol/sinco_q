@@ -1,0 +1,805 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C8E97C9D-5289-43CA-885A-09F3925630FA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication.Client.Web</RootNamespace>
+    <AssemblyName>WebApplication.Client.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort>44300</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=15.1.4.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.15.1.4.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Excel, Version=2.0.1.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.8.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.8\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="itextsharp.pdfa, Version=5.5.8.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itextsharp.pdfa.5.5.8\lib\itextsharp.pdfa.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker, Version=5.5.8.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itextsharp.xmlworker.5.5.8\lib\itextsharp.xmlworker.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="itextsharp.xtra, Version=5.5.8.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itextsharp.xtra.5.5.8\lib\itextsharp.xtra.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.1.505.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.2.1.505.2\lib\NET35\Microsoft.Practices.Unity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=2.1.505.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.2.1.505.2\lib\NET35\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.Unity.Interception.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\AuthE.aspx" />
+    <Content Include="Account\CerrarSession.aspx" />
+    <Content Include="Account\ErrorPages\Error.aspx" />
+    <Content Include="Account\ErrorPages\Images\ErrorAsp.gif" />
+    <Content Include="Account\Images\03.png" />
+    <Content Include="Account\Images\cemexLogo.jpg" />
+    <Content Include="Account\Images\footer_b.png" />
+    <Content Include="Account\Images\footer_b2.png" />
+    <Content Include="Account\Images\footer_s.png" />
+    <Content Include="Account\Images\footer_t.png" />
+    <Content Include="Account\Images\footer_t2.png" />
+    <Content Include="Account\Images\header3.jpg" />
+    <Content Include="Account\Images\header4.png" />
+    <Content Include="Account\Images\header5.jpg" />
+    <Content Include="Account\Images\Logo_SINCO2.png" />
+    <Content Include="Account\Images\menuitem.png" />
+    <Content Include="Account\Images\menuitem2.png" />
+    <Content Include="Account\Images\menuseparator.png" />
+    <Content Include="Account\Images\nav.png" />
+    <Content Include="Account\Images\rssicon.png" />
+    <Content Include="Account\Images\sheet_h.png" />
+    <Content Include="Account\Images\sheet_h2.png" />
+    <Content Include="Account\Images\sheet_s.png" />
+    <Content Include="Account\Images\sheet_s2.png" />
+    <Content Include="Account\Images\sheet_v.png" />
+    <Content Include="Account\Images\soporte.png" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Soporte.aspx" />
+    <Content Include="Account\Style\SPublic.css" />
+    <Content Include="AdminSH\Images\soporte.png" />
+    <Content Include="AdminSH\PG\Home.aspx" />
+    <Content Include="CO\Images\03.png" />
+    <Content Include="CO\Images\ajax-loader.gif" />
+    <Content Include="CO\Images\ajax-loader.png" />
+    <Content Include="CO\Images\footer_b.png" />
+    <Content Include="CO\Images\footer_b2.png" />
+    <Content Include="CO\Images\footer_s.png" />
+    <Content Include="CO\Images\footer_t.png" />
+    <Content Include="CO\Images\footer_t2.png" />
+    <Content Include="CO\Images\header3.jpg" />
+    <Content Include="CO\Images\header4.png" />
+    <Content Include="CO\Images\header5.jpg" />
+    <Content Include="CO\Images\Logo_SINCO2.png" />
+    <Content Include="CO\Images\menuitem.png" />
+    <Content Include="CO\Images\menuitem2.png" />
+    <Content Include="CO\Images\nav.png" />
+    <Content Include="CO\Images\sheet_h.png" />
+    <Content Include="CO\Images\sheet_h2.png" />
+    <Content Include="CO\Images\sheet_s.png" />
+    <Content Include="CO\Images\sheet_s2.png" />
+    <Content Include="CO\Images\sheet_v.png" />
+    <Content Include="CO\Images\soporte.png" />
+    <Content Include="CO\PG\Adm\AsigA.aspx" />
+    <Content Include="CO\PG\Adm\VigenciaMasivo.aspx" />
+    <Content Include="CO\PG\Adm\Vigencia.aspx" />
+    <Content Include="CO\PG\Adm\CBloqueos.aspx" />
+    <Content Include="CO\PG\Adm\CEAlertas.aspx" />
+    <Content Include="CO\PG\Adm\CNotificaciones.aspx" />
+    <Content Include="CO\PG\Adm\CVen.aspx" />
+    <Content Include="CO\PG\Adm\CBloMasivo.aspx" />
+    <Content Include="CO\PG\Adm\ECartera.aspx" />
+    <Content Include="CO\PG\Adm\CBloqueados.aspx" />
+    <Content Include="CO\PG\Adm\EConfig.aspx" />
+    <Content Include="CO\PG\Adm\Usr.aspx" />
+    <Content Include="CO\PG\Home.aspx" />
+    <Content Include="CO\PG\Soporte.aspx" />
+    <Content Include="CO\PG\Usr\DescVal.aspx" />
+    <Content Include="CO\PG\Usr\DescVal.js" />
+    <Content Include="CO\PG\Usr\DescValN.aspx" />
+    <Content Include="CO\PG\Usr\ModPedidos.aspx" />
+    <Content Include="CO\PG\Usr\MOrd.aspx" />
+    <Content Include="CO\PG\Usr\Proforma.aspx" />
+    <Content Include="CO\PG\Usr\ProgPedidos.aspx" />
+    <Content Include="CO\PG\Usr\Reportes.aspx" />
+    <Content Include="CO\Styles\SMaster.css" />
+    <Content Include="CO\UsrCtrl\PUMsg.ascx" />
+    <Content Include="ErrorPages\Error.aspx" />
+    <Content Include="CO\Images\cemexLogo.jpg" />
+    <Content Include="CO\Images\rssicon.png" />
+    <Content Include="CO\Styles\SPublic.css" />
+    <Content Include="ErrorPages\Images\ErrorAsp.gif" />
+    <Content Include="Global.asax" />
+    <Content Include="ME\Images\03.png" />
+    <Content Include="ME\Images\ajax-loader.gif" />
+    <Content Include="ME\Images\ajax-loader.png" />
+    <Content Include="ME\Images\cemexLogo.jpg" />
+    <Content Include="ME\Images\footer_b.png" />
+    <Content Include="ME\Images\footer_b2.png" />
+    <Content Include="ME\Images\footer_s.png" />
+    <Content Include="ME\Images\footer_t.png" />
+    <Content Include="ME\Images\footer_t2.png" />
+    <Content Include="ME\Images\header3.jpg" />
+    <Content Include="ME\Images\header4.png" />
+    <Content Include="ME\Images\header5.jpg" />
+    <Content Include="ME\Images\Logo_SINCO2.png" />
+    <Content Include="ME\Images\menuitem.png" />
+    <Content Include="ME\Images\menuitem2.png" />
+    <Content Include="ME\Images\nav.png" />
+    <Content Include="ME\Images\rssicon.png" />
+    <Content Include="ME\Images\sheet_h.png" />
+    <Content Include="ME\Images\sheet_h2.png" />
+    <Content Include="ME\Images\sheet_s.png" />
+    <Content Include="ME\Images\sheet_s2.png" />
+    <Content Include="ME\Images\sheet_v.png" />
+    <Content Include="ME\Images\soporte.png" />
+    <Content Include="ME\PG\Adm\CBloMasivo.aspx" />
+    <Content Include="ME\PG\Adm\CBloqueados.aspx" />
+    <Content Include="ME\PG\Adm\CBloqueos.aspx" />
+    <Content Include="ME\PG\Adm\CVen.aspx" />
+    <Content Include="ME\PG\Adm\EConfig.aspx" />
+    <Content Include="ME\PG\Adm\Vigencia.aspx" />
+    <Content Include="ME\PG\Adm\VigenciaMasivo.aspx" />
+    <Content Include="ME\PG\Home.aspx" />
+    <Content Include="ME\PG\Soporte.aspx" />
+    <Content Include="ME\PG\Usr\ProgPedidos.aspx" />
+    <Content Include="ME\Styles\SMaster.css" />
+    <Content Include="ME\Styles\SPublic.css" />
+    <Content Include="PA\Images\cemexLogo.jpg" />
+    <Content Include="PA\Images\rssicon.png" />
+    <Content Include="PA\Styles\SPublic.css" />
+    <Content Include="packages.config" />
+    <Content Include="CO\Doc\Proforma\Factura.pdf" />
+    <Content Include="CO\PG\Usr\Handler_Descuento\Descuentos.ashx" />
+    <Content Include="ME\MP\AdmME.Master" />
+    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.4.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.map" />
+    <None Include="Service References\WSDL_CC_MRP\configuration91.svcinfo" />
+    <None Include="Service References\WSDL_CC_MRP\configuration.svcinfo" />
+    <None Include="Service References\WSDL_CC_MRP\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\configuration91.svcinfo" />
+    <None Include="Service References\WSDL_SO_MRP\configuration.svcinfo" />
+    <None Include="Service References\WSDL_SO_MRP\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <None Include="Service References\WSDL_CC_MRP\WebApplication.Client.Web.WSDL_CC_MRP.DT_CustomerStatementResp.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\document.wsdl" />
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_ContractCRM.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_CreditNoteR.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_CustomerDataCRM.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_DocumentType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_Frente.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_ListNames.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_Material.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_MeasureUnit.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_RequestCreateOrderTaking.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_ResponseAdvancePaymentCRM.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_ResponseAtpCtp.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_ResponseCreateOrderTaking.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_ResponseDocumentList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_ResponseListConditionsCRM.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_ResponseListOrganization.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_ResponseListPaymentTerms.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_ResponseSimulateOrderTaking.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_RespProcessFlag.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_Sucursal.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WSDL_SO_MRP\WebApplication.Client.Web.WSDL_SO_MRP.DT_UpSelling.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\AuthE.aspx.cs">
+      <DependentUpon>AuthE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\AuthE.aspx.designer.cs">
+      <DependentUpon>AuthE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\CerrarSession.aspx.cs">
+      <DependentUpon>CerrarSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\CerrarSession.aspx.designer.cs">
+      <DependentUpon>CerrarSession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ErrorPages\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ErrorPages\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\MP\LoginMaster.Master.cs">
+      <DependentUpon>LoginMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\MP\LoginMaster.Master.designer.cs">
+      <DependentUpon>LoginMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Soporte.aspx.cs">
+      <DependentUpon>Soporte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Soporte.aspx.designer.cs">
+      <DependentUpon>Soporte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSH\PG\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSH\PG\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\BMPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\BPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSH\MP\AdmL3.Master.cs">
+      <DependentUpon>AdmL3.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSH\MP\AdmL3.Master.designer.cs">
+      <DependentUpon>AdmL3.Master</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\ServiciosGUI.cs" />
+    <Compile Include="CO\MP\AdmC.Master.cs">
+      <DependentUpon>AdmC.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\MP\AdmC.Master.designer.cs">
+      <DependentUpon>AdmC.Master</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Adm\AsigA.aspx.cs">
+      <DependentUpon>AsigA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Adm\AsigA.aspx.designer.cs">
+      <DependentUpon>AsigA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Adm\VigenciaMasivo.aspx.cs">
+      <DependentUpon>VigenciaMasivo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Adm\VigenciaMasivo.aspx.designer.cs">
+      <DependentUpon>VigenciaMasivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Adm\Vigencia.aspx.cs">
+      <DependentUpon>Vigencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Adm\Vigencia.aspx.designer.cs">
+      <DependentUpon>Vigencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Adm\CBloqueos.aspx.cs">
+      <DependentUpon>CBloqueos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Adm\CBloqueos.aspx.designer.cs">
+      <DependentUpon>CBloqueos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Adm\CEAlertas.aspx.cs">
+      <DependentUpon>CEAlertas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Adm\CEAlertas.aspx.designer.cs">
+      <DependentUpon>CEAlertas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Adm\CNotificaciones.aspx.cs">
+      <DependentUpon>CNotificaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Adm\CNotificaciones.aspx.designer.cs">
+      <DependentUpon>CNotificaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Adm\CVen.aspx.cs">
+      <DependentUpon>CVen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Adm\CVen.aspx.designer.cs">
+      <DependentUpon>CVen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Adm\CBloMasivo.aspx.cs">
+      <DependentUpon>CBloMasivo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Adm\CBloMasivo.aspx.designer.cs">
+      <DependentUpon>CBloMasivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Adm\ECartera.aspx.cs">
+      <DependentUpon>ECartera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Adm\ECartera.aspx.designer.cs">
+      <DependentUpon>ECartera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Adm\CBloqueados.aspx.cs">
+      <DependentUpon>CBloqueados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Adm\CBloqueados.aspx.designer.cs">
+      <DependentUpon>CBloqueados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Adm\EConfig.aspx.cs">
+      <DependentUpon>EConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Adm\EConfig.aspx.designer.cs">
+      <DependentUpon>EConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Adm\Usr.aspx.cs">
+      <DependentUpon>Usr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Adm\Usr.aspx.designer.cs">
+      <DependentUpon>Usr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Soporte.aspx.cs">
+      <DependentUpon>Soporte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Soporte.aspx.designer.cs">
+      <DependentUpon>Soporte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Usr\DescVal.aspx.cs">
+      <DependentUpon>DescVal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Usr\DescVal.aspx.designer.cs">
+      <DependentUpon>DescVal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Usr\DescValN.aspx.cs">
+      <DependentUpon>DescValN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Usr\DescValN.aspx.designer.cs">
+      <DependentUpon>DescValN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Usr\Handler_Descuento\Descuentos.ashx.cs">
+      <DependentUpon>Descuentos.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Usr\ModPedidos.aspx.cs">
+      <DependentUpon>ModPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Usr\ModPedidos.aspx.designer.cs">
+      <DependentUpon>ModPedidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Usr\MOrd.aspx.cs">
+      <DependentUpon>MOrd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Usr\MOrd.aspx.designer.cs">
+      <DependentUpon>MOrd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Usr\Proforma.aspx.cs">
+      <DependentUpon>Proforma.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Usr\Proforma.aspx.designer.cs">
+      <DependentUpon>Proforma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Usr\ProgPedidos.aspx.cs">
+      <DependentUpon>ProgPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Usr\ProgPedidos.aspx.designer.cs">
+      <DependentUpon>ProgPedidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\PG\Usr\Reportes.aspx.cs">
+      <DependentUpon>Reportes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\PG\Usr\Reportes.aspx.designer.cs">
+      <DependentUpon>Reportes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\UsrCtrl\PUMsg.ascx.cs">
+      <DependentUpon>PUMsg.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\UsrCtrl\PUMsg.ascx.designer.cs">
+      <DependentUpon>PUMsg.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPages\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPages\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CO\MP\AdmCS.Master.cs">
+      <DependentUpon>AdmCS.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\MP\AdmCS.Master.designer.cs">
+      <DependentUpon>AdmCS.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSH\MP\AdmL2.Master.cs">
+      <DependentUpon>AdmL2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSH\MP\AdmL2.Master.designer.cs">
+      <DependentUpon>AdmL2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="CO\MP\UsrP.Master.cs">
+      <DependentUpon>UsrP.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\MP\UsrP.Master.designer.cs">
+      <DependentUpon>UsrP.Master</DependentUpon>
+    </Compile>
+    <Compile Include="CO\MP\UsrSp.Master.cs">
+      <DependentUpon>UsrSp.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CO\MP\UsrSp.Master.designer.cs">
+      <DependentUpon>UsrSp.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ME\MP\AdmME.Master.cs">
+      <DependentUpon>AdmME.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ME\MP\AdmME.Master.designer.cs">
+      <DependentUpon>AdmME.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ME\PG\Adm\CBloMasivo.aspx.cs">
+      <DependentUpon>CBloMasivo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ME\PG\Adm\CBloMasivo.aspx.designer.cs">
+      <DependentUpon>CBloMasivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ME\PG\Adm\CBloqueados.aspx.cs">
+      <DependentUpon>CBloqueados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ME\PG\Adm\CBloqueados.aspx.designer.cs">
+      <DependentUpon>CBloqueados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ME\PG\Adm\CBloqueos.aspx.cs">
+      <DependentUpon>CBloqueos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ME\PG\Adm\CBloqueos.aspx.designer.cs">
+      <DependentUpon>CBloqueos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ME\PG\Adm\CVen.aspx.cs">
+      <DependentUpon>CVen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ME\PG\Adm\CVen.aspx.designer.cs">
+      <DependentUpon>CVen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ME\PG\Adm\EConfig.aspx.cs">
+      <DependentUpon>EConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ME\PG\Adm\EConfig.aspx.designer.cs">
+      <DependentUpon>EConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ME\PG\Adm\Vigencia.aspx.cs">
+      <DependentUpon>Vigencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ME\PG\Adm\Vigencia.aspx.designer.cs">
+      <DependentUpon>Vigencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ME\PG\Adm\VigenciaMasivo.aspx.cs">
+      <DependentUpon>VigenciaMasivo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ME\PG\Adm\VigenciaMasivo.aspx.designer.cs">
+      <DependentUpon>VigenciaMasivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ME\PG\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ME\PG\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ME\PG\Soporte.aspx.cs">
+      <DependentUpon>Soporte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ME\PG\Soporte.aspx.designer.cs">
+      <DependentUpon>Soporte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ME\PG\Usr\ProgPedidos.aspx.cs">
+      <DependentUpon>ProgPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ME\PG\Usr\ProgPedidos.aspx.designer.cs">
+      <DependentUpon>ProgPedidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\WSDL_CC_MRP\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\WSDL_SO_MRP\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="CO\Doc\Bloqueos\" />
+    <Folder Include="CO\Doc\Excepciones\" />
+    <Folder Include="CO\Doc\Proforma\Generados\" />
+    <Folder Include="PA\MP\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Components\Components.csproj">
+      <Project>{04AB015C-0745-486C-8295-DE21BE90AFC0}</Project>
+      <Name>Components</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO Adapter\DTO Adapter.csproj">
+      <Project>{91B62D55-5988-4015-8D71-21036839AD3B}</Project>
+      <Name>DTO Adapter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
+      <Project>{F9BB9D76-B0E5-40C1-83D6-2B0FF75D481A}</Project>
+      <Name>Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Persistence\Persistence.csproj">
+      <Project>{95053D38-BC11-49A9-A731-02085FDE2B4F}</Project>
+      <Name>Persistence</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Services\Services.csproj">
+      <Project>{A238625B-C29E-4ACD-B689-6BF868542F74}</Project>
+      <Name>Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\MP\LoginMaster.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CO\MP\UsrP.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CO\MP\UsrSp.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CO\MP\AdmCS.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminSH\MP\AdmL2.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminSH\MP\AdmL3.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CO\MP\AdmC.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\WSDL_CC_MRP\SI_OS_CustomerStatement.wsdl">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\WSDL_CC_MRP\" />
+    <WCFMetadataStorage Include="Service References\WSDL_SO_MRP\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

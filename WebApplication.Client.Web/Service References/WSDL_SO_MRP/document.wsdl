@@ -1,0 +1,1692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://cemex.com/portalcrm/OrderTaking/OrderTakingCRM" xmlns:n1="http://cemex.com/portalcrm/common/datatypes" xmlns:n2="http://cemex.com/portalcrm/OrderTaking/OrderTakingECC" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" targetNamespace="http://cemex.com/portalcrm/OrderTaking/OrderTakingCRM" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>
+    <sidl:sidl xmlns:sidl="http://www.sap.com/2007/03/sidl" />
+  </wsdl:documentation>
+  <wsp:UsingPolicy wsdl:required="true" />
+  <wsp:Policy wsu:Id="BN_BN_ZB_ORDTAKINGCRM">
+    <saptrnbnd:OptimizedXMLTransfer uri="http://xml.sap.com/2006/11/esi/esp/binxml" xmlns:saptrnbnd="http://www.sap.com/webas/710/soap/features/transportbinding/" wsp:Optional="true" />
+    <saptrnbnd:OptimizedXMLTransfer uri="http://www.w3.org/2004/08/soap/features/http-optimization" xmlns:saptrnbnd="http://www.sap.com/webas/710/soap/features/transportbinding/" wsp:Optional="true" />
+    <wsp:ExactlyOne xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:sapsp="http://www.sap.com/webas/630/soap/features/security/policy" xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wst="http://docs.oasis-open.org/ws-sx/ws-trust/200512" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex">
+      <wsp:All>
+        <sp:TransportBinding>
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken>
+                  <wsp:Policy>
+                    <sp:HttpBasicAuthentication />
+                  </wsp:Policy>
+                </sp:HttpsToken>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:TripleDesRsa15 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+      <wsp:All>
+        <sp:TransportBinding>
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken>
+                  <wsp:Policy>
+                    <sapsp:HTTPSSO2 />
+                  </wsp:Policy>
+                </sp:HttpsToken>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:TripleDesRsa15 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="IF_IF_SI_IS_External_to_OrderTakingCRM">
+    <sapsession:Session xmlns:sapsession="http://www.sap.com/webas/630/soap/features/session/">
+      <sapsession:enableSession>false</sapsession:enableSession>
+    </sapsession:Session>
+    <sapcentraladmin:CentralAdministration xmlns:sapcentraladmin="http://www.sap.com/webas/700/soap/features/CentralAdministration/" wsp:Optional="true">
+      <sapcentraladmin:BusinessApplicationID>4D069BD496AD0106E10080000A1A87A4</sapcentraladmin:BusinessApplicationID>
+    </sapcentraladmin:CentralAdministration>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestListDocumentType">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestPaymentTerms">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestListMaterial">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestListContract">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestListConditions">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestAdvancePayment">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestListUpSelling">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestListSucursalByOrganization">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestListSucursal">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestListOrganization">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestCustomerData">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_SimulateOrderTaking">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestListNames">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestListUnitMeasure">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestListFrente">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestCustomerData2">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_CreateOrderTaking">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_SearchOrderTaking">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestListFrenteByOrganization">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_SI_IS_RequestAtpCtp">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema xmlns="http://cemex.com/portalcrm/common/datatypes" xmlns:xi0="http://cemex.com/portalcrm/common/datatypes" xmlns:xi2="http://cemex.com/portalcrm/OrderTaking/OrderTakingCRM" xmlns:xi1="http://cemex.com/portalcrm/OrderTaking/OrderTakingECC" targetNamespace="http://cemex.com/portalcrm/common/datatypes">
+      <xsd:import namespace="http://cemex.com/portalcrm/OrderTaking/OrderTakingCRM" />
+      <xsd:complexType name="DT_AdvancePayment">
+        <xsd:sequence>
+          <xsd:element name="CustomerNumber" type="xsd:string" />
+          <xsd:element name="CustomerPayer" type="xsd:string" />
+          <xsd:element name="CustomerBill" type="xsd:string" />
+          <xsd:element name="Sales_Org" type="xsd:string" />
+          <xsd:element name="Channel" type="xsd:string" />
+          <xsd:element name="Division" type="xsd:string" />
+          <xsd:element name="PostingDate" type="xsd:string" />
+          <xsd:element name="Waers" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_AdvancePaymentCRM">
+        <xsd:sequence>
+          <xsd:element name="CompanyCode" type="xsd:string" />
+          <xsd:element name="CustomerNumber" type="xsd:string" />
+          <xsd:element name="FiscalYear" type="xsd:string" />
+          <xsd:element name="DocNumber" type="xsd:string" />
+          <xsd:element name="Currency" type="xsd:string" />
+          <xsd:element name="OriginalAmount" type="xsd:string" />
+          <xsd:element name="AmountCommitted" type="xsd:string" />
+          <xsd:element name="AmountAplied" type="xsd:string" />
+          <xsd:element name="DocType" type="xsd:string" />
+          <xsd:element name="Reference1" type="xsd:string" />
+          <xsd:element name="ReferenceZ" type="xsd:string" />
+          <xsd:element name="Reference3" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_AtpCtp">
+        <xsd:sequence>
+          <xsd:element name="Item" type="xsd:string" />
+          <xsd:element minOccurs="0" name="ComplFields" type="xi0:DT_AtpCtpComp" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="DatesTimes" type="xi0:DT_AtpCtpOptions" />
+          <xsd:element minOccurs="0" name="Confirm" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_AtpCtpComp">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="Vehicle_Cov" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Opt_Plant" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Priority_Plant" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Opt_Priority" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Lot_Charge" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Log_Rec" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Transp_Grp" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_AtpCtpHeader">
+        <xsd:sequence>
+          <xsd:element name="Doc_Type" type="xsd:string" />
+          <xsd:element name="Sales_Org" type="xsd:string" />
+          <xsd:element name="Channel" type="xsd:string" />
+          <xsd:element name="Division" type="xsd:string" />
+          <xsd:element name="Ship_Cond" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_AtpCtpItem">
+        <xsd:sequence>
+          <xsd:element name="Item" type="xsd:string" />
+          <xsd:element name="Material" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Dlv_Grp" type="xsd:string" />
+          <xsd:element name="Tar_Qty" type="xsd:string" />
+          <xsd:element name="Tar_QU" type="xsd:string" />
+          <xsd:element name="Req_Qty" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Req_Dte" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Req_Time" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Item_typ" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Plant" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Cont_Plant" type="xsd:string" />
+          <xsd:element minOccurs="0" name="User_plant" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Trading" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_AtpCtpOptions">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="Dlv_grp" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Plant" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Date_Del" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Time_Del" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Flag_Ok" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Vehicle_Cov" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Opt_Plant" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Priority_Plant" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Opt_Priority" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Lot_Charge" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Log_Rec" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Transp_Grp" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Wa_Dat" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Wa_Uhr" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Mb_Dat" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Mb_Uhr" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Td_Dat" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Td_Uhr" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ld_Dat" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ld_Uhr" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_AtpCtpPartner">
+        <xsd:sequence>
+          <xsd:element name="Part_Role" type="xsd:string" />
+          <xsd:element name="Part_Number" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_BusinessLine2">
+        <xsd:sequence>
+          <xsd:element name="SalesArea" type="xi0:DT_SalesArea2" />
+          <xsd:element name="Description">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="35" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_CallType">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="CallType" type="xsd:string" />
+          <xsd:element minOccurs="0" name="CallDesc" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_Condiciones">
+        <xsd:sequence>
+          <xsd:element name="Cond_Code" type="xsd:string" />
+          <xsd:element name="Cond_Name" type="xsd:string" />
+          <xsd:element name="Cond_Value" type="xsd:string" />
+          <xsd:element name="Cond_Type" type="xsd:string" />
+          <xsd:element name="Value_Cond" type="xsd:string" />
+          <xsd:element name="Cond_Curr" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ConditionsCRM">
+        <xsd:sequence>
+          <xsd:element name="VSBED" type="xsd:string" />
+          <xsd:element name="VTEXT" type="xsd:string" />
+          <xsd:element name="DESCRIPTION" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PLACA" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ContractCRM">
+        <xsd:sequence>
+          <xsd:element name="Document" type="xsd:string" />
+          <xsd:element name="Item" type="xsd:string" />
+          <xsd:element name="Quantity" type="xsd:decimal" />
+          <xsd:element name="Unit_Med" type="xsd:string" />
+          <xsd:element name="Doc_Typ" type="xsd:string" />
+          <xsd:element name="Net_Val" type="xsd:decimal" />
+          <xsd:element name="Wears" type="xsd:string" />
+          <xsd:element name="Val_Dte" type="xsd:string" />
+          <xsd:element name="PO_Number" type="xsd:string" />
+          <xsd:element name="Exp_Dte" type="xsd:string" />
+          <xsd:element name="Pay_Tert" type="xsd:string" />
+          <xsd:element name="Rele_PT" type="xsd:string" />
+          <xsd:element name="Exp_Cnd" type="xsd:string" />
+          <xsd:element name="Rele_SC" type="xsd:string" />
+          <xsd:element name="Plant" type="xsd:string" />
+          <xsd:element name="Rele_Plant" type="xsd:string" />
+          <xsd:element name="Trading" type="xsd:string" />
+          <xsd:element name="Trading_N" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_Country">
+        <xsd:sequence>
+          <xsd:element name="Country" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_CreateAdvancePmt">
+        <xsd:sequence>
+          <xsd:element name="CompanyCode" type="xsd:string" />
+          <xsd:element name="FiscalYear" type="xsd:string" />
+          <xsd:element name="DocNumber" type="xsd:string" />
+          <xsd:element name="CustomerNumber" type="xsd:string" />
+          <xsd:element name="Currency" type="xsd:string" />
+          <xsd:element name="AmountAply" type="xsd:string" />
+          <xsd:element name="Item" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_CreateOrderConditions">
+        <xsd:sequence>
+          <xsd:element name="ITM_NUMBER" type="xsd:string" />
+          <xsd:element name="COND_TYPE" type="xsd:string" />
+          <xsd:element name="COND_VALUE" type="xsd:decimal" />
+          <xsd:element name="CURRENCY" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_CreateOrderText">
+        <xsd:sequence>
+          <xsd:element name="Doc_Number" type="xsd:string" />
+          <xsd:element name="Itm_Number" type="xsd:string" />
+          <xsd:element name="Text_Id" type="xsd:string" />
+          <xsd:element name="Langu" type="xsd:string" />
+          <xsd:element name="Text_Line" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_CreditNote">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="ConpanyCode" type="xsd:string" />
+          <xsd:element minOccurs="0" name="FiscalYear" type="xsd:string" />
+          <xsd:element minOccurs="0" name="DocNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" name="ReferenceZ" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_CreditNoteR">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="DocNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Reference" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Message" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_Currency">
+        <xsd:sequence>
+          <xsd:element name="Currency" type="xsd:string" />
+          <xsd:element name="Default" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_CustomerData2">
+        <xsd:sequence>
+          <xsd:element name="CustomerNumber">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="10" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="SalesOrg">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="4" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="DistChannel">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="2" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Division">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="2" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_CustomerDataCRM">
+        <xsd:sequence>
+          <xsd:element name="Maneuver_Auth">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="1" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Credit_Message">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="50" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Max_Capacity">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="15" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Exped_Cond">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="2" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Exped_Condtx">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="20" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Min_Capacity">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="15" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Cust_Type">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="60" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="PO_Type" type="xsd:string" />
+          <xsd:element name="Prioridad" type="xsd:string" />
+          <xsd:element name="Texto_Fact" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_CustomerNumb">
+        <xsd:sequence>
+          <xsd:element name="CustomerNumber">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="10" />
+                <xsd:minLength value="1" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_DOCLIST">
+        <xsd:sequence>
+          <xsd:element name="VBELN" type="xsd:string" />
+          <xsd:element name="ERDAT" type="xsd:string" />
+          <xsd:element name="ERZET" type="xsd:string" />
+          <xsd:element name="ERNAM" type="xsd:string" />
+          <xsd:element name="ANGDT" type="xsd:string" />
+          <xsd:element name="BNDDT" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_DocNumber">
+        <xsd:sequence>
+          <xsd:element name="VBELN" type="xsd:string" />
+          <xsd:element minOccurs="0" name="TYPE" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_DocumentType">
+        <xsd:sequence>
+          <xsd:element name="TVARV_LOW" type="xsd:string" />
+          <xsd:element name="Description">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="60" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_Frente">
+        <xsd:sequence>
+          <xsd:element name="VALUE" type="xsd:string" />
+          <xsd:element name="CODE" type="xsd:string" />
+          <xsd:element name="STREET" type="xsd:string" />
+          <xsd:element name="CITY" type="xsd:string" />
+          <xsd:element name="STATE" type="xsd:string" />
+          <xsd:element name="COUNTRY" type="xsd:string" />
+          <xsd:element name="ZIPCODE" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ListNames">
+        <xsd:sequence>
+          <xsd:element name="Part_Role" type="xsd:string" />
+          <xsd:element name="Part_Name" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ListSucursal">
+        <xsd:sequence>
+          <xsd:element name="CustomerNumber" type="xi0:DT_CustomerNumb" />
+          <xsd:element name="SalesArea" type="xi0:DT_SalesArea2" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_Material">
+        <xsd:sequence>
+          <xsd:element name="COUNTRY" type="xsd:string" />
+          <xsd:element name="MATNR" type="xsd:string" />
+          <xsd:element name="BISMT" type="xsd:string" />
+          <xsd:element name="WERKS" type="xsd:string" />
+          <xsd:element name="VKORG" type="xsd:string" />
+          <xsd:element name="MAKTX" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_MaterialNumber">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="MaterialNumber">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="18" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_MeasureUnit">
+        <xsd:sequence>
+          <xsd:element name="MEINS" type="xsd:string" />
+          <xsd:element name="MSEHL" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_PTHeader">
+        <xsd:sequence>
+          <xsd:element name="Country" type="xsd:string" />
+          <xsd:element name="Sales_Org" type="xsd:string" />
+          <xsd:element name="Channel" type="xsd:string" />
+          <xsd:element name="Division" type="xsd:string" />
+          <xsd:element name="Doc_type" type="xsd:string" />
+          <xsd:element name="Sold_To" type="xsd:string" />
+          <xsd:element name="Ship_To" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_PTItem">
+        <xsd:sequence>
+          <xsd:element name="Item" type="xsd:string" />
+          <xsd:element name="Material" type="xsd:string" />
+          <xsd:element name="DocRef" type="xsd:string" />
+          <xsd:element name="PosRef" type="xsd:string" />
+          <xsd:element name="Doc_Cat" type="xsd:string" />
+          <xsd:element name="Plant" type="xsd:string" />
+          <xsd:element name="Date" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_PaymentTerms">
+        <xsd:sequence>
+          <xsd:element name="CODE" type="xsd:string" />
+          <xsd:element name="VALUE" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ReqProcesFlag">
+        <xsd:sequence>
+          <xsd:element name="Country" type="xsd:string" />
+          <xsd:element name="Process" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestAtpCtp">
+        <xsd:sequence>
+          <xsd:element name="Header" type="xi0:DT_AtpCtpHeader" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Item" type="xi0:DT_AtpCtpItem" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Partners" type="xi0:DT_AtpCtpPartner" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestConvertCreditNote">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="CreditNote" type="xi0:DT_CreditNote" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestCreateOrderTaking">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="Header" type="xi0:DT_SimulateHeader" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Item" type="xi0:DT_SimulateItem" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Partners" type="xi0:DT_SimulatePartner" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Conditions" type="xi0:DT_CreateOrderConditions" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Text" type="xi0:DT_CreateOrderText" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="AdvancePmt" type="xi0:DT_CreateAdvancePmt" />
+          <xsd:element minOccurs="0" name="ActivCust" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestCreateOrderTakingCRM">
+        <xsd:sequence>
+          <xsd:element name="Header" type="xi0:DT_SimulateHeader" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Item" type="xi0:DT_SimulateItemCRM" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Partners" type="xi0:DT_SimulatePartner" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Conditions" type="xi0:DT_CreateOrderConditions" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Text" type="xi0:DT_CreateOrderText" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="AdvancePmt" type="xi0:DT_CreateAdvancePmt" />
+          <xsd:element minOccurs="0" name="ActivCust" type="xsd:string" />
+          <xsd:element minOccurs="0" name="ActivCont" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Monto_Cero" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ref_Docu" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestCustomerData2">
+        <xsd:sequence>
+          <xsd:element name="RequestCustomerData2" type="xi0:DT_CustomerData2" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestDocuments">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="SalesArea" type="xi0:DT_SalesArea2" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Partners" type="xi0:DT_SimulatePartner" />
+          <xsd:element minOccurs="0" name="DocumentType" type="xsd:string" />
+          <xsd:element minOccurs="0" name="ReferenceType" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestListAdvancePayment">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="RequestListAdvancedPayment" type="xi0:DT_AdvancePayment" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestListCarrier">
+        <xsd:sequence>
+          <xsd:element name="RequestListCarrier" type="xi0:DT_ListSucursal" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestListConditions">
+        <xsd:sequence>
+          <xsd:element name="RequestCustomerData" type="xi0:DT_CustomerData2" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestListContract">
+        <xsd:sequence>
+          <xsd:element name="Header" type="xi0:DT_SimulateHeader" />
+          <xsd:element name="Item" type="xi0:DT_SimulateItem" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Partners" type="xi0:DT_SimulatePartner" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestListDocumentType">
+        <xsd:sequence>
+          <xsd:element name="RequestListDocumentType" type="xi0:DT_Country" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestListFrente">
+        <xsd:sequence>
+          <xsd:element name="RequestListFrente" type="xi0:DT_ListSucursal" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestListMaterial">
+        <xsd:sequence>
+          <xsd:element name="RequestListMaterial" type="xi0:DT_Material" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestListName">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="RequestListName" type="xi0:DT_SimulatePartner" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestListOrganization">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="Sold_To" type="xi0:DT_CustomerNumb" />
+          <xsd:element minOccurs="0" name="Ship_To" type="xi0:DT_CustomerNumb" />
+          <xsd:element minOccurs="0" name="Deliv_To" type="xi0:DT_CustomerNumb" />
+          <xsd:element minOccurs="0" name="Country" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestListPaymentTerms">
+        <xsd:sequence>
+          <xsd:element name="Header" type="xi0:DT_PTHeader" />
+          <xsd:element name="Item" type="xi0:DT_PTItem" />
+          <xsd:element name="Cont_PT">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="4" />
+                <xsd:minLength value="1" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestListSucursal">
+        <xsd:sequence>
+          <xsd:element name="RequestListSucursal" type="xi0:DT_ListSucursal" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestListUM">
+        <xsd:sequence>
+          <xsd:element name="RequestListUM" type="xi0:DT_MaterialNumber" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestListUpSelling">
+        <xsd:sequence>
+          <xsd:element name="RequestListUpSelling" type="xi0:DT_CustomerNumb" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RequestSimulateOrderTakingCRM">
+        <xsd:sequence>
+          <xsd:element name="Header" type="xi0:DT_SimulateHeader" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Item" type="xi0:DT_SimulateItemCRM" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Partners" type="xi0:DT_SimulatePartner" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_RespProcessFlag">
+        <xsd:sequence>
+          <xsd:element name="Flag" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseAdvancePaymentCRM">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ResponceListAdvancedPayment" type="xi0:DT_AdvancePaymentCRM" />
+          <xsd:element minOccurs="0" name="LockMessage" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseAtpCtp">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ATP_CTP" type="xi0:DT_AtpCtp" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ATP_Message" type="xi0:DT_SimulateMessa" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseCreateOrderTaking">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="MessageOutList" type="xi0:DT_SimulateMessa" />
+          <xsd:element minOccurs="0" name="SalesDocument" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Credit_Status" type="xsd:string" />
+          <xsd:element minOccurs="0" name="General_Status" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Subtotal" type="xsd:decimal" />
+          <xsd:element minOccurs="0" name="Taxas" type="xsd:decimal" />
+          <xsd:element minOccurs="0" name="Total" type="xsd:decimal" />
+          <xsd:element minOccurs="0" name="Caso" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseCreditNote">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="CredirNoteR" type="xi0:DT_CreditNoteR" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseCustomerDataCRM">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ResponseCustomerData" type="xi0:DT_CustomerDataCRM" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseDocumentList">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ResposeDocumentList" type="xi0:DT_DOCLIST" />
+          <xsd:element name="Message" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseListCarrier">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ResponseListFrente" type="xi0:DT_Frente" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseListConditionsCRM">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="P_PA" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ResponseListConditions" type="xi0:DT_ConditionsCRM" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseListContractCRM">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ResponseListContract" type="xi0:DT_ContractCRM" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseListDocumentType">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ResponseListDocumentType" type="xi0:DT_DocumentType" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseListFrente">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ResponseListFrente" type="xi0:DT_Frente" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseListMaterial">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ResponseListMaterial" type="xi0:DT_Material" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseListName">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="List_Names" type="xi0:DT_ListNames" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseListOrganization">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ResponseListOrganization" type="xi0:DT_BusinessLine2" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Currency" type="xi0:DT_Currency" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="CallType" type="xi0:DT_CallType" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="AdvPmt_Tolerance" type="xi0:DT_Tolerance" />
+          <xsd:element minOccurs="0" name="Ship_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Deliv_Name" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseListPaymentTerms">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ResponseListPaymentTerms" type="xi0:DT_PaymentTerms" />
+          <xsd:element minOccurs="0" name="Cont_PT" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseListSucursal">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ResponseListSucursal" type="xi0:DT_Sucursal" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseListUM">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ResponseListUM" type="xi0:DT_MeasureUnit" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseListUpSelling">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ResponseListUpSelling" type="xi0:DT_UpSelling" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_ResponseSimulateOrderTaking">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="MessageOutList" type="xi0:DT_SimulateMessa" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ItemOutList" type="xi0:DT_SimulateItemOUT" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_SalesArea2">
+        <xsd:sequence>
+          <xsd:element name="SalesOrg">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="4" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="DistChannel">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="2" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Division">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="2" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_SimulateHeader">
+        <xsd:sequence>
+          <xsd:element name="Doc_Type" type="xsd:string" />
+          <xsd:element name="Sales_Org" type="xsd:string" />
+          <xsd:element name="Channel" type="xsd:string" />
+          <xsd:element name="Division" type="xsd:string" />
+          <xsd:element name="Ship_Cond" type="xsd:string" />
+          <xsd:element name="Country" type="xsd:string" />
+          <xsd:element name="Currency" type="xsd:string" />
+          <xsd:element name="Purch_Ord" type="xsd:string" />
+          <xsd:element name="Order_Dte" type="xsd:string" />
+          <xsd:element name="Inbo_Outb" type="xsd:string" />
+          <xsd:element name="Agent" type="xsd:string" />
+          <xsd:element name="Cond_Man" type="xsd:string" />
+          <xsd:element name="Cap_Min" type="xsd:string" />
+          <xsd:element name="Cap_Max" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ship_Method" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_SimulateItem">
+        <xsd:sequence>
+          <xsd:element name="Item" type="xsd:string" />
+          <xsd:element name="Material" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Dlv_Grp" type="xsd:string" />
+          <xsd:element name="Tar_Qty" type="xsd:string" />
+          <xsd:element name="Tar_QU" type="xsd:string" />
+          <xsd:element name="Req_Qty" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Req_Dte" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Req_Time" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Item_typ" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Paym_Trm" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Plant" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Contin" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Placa" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PO_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Upsel" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Upsel_Reason" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Vig_Ext" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Contrato_Doc" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Contrato_Itm" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Vehicle_Cov" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Opt_Plant" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Priority_Plant" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Opt_Priority" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Lot_Charge" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Log_Rec" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Transp_Grp" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Wa_Dat" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Wa_Uhr" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Mb_Dat" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Mb_Uhr" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Td_Dat" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Td_Uhr" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ld_Dat" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ld_Uhr" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_SimulateItemCRM">
+        <xsd:sequence>
+          <xsd:element name="Item" type="xsd:string" />
+          <xsd:element name="Material" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Dlv_Grp" type="xsd:string" />
+          <xsd:element name="Tar_Qty" type="xsd:string" />
+          <xsd:element name="Tar_QU" type="xsd:string" />
+          <xsd:element name="Req_Qty" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Req_Dte" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Req_Time" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Item_typ" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Paym_Trm" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Plant" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Contin" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Placa" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PO_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Upsel" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Upsel_Reason" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Vig_Ext" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Contrato_Doc" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Contrato_Itm" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Vehicle_Cov" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Opt_Plant" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Priority_Plant" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Opt_Priority" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Lot_Charge" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Log_Rec" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Transp_Grp" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Wa_Dat" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Wa_Uhr" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Mb_Dat" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Mb_Uhr" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Td_Dat" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Td_Uhr" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ld_Dat" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ld_Uhr" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Trading" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_SimulateItemOUT">
+        <xsd:sequence>
+          <xsd:element name="Item" type="xsd:string" />
+          <xsd:element name="Material" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NetVal" type="xsd:decimal" />
+          <xsd:element minOccurs="0" name="TaxVal" type="xsd:decimal" />
+          <xsd:element name="Currency" type="xsd:string" />
+          <xsd:element name="SalesUnit" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Del_Date" type="xsd:date" />
+          <xsd:element minOccurs="0" name="SubTot" type="xsd:decimal" />
+          <xsd:element minOccurs="0" name="TaxTot" type="xsd:decimal" />
+          <xsd:element name="ItemCat" type="xsd:string" />
+          <xsd:element name="Plant" type="xsd:string" />
+          <xsd:element name="ShipPoint" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Conditions" type="xi0:DT_Condiciones" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_SimulateMessa">
+        <xsd:sequence>
+          <xsd:element name="Type" type="xsd:string" />
+          <xsd:element name="ID" type="xsd:string" />
+          <xsd:element name="Number" type="xsd:string" />
+          <xsd:element name="Message" type="xsd:string" />
+          <xsd:element name="MessageV1" type="xsd:string" />
+          <xsd:element name="MessageV2" type="xsd:string" />
+          <xsd:element name="MessageV3" type="xsd:string" />
+          <xsd:element name="MessageV4" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_SimulatePartner">
+        <xsd:sequence>
+          <xsd:element name="Part_Role" type="xsd:string" />
+          <xsd:element name="Part_Number" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_Sucursal">
+        <xsd:sequence>
+          <xsd:element name="VALUE" type="xsd:string" />
+          <xsd:element name="CODE" type="xsd:string" />
+          <xsd:element name="STREET" type="xsd:string" />
+          <xsd:element name="CITY" type="xsd:string" />
+          <xsd:element name="STATE" type="xsd:string" />
+          <xsd:element name="COUNTRY" type="xsd:string" />
+          <xsd:element name="ZIPCODE" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_Tolerance">
+        <xsd:sequence>
+          <xsd:element name="Waers" type="xsd:string" />
+          <xsd:element name="Amount" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_UpSelling">
+        <xsd:sequence>
+          <xsd:element name="CODE" type="xsd:string" />
+          <xsd:element name="VALUE" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ExchangeFaultData">
+        <xsd:sequence>
+          <xsd:element name="faultText" type="xsd:string" />
+          <xsd:element minOccurs="0" name="faultUrl" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="faultDetail" type="xi0:ExchangeLogData" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ExchangeLogData">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="severity" type="xsd:string" />
+          <xsd:element name="text" type="xsd:string" />
+          <xsd:element minOccurs="0" name="url" type="xsd:string" />
+          <xsd:element minOccurs="0" name="id" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="MT_Errormessage">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="standard" type="xi2:ExchangeFaultData" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+    <xsd:schema xmlns="http://cemex.com/portalcrm/OrderTaking/OrderTakingECC" xmlns:xi0="http://cemex.com/portalcrm/common/datatypes" xmlns:xi2="http://cemex.com/portalcrm/OrderTaking/OrderTakingCRM" xmlns:xi1="http://cemex.com/portalcrm/OrderTaking/OrderTakingECC" targetNamespace="http://cemex.com/portalcrm/OrderTaking/OrderTakingECC">
+      <xsd:import namespace="http://cemex.com/portalcrm/common/datatypes" />
+      <xsd:element name="MT_ReqAdvancePaym" type="xi0:DT_RequestListAdvancePayment" />
+      <xsd:element name="MT_RespAdvancePaymCRM" type="xi0:DT_ResponseAdvancePaymentCRM" />
+    </xsd:schema>
+    <xsd:schema xmlns="http://cemex.com/portalcrm/OrderTaking/OrderTakingCRM" xmlns:xi0="http://cemex.com/portalcrm/common/datatypes" xmlns:xi2="http://cemex.com/portalcrm/OrderTaking/OrderTakingCRM" xmlns:xi1="http://cemex.com/portalcrm/OrderTaking/OrderTakingECC" targetNamespace="http://cemex.com/portalcrm/OrderTaking/OrderTakingCRM">
+      <xsd:import namespace="http://cemex.com/portalcrm/common/datatypes" />
+      <xsd:complexType name="ExchangeFaultData">
+        <xsd:sequence>
+          <xsd:element name="faultText" type="xsd:string" />
+          <xsd:element minOccurs="0" name="faultUrl" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="faultDetail" type="xi2:ExchangeLogData" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ExchangeLogData">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="severity" type="xsd:string" />
+          <xsd:element name="text" type="xsd:string" />
+          <xsd:element minOccurs="0" name="url" type="xsd:string" />
+          <xsd:element minOccurs="0" name="id" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="MT_RequestAtpCtp" type="xi0:DT_RequestAtpCtp" />
+      <xsd:element name="MT_RequestConvertCreditNote" type="xi0:DT_RequestConvertCreditNote" />
+      <xsd:element name="MT_RequestCreateOrderTakingCRM" type="xi0:DT_RequestCreateOrderTakingCRM" />
+      <xsd:element name="MT_RequestCustomerData2" type="xi0:DT_RequestCustomerData2" />
+      <xsd:element name="MT_RequestDocument" type="xi0:DT_RequestDocuments" />
+      <xsd:element name="MT_RequestFlag" type="xi0:DT_ReqProcesFlag" />
+      <xsd:element name="MT_RequestListCarrier" type="xi0:DT_RequestListCarrier" />
+      <xsd:element name="MT_RequestListConditions" type="xi0:DT_RequestListConditions" />
+      <xsd:element name="MT_RequestListContract" type="xi0:DT_RequestListContract" />
+      <xsd:element name="MT_RequestListDocumentType" type="xi0:DT_RequestListDocumentType" />
+      <xsd:element name="MT_RequestListFrente" type="xi0:DT_RequestListFrente" />
+      <xsd:element name="MT_RequestListMaterial" type="xi0:DT_RequestListMaterial" />
+      <xsd:element name="MT_RequestListNames" type="xi0:DT_RequestListName" />
+      <xsd:element name="MT_RequestListOrganization" type="xi0:DT_RequestListOrganization" />
+      <xsd:element name="MT_RequestListPaymentTerms" type="xi0:DT_RequestListPaymentTerms" />
+      <xsd:element name="MT_RequestListSucursal" type="xi0:DT_RequestListSucursal" />
+      <xsd:element name="MT_RequestListUnitsMesures" type="xi0:DT_RequestListUM" />
+      <xsd:element name="MT_RequestListUpSelling" type="xi0:DT_RequestListUpSelling" />
+      <xsd:element name="MT_RequestReferenceDocument" type="xi0:DT_DocNumber" />
+      <xsd:element name="MT_RequestSimulateOrderTakingCRM" type="xi0:DT_RequestSimulateOrderTakingCRM" />
+      <xsd:element name="MT_ResponceDocument" type="xi0:DT_ResponseDocumentList" />
+      <xsd:element name="MT_ResponseAtpCtp" type="xi0:DT_ResponseAtpCtp" />
+      <xsd:element name="MT_ResponseCreateOrderTaking" type="xi0:DT_ResponseCreateOrderTaking" />
+      <xsd:element name="MT_ResponseCreditNote" type="xi0:DT_ResponseCreditNote" />
+      <xsd:element name="MT_ResponseCustomerData" type="xi0:DT_ResponseCustomerDataCRM" />
+      <xsd:element name="MT_ResponseFlag" type="xi0:DT_RespProcessFlag" />
+      <xsd:element name="MT_ResponseListCarrier" type="xi0:DT_ResponseListCarrier" />
+      <xsd:element name="MT_ResponseListConditionsCRM" type="xi0:DT_ResponseListConditionsCRM" />
+      <xsd:element name="MT_ResponseListContractCRM" type="xi0:DT_ResponseListContractCRM" />
+      <xsd:element name="MT_ResponseListDocumentType" type="xi0:DT_ResponseListDocumentType" />
+      <xsd:element name="MT_ResponseListFrente" type="xi0:DT_ResponseListFrente" />
+      <xsd:element name="MT_ResponseListMaterial" type="xi0:DT_ResponseListMaterial" />
+      <xsd:element name="MT_ResponseListName" type="xi0:DT_ResponseListName" />
+      <xsd:element name="MT_ResponseListOrganization" type="xi0:DT_ResponseListOrganization" />
+      <xsd:element name="MT_ResponseListPaymentTerms" type="xi0:DT_ResponseListPaymentTerms" />
+      <xsd:element name="MT_ResponseListSucursal" type="xi0:DT_ResponseListSucursal" />
+      <xsd:element name="MT_ResponseListUnitsMesures" type="xi0:DT_ResponseListUM" />
+      <xsd:element name="MT_ResponseListUpSelling" type="xi0:DT_ResponseListUpSelling" />
+      <xsd:element name="MT_ResponseReferenceDocument" type="xi0:DT_RequestCreateOrderTaking" />
+      <xsd:element name="MT_ResponseSimulateOrderTaking" type="xi0:DT_ResponseSimulateOrderTaking" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="MT_RequestAtpCtp">
+    <wsdl:part name="MT_RequestAtpCtp" element="tns:MT_RequestAtpCtp" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseAtpCtp">
+    <wsdl:part name="MT_ResponseAtpCtp" element="tns:MT_ResponseAtpCtp" />
+  </wsdl:message>
+  <wsdl:message name="MT_Errormessage">
+    <wsdl:part name="MT_Errormessage" element="n1:MT_Errormessage" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestSimulateOrderTakingCRM">
+    <wsdl:part name="MT_RequestSimulateOrderTakingCRM" element="tns:MT_RequestSimulateOrderTakingCRM" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseSimulateOrderTaking">
+    <wsdl:part name="MT_ResponseSimulateOrderTaking" element="tns:MT_ResponseSimulateOrderTaking" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestCustomerData2">
+    <wsdl:part name="MT_RequestCustomerData2" element="tns:MT_RequestCustomerData2" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseCustomerData">
+    <wsdl:part name="MT_ResponseCustomerData" element="tns:MT_ResponseCustomerData" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestListFrente">
+    <wsdl:part name="MT_RequestListFrente" element="tns:MT_RequestListFrente" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseListFrente">
+    <wsdl:part name="MT_ResponseListFrente" element="tns:MT_ResponseListFrente" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestListUpSelling">
+    <wsdl:part name="MT_RequestListUpSelling" element="tns:MT_RequestListUpSelling" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseListUpSelling">
+    <wsdl:part name="MT_ResponseListUpSelling" element="tns:MT_ResponseListUpSelling" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestListNames">
+    <wsdl:part name="MT_RequestListNames" element="tns:MT_RequestListNames" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseListName">
+    <wsdl:part name="MT_ResponseListName" element="tns:MT_ResponseListName" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestListDocumentType">
+    <wsdl:part name="MT_RequestListDocumentType" element="tns:MT_RequestListDocumentType" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseListDocumentType">
+    <wsdl:part name="MT_ResponseListDocumentType" element="tns:MT_ResponseListDocumentType" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestCreateOrderTakingCRM">
+    <wsdl:part name="MT_RequestCreateOrderTakingCRM" element="tns:MT_RequestCreateOrderTakingCRM" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseCreateOrderTaking">
+    <wsdl:part name="MT_ResponseCreateOrderTaking" element="tns:MT_ResponseCreateOrderTaking" />
+  </wsdl:message>
+  <wsdl:message name="MT_ReqAdvancePaym">
+    <wsdl:part name="MT_ReqAdvancePaym" element="n2:MT_ReqAdvancePaym" />
+  </wsdl:message>
+  <wsdl:message name="MT_RespAdvancePaymCRM">
+    <wsdl:part name="MT_RespAdvancePaymCRM" element="n2:MT_RespAdvancePaymCRM" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestListCarrier">
+    <wsdl:part name="MT_RequestListCarrier" element="tns:MT_RequestListCarrier" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseListCarrier">
+    <wsdl:part name="MT_ResponseListCarrier" element="tns:MT_ResponseListCarrier" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestReferenceDocument">
+    <wsdl:part name="MT_RequestReferenceDocument" element="tns:MT_RequestReferenceDocument" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseReferenceDocument">
+    <wsdl:part name="MT_ResponseReferenceDocument" element="tns:MT_ResponseReferenceDocument" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestDocument">
+    <wsdl:part name="MT_RequestDocument" element="tns:MT_RequestDocument" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponceDocument">
+    <wsdl:part name="MT_ResponceDocument" element="tns:MT_ResponceDocument" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestListContract">
+    <wsdl:part name="MT_RequestListContract" element="tns:MT_RequestListContract" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseListContractCRM">
+    <wsdl:part name="MT_ResponseListContractCRM" element="tns:MT_ResponseListContractCRM" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestListConditions">
+    <wsdl:part name="MT_RequestListConditions" element="tns:MT_RequestListConditions" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseListConditionsCRM">
+    <wsdl:part name="MT_ResponseListConditionsCRM" element="tns:MT_ResponseListConditionsCRM" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestListPaymentTerms">
+    <wsdl:part name="MT_RequestListPaymentTerms" element="tns:MT_RequestListPaymentTerms" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseListPaymentTerms">
+    <wsdl:part name="MT_ResponseListPaymentTerms" element="tns:MT_ResponseListPaymentTerms" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestListOrganization">
+    <wsdl:part name="MT_RequestListOrganization" element="tns:MT_RequestListOrganization" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseListOrganization">
+    <wsdl:part name="MT_ResponseListOrganization" element="tns:MT_ResponseListOrganization" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestListMaterial">
+    <wsdl:part name="MT_RequestListMaterial" element="tns:MT_RequestListMaterial" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseListMaterial">
+    <wsdl:part name="MT_ResponseListMaterial" element="tns:MT_ResponseListMaterial" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestConvertCreditNote">
+    <wsdl:part name="MT_RequestConvertCreditNote" element="tns:MT_RequestConvertCreditNote" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseCreditNote">
+    <wsdl:part name="MT_ResponseCreditNote" element="tns:MT_ResponseCreditNote" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestListSucursal">
+    <wsdl:part name="MT_RequestListSucursal" element="tns:MT_RequestListSucursal" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseListSucursal">
+    <wsdl:part name="MT_ResponseListSucursal" element="tns:MT_ResponseListSucursal" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestListUnitsMesures">
+    <wsdl:part name="MT_RequestListUnitsMesures" element="tns:MT_RequestListUnitsMesures" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseListUnitsMesures">
+    <wsdl:part name="MT_ResponseListUnitsMesures" element="tns:MT_ResponseListUnitsMesures" />
+  </wsdl:message>
+  <wsdl:message name="MT_RequestFlag">
+    <wsdl:part name="MT_RequestFlag" element="tns:MT_RequestFlag" />
+  </wsdl:message>
+  <wsdl:message name="MT_ResponseFlag">
+    <wsdl:part name="MT_ResponseFlag" element="tns:MT_ResponseFlag" />
+  </wsdl:message>
+  <wsdl:portType name="SI_IS_External_to_OrderTakingCRM">
+    <wsp:Policy>
+      <wsp:PolicyReference URI="#IF_IF_SI_IS_External_to_OrderTakingCRM" />
+    </wsp:Policy>
+    <wsdl:operation name="SI_IS_RequestAtpCtp">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_SI_IS_RequestAtpCtp" />
+      </wsp:Policy>
+      <wsdl:input message="tns:MT_RequestAtpCtp" />
+      <wsdl:output message="tns:MT_ResponseAtpCtp" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_SimulateOrderTaking">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_SI_IS_SimulateOrderTaking" />
+      </wsp:Policy>
+      <wsdl:input message="tns:MT_RequestSimulateOrderTakingCRM" />
+      <wsdl:output message="tns:MT_ResponseSimulateOrderTaking" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestCustomerData2">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_SI_IS_RequestCustomerData2" />
+      </wsp:Policy>
+      <wsdl:input message="tns:MT_RequestCustomerData2" />
+      <wsdl:output message="tns:MT_ResponseCustomerData" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListFrente">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_SI_IS_RequestListFrente" />
+      </wsp:Policy>
+      <wsdl:input message="tns:MT_RequestListFrente" />
+      <wsdl:output message="tns:MT_ResponseListFrente" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListUpSelling">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_SI_IS_RequestListUpSelling" />
+      </wsp:Policy>
+      <wsdl:input message="tns:MT_RequestListUpSelling" />
+      <wsdl:output message="tns:MT_ResponseListUpSelling" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListNames">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_SI_IS_RequestListNames" />
+      </wsp:Policy>
+      <wsdl:input message="tns:MT_RequestListNames" />
+      <wsdl:output message="tns:MT_ResponseListName" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListDocumentType">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_SI_IS_RequestListDocumentType" />
+      </wsp:Policy>
+      <wsdl:input message="tns:MT_RequestListDocumentType" />
+      <wsdl:output message="tns:MT_ResponseListDocumentType" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_CreateOrderTaking">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_SI_IS_CreateOrderTaking" />
+      </wsp:Policy>
+      <wsdl:input message="tns:MT_RequestCreateOrderTakingCRM" />
+      <wsdl:output message="tns:MT_ResponseCreateOrderTaking" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestAdvancePayment">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_SI_IS_RequestAdvancePayment" />
+      </wsp:Policy>
+      <wsdl:input message="tns:MT_ReqAdvancePaym" />
+      <wsdl:output message="tns:MT_RespAdvancePaymCRM" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListCarrier">
+      <wsdl:input message="tns:MT_RequestListCarrier" />
+      <wsdl:output message="tns:MT_ResponseListCarrier" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestReferenceDoc">
+      <wsdl:input message="tns:MT_RequestReferenceDocument" />
+      <wsdl:output message="tns:MT_ResponseReferenceDocument" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RquestDocument">
+      <wsdl:input message="tns:MT_RequestDocument" />
+      <wsdl:output message="tns:MT_ResponceDocument" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListContract">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_SI_IS_RequestListContract" />
+      </wsp:Policy>
+      <wsdl:input message="tns:MT_RequestListContract" />
+      <wsdl:output message="tns:MT_ResponseListContractCRM" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListConditions">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_SI_IS_RequestListConditions" />
+      </wsp:Policy>
+      <wsdl:input message="tns:MT_RequestListConditions" />
+      <wsdl:output message="tns:MT_ResponseListConditionsCRM" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestPaymentTerms">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_SI_IS_RequestPaymentTerms" />
+      </wsp:Policy>
+      <wsdl:input message="tns:MT_RequestListPaymentTerms" />
+      <wsdl:output message="tns:MT_ResponseListPaymentTerms" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListOrganization">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_SI_IS_RequestListOrganization" />
+      </wsp:Policy>
+      <wsdl:input message="tns:MT_RequestListOrganization" />
+      <wsdl:output message="tns:MT_ResponseListOrganization" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListMaterial">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_SI_IS_RequestListMaterial" />
+      </wsp:Policy>
+      <wsdl:input message="tns:MT_RequestListMaterial" />
+      <wsdl:output message="tns:MT_ResponseListMaterial" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_ConvertCreditNote">
+      <wsdl:input message="tns:MT_RequestConvertCreditNote" />
+      <wsdl:output message="tns:MT_ResponseCreditNote" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListSucursal">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_SI_IS_RequestListSucursal" />
+      </wsp:Policy>
+      <wsdl:input message="tns:MT_RequestListSucursal" />
+      <wsdl:output message="tns:MT_ResponseListSucursal" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListUnitMeasure">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_SI_IS_RequestListUnitMeasure" />
+      </wsp:Policy>
+      <wsdl:input message="tns:MT_RequestListUnitsMesures" />
+      <wsdl:output message="tns:MT_ResponseListUnitsMesures" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_Request_Process_Flag">
+      <wsdl:input message="tns:MT_RequestFlag" />
+      <wsdl:output message="tns:MT_ResponseFlag" />
+      <wsdl:fault name="MT_Errormessage" message="tns:MT_Errormessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ZB_ORDTAKINGCRM" type="tns:SI_IS_External_to_OrderTakingCRM">
+    <wsp:Policy>
+      <wsp:PolicyReference URI="#BN_BN_ZB_ORDTAKINGCRM" />
+    </wsp:Policy>
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SI_IS_RequestAtpCtp">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_SimulateOrderTaking">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestCustomerData2">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListFrente">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListUpSelling">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListNames">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListDocumentType">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_CreateOrderTaking">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestAdvancePayment">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListCarrier">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestReferenceDoc">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RquestDocument">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListContract">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListConditions">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestPaymentTerms">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListOrganization">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListMaterial">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_ConvertCreditNote">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListSucursal">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_RequestListUnitMeasure">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SI_IS_Request_Process_Flag">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MT_Errormessage">
+        <soap:fault use="literal" name="MT_Errormessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ZS_ORDTAKINGCRM">
+    <wsdl:port name="ZB_ORDTAKINGCRM" binding="tns:ZB_ORDTAKINGCRM">
+      <soap:address location="http://mxoccsapmrp02.noam.cemexnet.com:8000/sap/bc/srt/xip/sap/zsi_is_external_to_ordertaking/500/zs_ordtakingcrm/zb_ordtakingcrm" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

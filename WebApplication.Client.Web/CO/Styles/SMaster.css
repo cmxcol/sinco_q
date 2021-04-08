@@ -1,0 +1,1057 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body
+{
+    /*background: #b6b7bc;*/ /*background-image:url('../Images/page_gl.png');*/
+    background-color: #C7C7C7;
+    font-size: .80em;
+    font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #696969;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 1000px;
+    background-color: #fff;
+    margin: 20px auto 0px auto; /*border: 1px solid #496077;*/
+}
+
+.header
+{
+    /*position:relative;*/ /*background: #4b6c9e;*/
+    background: url('../Images/header.png'); /*width: 100%;*/ /*top: -1px;*/
+    height: 80px;
+    top: -1px;
+    width: 1000px;
+    height: 92px;
+}
+.HeaderOver
+{
+    /*position:relative;*/
+    margin: 5px; /*background: #4b6c9e;*/
+    background: url('../Images/header.jpg'); /*width: 98%;*/ /*top: -1px;*/
+    width: 995px;
+    height: 90px;
+}
+.HeaderOver h1
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    font-weight: 700;
+    margin: 0;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    line-height: 2em;
+    font-size: 2em;
+    height: 40px;
+}
+.HeaderOver h3
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    font-weight: 700;
+    margin: 0;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    line-height: 2em;
+    height: 40px;
+}
+.headerBase
+{
+    color: #f9f9f9;
+    border: none;
+}
+.HeaderOverinner
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url('../Images/header5.jpg');
+    background-repeat: no-repeat;
+    left: 0;
+    width: 1000px;
+    height: 92px;
+    top: 0;
+}
+.HeaderOverOuter
+{
+    position: relative;
+    margin: 5px;
+    padding: 0;
+    background-image: url('../Images/header.jpg');
+    left: 0;
+    width: 995px;
+    height: 90px;
+}
+
+
+/*  SHEET */
+.art-sheet-tr, .art-sheet-tl, .art-sheet-br, .art-sheet-bl, .art-sheet-tc, .art-sheet-bc, .art-sheet-cr, .art-sheet-cl
+{
+    position: absolute;
+}
+
+.art-sheet-tr, .art-sheet-tl, .art-sheet-br, .art-sheet-bl
+{
+    width: 26px;
+    height: 26px;
+    background-image: url('/Images/sheet_s2.png');
+    top: 49px !important;
+    margin-bottom: 50px !important;
+    cursor: auto;
+}
+
+.art-sheet-tl
+{
+    top: 0;
+    left: 180px !important;
+    clip: rect(auto, 13px, 13px, auto);
+}
+.art-sheet-tr
+{
+    clip: rect(auto, auto, 13px, 13px);
+    right: 180px !important;
+}
+
+
+.art-sheet-tc, .art-sheet-bc
+{
+    top: 49px;
+    left: 206px;
+    width: 952px;
+    height: 26px;
+    background-image: url('/Images/sheet_h2.png');
+}
+
+.art-sheet-tc
+{
+    top: 0;
+    clip: rect(auto, 13px, 13px, auto);
+}
+
+.art-sheet
+{
+    top: 30px !important;
+    margin-bottom: 30px !important;
+    cursor: auto;
+    width: 1000px;
+}
+
+
+/*   */
+
+.HeaderOverOuter h1
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    font-weight: 700;
+    margin: 0;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    line-height: 2em;
+    font-size: 2em;
+    height: 50px;
+}
+.HeaderOverOuter h3
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    font-weight: 700;
+    margin: 0;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    line-height: 2em;
+    height: 40px;
+}
+.main
+{
+    padding: 0px 12px;
+    margin: 8px 8px 8px 8px;
+}
+
+.leftCol
+{
+    padding: 6px 0;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+/* Footer */
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0;
+    margin: 0px auto;
+    background-image: url('../Images/header.jpg');
+    text-align: center;
+    line-height: normal;
+}
+.art-footer
+{
+    position: relative;
+    overflow: hidden;
+    width: 1000px;
+}
+
+.art-footer-b
+{
+    position: absolute;
+    left: 0;
+    right: -1px;
+    bottom: 0;
+    height: 50px;
+    background-image: url('../Images/footer_b2.png');
+}
+
+.art-footer-r, .art-footer-l
+{
+    position: absolute;
+    height: 50px; /*background-image: url('../Styles/images/footer_t2.png');*/
+    bottom: 0;
+}
+
+.art-footer-l
+{
+    left: 0;
+    width: 10px;
+    clip: rect(auto, auto, auto, 5px);
+}
+
+.art-footer-r
+{
+    right: 0;
+    width: 10px;
+    clip: rect(auto, auto, auto, 5px);
+}
+
+.art-footer-t
+{
+    position: absolute;
+    bottom: 50px;
+    background-image: url('../Images/footer_t2.png');
+    background-position: left bottom;
+    left: 500px;
+    width: 1px;
+}
+
+.art-footer-body
+{
+    position: relative;
+    padding: 20px;
+}
+
+.art-footer-body .art-rss-tag-icon
+{
+    position: absolute;
+    left: 6px;
+    bottom: 20px;
+    z-index: 1;
+}
+
+.art-rss-tag-icon
+{
+    display: block;
+    background-image: url('../Images/rssicon.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: 8px;
+    width: 32px;
+    cursor: default;
+}
+
+.ProgressCircle
+{
+    background-image: url('../Images/ajax-loader.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 32px;
+    width: 32px;
+}
+
+
+.LogoCemex
+{
+    display: block;
+    background-image: url('../Images/Logo_SINCO2.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: 56px;
+    width: 186px;
+    cursor: default;
+    margin: 10px 20px 0px 20px;
+}
+
+.art-footer-text p
+{
+    padding: 0;
+    margin: 0;
+}
+
+.art-footer, .art-footer a, .art-footer a:link, .art-footer a:visited, .art-footer a:hover
+{
+    color: #1A2B47;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.art-footer-text
+{
+    min-height: 8px;
+    padding: 0 10px 0 10px;
+}
+
+.art-footer, .art-footer-text, .art-footer p
+{
+    text-align: center;
+}
+
+.art-footer a, .art-footer a:link
+{
+    color: #294470;
+    text-decoration: underline;
+}
+
+.art-footer a:visited
+{
+    color: #685D6F;
+}
+
+.art-footer a:hover
+{
+    color: #365B96;
+    text-decoration: none;
+}
+/* end Footer */
+
+/* begin PageFooter */
+.art-page-footer, .art-page-footer a, .art-page-footer a:link, .art-page-footer a:visited, .art-page-footer a:hover
+{
+    font-family: Arial;
+    font-size: 10px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    color: #809FD1;
+}
+
+.art-page-footer
+{
+    margin: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: #584F5E;
+}
+.cleared
+{
+    float: none;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 1px;
+}
+
+/* end PageFooter *
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    /*background-color:#3a4f63;*/ /*background-color:#0E1725;*/
+    background-image: url('../Images/nav.png');
+    width: 100%;
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px; /*margin-right:100px;*/
+    float: right;
+}
+
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    /*background-color: #465c71;*/
+    background-image: url('../Images/nav.png'); /*border: 1px #4e667d groove;*/
+    color: white;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    /*background-color: #bfcbd6;*/ /*background-image: url('../Styles/Images/footer_t.png');*/
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    /*background-color: #465c71; */ /*background-color:white;*/ /*background-image:url('../Styles/Images/menuitem2.png');*/
+    color: white;
+    text-decoration: none;
+}
+
+div.menuUsr
+{
+    padding: 4px 0px 4px 8px; /*margin-right:100px;*/
+    float: Left;
+    border-right: White;
+}
+
+div.menuUsr ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+div.menuUsr ul li a, div.menuUsr ul li a:visited
+{
+    /*background-color: #465c71;*/ /*background-image: url('../Styles/Images/nav.png'); */ /*border: 1px #4e667d groove;*/
+    color: white;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menuUsr ul li a:hover
+{
+    /*background-color: #bfcbd6;*/ /*background-image: url('../Styles/Images/footer_t.png');*/
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menuUsr ul li a:active
+{
+    /*background-color: #465c71; */ /*background-color:white;*/ /*background-image:url('../Styles/Images/menuitem2.png');*/
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline
+{
+    display: inline;
+}
+
+legend
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: Center;
+    width: 957px;
+    height: 64px;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+
+
+/* Label */
+
+.labelRq
+{
+    color: #000066;
+    font-weight: bold;
+    text-align: justify;
+    width: auto;
+    font-family: Arial;
+    font-size: 9pt;
+}
+
+.labelError
+{
+    color: Red;
+    font-weight: bold;
+    text-align: justify;
+    width: auto;
+    font-family: Arial;
+    font-size: 9pt;
+}
+
+.labelResult
+{
+    color: Navy;
+    font-weight: bold;
+    text-align: justify;
+    width: auto;
+    font-family: Arial;
+    font-size: 9pt;
+}
+
+.labelAlert
+{
+    color: Red;
+    font-weight: bold;
+    text-align: justify;
+    width: auto;
+    font-family: Arial;
+    font-size: x-small;
+}
+
+.labelInfo
+{
+    color: Green;
+    font-weight: bold;
+    text-align: justify;
+    width: auto;
+    font-family: Arial;
+}
+
+.labelNorm
+{
+    color: Black;
+    font-weight: bold;
+    text-align: justify;
+    width: auto;
+    font-family: Arial;
+}
+
+
+/* Button */
+.btnRq
+{
+    font-weight: bold;
+    height: 22px;
+    font-family: Arial;
+    font-size: 9pt;
+    color: #000066;
+    width: 91px;
+}
+
+/* TextBox */
+.txtLogin
+{
+    font-family: Arial;
+    font-size: 14px;
+    color: #000066;
+    background-color: #F2F2F2;
+    font-family: Arial, Sans-Serif;
+    width: 100px;
+}
+.txtrq
+{
+    text-align: center;
+    font-size: x-small;
+    font-family: Verdana;
+    color: Gray;
+}
+
+.txtVol_css
+{
+    text-align: center;
+    font-size: x-small;
+    font-family: Verdana;
+    color: Gray;
+    font-weight: bold;
+    width: 40px;
+    margin-left: 11px;
+}
+
+.txtrq2
+{
+    height: 16px;
+    text-align: Center;
+    font-size: x-small;
+    font-family: Verdana;
+    color: Gray;
+    width: 240px;
+}
+
+.txtrq3
+{
+    height: 16px;
+    text-align: left;
+    font-size: x-small;
+    font-family: Verdana;
+    color: Gray;
+    width: 240px;
+}
+
+.txtDt
+{
+    height: 15px; /*font-weight:700;*/
+    text-align: center;
+    font-size: 8pt;
+    font-family: Verdana;
+    color: Gray;
+    width: 400px;
+}
+
+.txtrqGCei
+{
+    height: 15px;
+    font-weight: 700;
+    text-align: center;
+    font-size: x-small;
+    font-family: Arial;
+    color: Gray;
+}
+.txtrqGVlow
+{
+    height: 16px;
+    font-weight: 700;
+    text-align: center;
+    font-size: small;
+    font-family: Verdana;
+    color: Gray;
+    width: 150px;
+}
+
+/* GridView */
+.gvDCli
+{
+    text-align: center;
+    font-family: Arial;
+    font-size: x-small; /*color: #000066;*/
+    color: Black;
+}
+
+.gvECCli
+{
+    text-align: center;
+    font-family: Arial;
+    font-size: x-small;
+    color: #000066;
+}
+.gvAlSh
+{
+    text-align: center;
+    font-family: Arial;
+    font-size: x-small;
+    width: 500px;
+}
+
+.gvAEx
+{
+    text-align: center;
+    font-family: Arial;
+    font-size: small;
+    width: 500px;
+}
+.gvAlertas
+{
+    text-align: center;
+    font-family: Arial;
+    font-size: x-small;
+    color: Black;
+}
+
+/* GridView header */
+
+.gvHead1
+{
+    background-color: #000066;
+    color: white;
+    text-align: center;
+    font-family: Arial; /*font-size:small; */ /*width:100px;   */
+    font-size: x-small;
+}
+
+.gvH
+{
+    /*background-image: url('../Images/header5.jpg');*/
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: x-small;
+    background-color: #BE4848;
+}
+
+.gvH1
+{
+    /*background-image: url('../Images/header5.jpg');*/
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: small;
+    background-color: #BE4848;
+}
+.gvH2
+{
+    background-image: url('../Images/footer_b2.png');
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: x-small;
+}
+
+.gvH3
+{
+    /*background-image: url('../Images/nav.png');*/
+    color: Black;
+    text-align: center;
+    font-family: Arial;
+    font-size: x-small;
+    background-color: #BEDBAA;
+}
+
+/* FileUpload */
+.fUp
+{
+    font-family: Verdana;
+    font-size: small;
+    color: #000066;
+    margin-left: 0;
+}
+.fUp1
+{
+    font-family: Verdana;
+    font-size: x-small;
+    color: #000066;
+    margin-left: 0;
+}
+
+/* ModalPopUp */
+.modalPopup
+{
+    border: 1px solid Gray;
+    background-color: #F5F7F8; /*background-color:#4b6c9e;*/
+    padding: 3px;
+    margin-bottom: 0;
+}
+.modalPopupInner
+{
+    /* border: 1px solid Gray; */
+    background-color: #F5F7F8; /*background-color:#4b6c9e;*/
+    padding: 3px;
+    margin-bottom: 0;
+}
+.modalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+/* DropDownList */
+.ddlGV
+{
+    text-align: center;
+    font-family: Arial;
+    font-size: 8pt;
+    color: Gray;
+    width: 150px;
+}
+
+.ddlGVei
+{
+    text-align: center;
+    font-family: Arial;
+    font-size: x-small;
+    color: Gray;
+}
+/* Calendar*/
+.cExt
+{
+    background-color: White;
+    border-bottom-color: Gray;
+}
+
+/* Validator Expression */
+
+.ValidatorExpression
+{
+    font-family: Arial;
+    font-size: 14px;
+    color: Red;
+    text-align: center;
+}
+
+/* Flash */
+
+.FlashLogin
+{
+    width: 500px;
+}
+
+/* Panel */
+
+.pnlLogin
+{
+    width: 480px;
+}
+
+
+
+div.art-logo
+{
+    display: block;
+    position: center;
+    left: 357px;
+    top: 121px;
+    height: 80px;
+}
+
+h1.art-logo-name
+{
+    display: block;
+    text-align: left;
+}
+
+h1.art-logo-name, h1.art-logo-name a, h1.art-logo-name a:link, h1.art-logo-name a:visited, h1.art-logo-name a:hover
+{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0;
+    margin: 0px 20px 0px 20px;
+    color: White;
+    height: 49px;
+}
+
+.Space
+{
+    height: 500px;
+}
+
+.clock
+{
+    margin: 0px 0px 0px 20px;
+    font-size: 8pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: White;
+    width: 150px;
+}
+
+
+div.headerFunc
+{
+    display: block;
+    position: relative;
+    left: 648px;
+    width: 350px;
+    height: 90px;
+    top: 0;
+}
+
+.tbHFunc
+{
+    height: 80px;
+}
+
+.tbRow
+{
+    height: 25px;
+}
+
+.tblogo
+{
+    height: 40%;
+}
+
+.tbfh
+{
+    margin: 0px 0px 0px 20px;
+    font-size: 8pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: White;
+}
+
+div.MUsrP
+{
+    margin: 0px 0px 0px 11px;
+}
+
+.Bottom
+{
+    height: 100px;
+}
+

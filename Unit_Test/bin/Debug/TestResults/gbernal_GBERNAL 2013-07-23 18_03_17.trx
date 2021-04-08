@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8eeaafdf-8d8d-49e5-a315-0b0b70390379" name="gbernal@GBERNAL 2013-07-23 18:03:17" runUser="SOAM\gbernal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e3db6095-ce6e-41b0-b542-606337b9d5bd">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gbernal_GBERNAL 2013-07-23 18_03_17" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-23T18:03:17.9282077-05:00" queuing="2013-07-23T18:03:18.1622311-05:00" start="2013-07-23T18:03:18.3802529-05:00" finish="2013-07-23T18:03:19.4993648-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SqlRdmsConnectionTestExecuteStoreProcedure" storage="d:\users\gbernal\desktop\aplicaciones\backupapp\sincosap\sc_v16\scsap_d\sincosap\unit_test\bin\debug\unit_test.dll" id="49e77e70-b74e-b7dd-f682-4a288e6dd730">
+      <Execution timeOut="1800000" id="254f3424-f3df-4715-8b7d-3edef1daea6c" />
+      <TestMethod codeBase="D:/Users/gbernal/Desktop/Aplicaciones/BackUpApp/SINCOSAP/SC_V16/SCSAP_D/SINCOSAP/Unit_Test/bin/Debug/Unit_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.SqlRdmsConnectionTest, Unit_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SqlRdmsConnectionTestExecuteStoreProcedure" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="49e77e70-b74e-b7dd-f682-4a288e6dd730" executionId="254f3424-f3df-4715-8b7d-3edef1daea6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="254f3424-f3df-4715-8b7d-3edef1daea6c" testId="49e77e70-b74e-b7dd-f682-4a288e6dd730" testName="SqlRdmsConnectionTestExecuteStoreProcedure" computerName="GBERNAL" duration="00:00:00.8115027" startTime="2013-07-23T18:03:18.4662615-05:00" endTime="2013-07-23T18:03:19.4393588-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="254f3424-f3df-4715-8b7d-3edef1daea6c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Unit_Test.SqlRdmsConnectionTest.SqlRdmsConnectionTestExecuteStoreProcedure threw exception: 
+System.Data.SqlClient.SqlException: Procedure or function 'SPS_Emp_A' expects parameter '@IdOrg', which was not supplied.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Persistence.DAO.DBcnn.SqlRdmsConnection`1.Execute(Boolean hasRet) in D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Persistence\DAO\DBCnn\RdmsConnection.cs:line 98
+   at Unit_Test.SqlRdmsConnectionTest.SqlRdmsConnectionTestExecuteStoreProcedure() in D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Unit_Test\SqlRdmsConnectionTest.cs:line 77
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

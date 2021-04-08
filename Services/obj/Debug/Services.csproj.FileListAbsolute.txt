@@ -1,0 +1,290 @@
+D:\German\DevApps\SINCOSAP\SC_V6\SINCOSAP\Services\bin\Debug\Services.dll
+D:\German\DevApps\SINCOSAP\SC_V6\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\German\DevApps\SINCOSAP\SC_V6\SINCOSAP\Services\bin\Debug\Components.dll
+D:\German\DevApps\SINCOSAP\SC_V6\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\German\DevApps\SINCOSAP\SC_V6\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\German\DevApps\SINCOSAP\SC_V6\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\German\DevApps\SINCOSAP\SC_V6\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\German\DevApps\SINCOSAP\SC_V6\SINCOSAP\Services\obj\Debug\Services.dll
+D:\German\DevApps\SINCOSAP\SC_V6\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SINCOSAP\Services\bin\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SINCOSAP\Services\bin\Debug\Components.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SINCOSAP\Services\obj\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\German\DevApps\SINCOSAP\SC_V8\SINCOSAP\Services\bin\Debug\Services.dll
+D:\German\DevApps\SINCOSAP\SC_V8\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\German\DevApps\SINCOSAP\SC_V8\SINCOSAP\Services\bin\Debug\Components.dll
+D:\German\DevApps\SINCOSAP\SC_V8\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\German\DevApps\SINCOSAP\SC_V8\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\German\DevApps\SINCOSAP\SC_V8\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\German\DevApps\SINCOSAP\SC_V8\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\German\DevApps\SINCOSAP\SC_V8\SINCOSAP\Services\obj\Debug\Services.dll
+D:\German\DevApps\SINCOSAP\SC_V8\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V9\SINCOSAP\Services\bin\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V9\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V9\SINCOSAP\Services\bin\Debug\Components.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V9\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V9\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V9\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V9\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V9\SINCOSAP\Services\obj\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V9\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\German\DevApps\SINCOSAP\SC_V10\SINCOSAP\Services\bin\Debug\Services.dll
+D:\German\DevApps\SINCOSAP\SC_V10\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\German\DevApps\SINCOSAP\SC_V10\SINCOSAP\Services\bin\Debug\Components.dll
+D:\German\DevApps\SINCOSAP\SC_V10\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\German\DevApps\SINCOSAP\SC_V10\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\German\DevApps\SINCOSAP\SC_V10\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\German\DevApps\SINCOSAP\SC_V10\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\German\DevApps\SINCOSAP\SC_V10\SINCOSAP\Services\obj\Debug\Services.dll
+D:\German\DevApps\SINCOSAP\SC_V10\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V10\SINCOSAP\Services\bin\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V10\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V10\SINCOSAP\Services\bin\Debug\Components.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V10\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V10\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V10\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V10\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V10\SINCOSAP\Services\obj\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V10\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V11\SINCOSAP\Services\bin\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V11\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V11\SINCOSAP\Services\bin\Debug\Components.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V11\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V11\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V11\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V11\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V11\SINCOSAP\Services\obj\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V11\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\German\DevApps\SINCOSAP\SC_V11\SINCOSAP\Services\bin\Debug\Services.dll
+D:\German\DevApps\SINCOSAP\SC_V11\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\German\DevApps\SINCOSAP\SC_V11\SINCOSAP\Services\bin\Debug\Components.dll
+D:\German\DevApps\SINCOSAP\SC_V11\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\German\DevApps\SINCOSAP\SC_V11\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\German\DevApps\SINCOSAP\SC_V11\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\German\DevApps\SINCOSAP\SC_V11\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\German\DevApps\SINCOSAP\SC_V11\SINCOSAP\Services\obj\Debug\Services.dll
+D:\German\DevApps\SINCOSAP\SC_V11\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V12\SINCOSAP\Services\bin\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V12\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V12\SINCOSAP\Services\bin\Debug\Components.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V12\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V12\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V12\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V12\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V12\SINCOSAP\Services\obj\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V12\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\German\DevApps\SINCOSAP\SC_V13\SINCOSAP\Services\bin\Debug\Services.dll
+D:\German\DevApps\SINCOSAP\SC_V13\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\German\DevApps\SINCOSAP\SC_V13\SINCOSAP\Services\bin\Debug\Components.dll
+D:\German\DevApps\SINCOSAP\SC_V13\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\German\DevApps\SINCOSAP\SC_V13\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\German\DevApps\SINCOSAP\SC_V13\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\German\DevApps\SINCOSAP\SC_V13\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\German\DevApps\SINCOSAP\SC_V13\SINCOSAP\Services\obj\Debug\Services.dll
+D:\German\DevApps\SINCOSAP\SC_V13\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SINCOSAP\Services\bin\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SINCOSAP\Services\bin\Debug\Components.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SINCOSAP\Services\obj\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SCSAP_Q\SINCOSAP\Services\bin\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SCSAP_Q\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SCSAP_Q\SINCOSAP\Services\bin\Debug\Components.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SCSAP_Q\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SCSAP_Q\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SCSAP_Q\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SCSAP_Q\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SCSAP_Q\SINCOSAP\Services\obj\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V13\SCSAP_Q\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V14\SCSAP_Q\SINCOSAP\Services\bin\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V14\SCSAP_Q\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V14\SCSAP_Q\SINCOSAP\Services\bin\Debug\Components.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V14\SCSAP_Q\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V14\SCSAP_Q\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V14\SCSAP_Q\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V14\SCSAP_Q\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V14\SCSAP_Q\SINCOSAP\Services\obj\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V14\SCSAP_Q\SINCOSAP\Services\obj\Debug\Services.pdb
+C:\Users\German\Desktop\SINCO\SQL_Obj\SC_V14\SCSAP_Q\SINCOSAP\Services\bin\Debug\Services.dll
+C:\Users\German\Desktop\SINCO\SQL_Obj\SC_V14\SCSAP_Q\SINCOSAP\Services\bin\Debug\Services.pdb
+C:\Users\German\Desktop\SINCO\SQL_Obj\SC_V14\SCSAP_Q\SINCOSAP\Services\bin\Debug\Components.dll
+C:\Users\German\Desktop\SINCO\SQL_Obj\SC_V14\SCSAP_Q\SINCOSAP\Services\bin\Debug\Persistence.dll
+C:\Users\German\Desktop\SINCO\SQL_Obj\SC_V14\SCSAP_Q\SINCOSAP\Services\bin\Debug\Components.pdb
+C:\Users\German\Desktop\SINCO\SQL_Obj\SC_V14\SCSAP_Q\SINCOSAP\Services\bin\Debug\Persistence.pdb
+C:\Users\German\Desktop\SINCO\SQL_Obj\SC_V14\SCSAP_Q\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\German\Desktop\SINCO\SQL_Obj\SC_V14\SCSAP_Q\SINCOSAP\Services\obj\Debug\Services.dll
+C:\Users\German\Desktop\SINCO\SQL_Obj\SC_V14\SCSAP_Q\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\SINCOSAP\Services\bin\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\SINCOSAP\Services\bin\Debug\Components.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\SINCOSAP\Services\obj\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\Deploy\SINCOSAP\Services\bin\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\Deploy\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\Deploy\SINCOSAP\Services\bin\Debug\Components.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\Deploy\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\Deploy\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\Deploy\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\Deploy\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\Deploy\SINCOSAP\Services\obj\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_Q\Deploy\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_D\SINCOSAP\Services\bin\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_D\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_D\SINCOSAP\Services\bin\Debug\Components.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_D\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_D\SINCOSAP\Services\bin\Debug\SHUtil.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_D\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_D\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_D\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_D\SINCOSAP\Services\obj\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V15\SCSAP_D\SINCOSAP\Services\obj\Debug\Services.pdb
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\Services.dll
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\Services.pdb
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\Components.dll
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\DTO Adapter.dll
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\Persistence.dll
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\SHUtil.dll
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\Components.pdb
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\DTO Adapter.pdb
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\Persistence.pdb
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\Services\obj\Debug\Services.dll
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\Components.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\DTO Adapter.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\SHUtil.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\DTO Adapter.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Services\obj\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\Services\bin\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\Services\bin\Debug\Components.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\Services\bin\Debug\DTO Adapter.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\Services\bin\Debug\SHUtil.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\Services\bin\Debug\DTO Adapter.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\Services\obj\Debug\Services.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\Services\bin\Debug\Services.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\Services\bin\Debug\Components.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\Services\bin\Debug\DTO Adapter.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\Services\bin\Debug\SHUtil.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\Services\bin\Debug\DTO Adapter.pdb
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\Services\obj\Debug\Services.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\Services\obj\Debug\Services.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\Services.dll.config
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\Services.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\Services.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\Components.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\DTO Adapter.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\Persistence.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\sapnco.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\SHUtil.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\sapnco_utils.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\Components.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\DTO Adapter.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\Persistence.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\obj\Debug\Services.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\obj\Debug\Services.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\Services.dll.config
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\Services.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\Services.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\Components.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\Persistence.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\sapnco.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\SHUtil.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\sapnco_utils.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\Components.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\Persistence.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\obj\Debug\Services.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\obj\Debug\Services.pdb
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\Services.dll.config
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\Services.dll
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\Services.pdb
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\Components.dll
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\Persistence.dll
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\sapnco.dll
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\SHUtil.dll
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\sapnco_utils.dll
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\Components.pdb
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\Persistence.pdb
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\obj\Debug\Services.dll
+C:\Users\mvargasb\Desktop\SINCO - Motivo\Services\obj\Debug\Services.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\Services.dll.config
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\Services.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\Services.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\Components.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\Persistence.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\sapnco.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\SHUtil.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\sapnco_utils.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\Components.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\Persistence.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\obj\Debug\Services.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\obj\Debug\Services.pdb

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1f8c8053-ac93-4958-88fd-97ee392defcf" name="gbernal@GBERNAL 2013-07-24 11:52:49" runUser="SOAM\gbernal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e3db6095-ce6e-41b0-b542-606337b9d5bd">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gbernal_GBERNAL 2013-07-24 11_52_49" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-24T11:52:49.8830516-05:00" queuing="2013-07-24T11:52:50.4134482-05:00" start="2013-07-24T11:52:50.6006470-05:00" finish="2013-07-24T11:52:51.2558428-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BusinessConfigDao" storage="d:\users\gbernal\desktop\aplicaciones\backupapp\sincosap\sc_v16\scsap_d\sincosap\unit_test\bin\debug\unit_test.dll" id="361ebfa4-448f-cbb8-636e-e5d6e2b412f1">
+      <Execution timeOut="1800000" id="a2254f41-edd7-4e85-b2b0-a10a005b9971" />
+      <TestMethod codeBase="D:/Users/gbernal/Desktop/Aplicaciones/BackUpApp/SINCOSAP/SC_V16/SCSAP_D/SINCOSAP/Unit_Test/bin/Debug/Unit_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.DAO.BCfgTest, Unit_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BusinessConfigDao" />
+    </UnitTest>
+    <UnitTest name="BusinessConfigDao_All" storage="d:\users\gbernal\desktop\aplicaciones\backupapp\sincosap\sc_v16\scsap_d\sincosap\unit_test\bin\debug\unit_test.dll" id="0a5c776e-f4b4-6454-1f48-9679b46c94ad">
+      <Execution timeOut="1800000" id="26b435be-38a0-4174-a8bd-bde0d055909d" />
+      <TestMethod codeBase="D:/Users/gbernal/Desktop/Aplicaciones/BackUpApp/SINCOSAP/SC_V16/SCSAP_D/SINCOSAP/Unit_Test/bin/Debug/Unit_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.DAO.BCfgTest, Unit_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BusinessConfigDao_All" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="361ebfa4-448f-cbb8-636e-e5d6e2b412f1" executionId="a2254f41-edd7-4e85-b2b0-a10a005b9971" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a5c776e-f4b4-6454-1f48-9679b46c94ad" executionId="26b435be-38a0-4174-a8bd-bde0d055909d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a2254f41-edd7-4e85-b2b0-a10a005b9971" testId="361ebfa4-448f-cbb8-636e-e5d6e2b412f1" testName="BusinessConfigDao" computerName="GBERNAL" duration="00:00:00.4144951" startTime="2013-07-24T11:52:50.6942464-05:00" endTime="2013-07-24T11:52:51.1934432-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2254f41-edd7-4e85-b2b0-a10a005b9971">
+    </UnitTestResult>
+    <UnitTestResult executionId="26b435be-38a0-4174-a8bd-bde0d055909d" testId="0a5c776e-f4b4-6454-1f48-9679b46c94ad" testName="BusinessConfigDao_All" computerName="GBERNAL" duration="00:00:00.0030838" startTime="2013-07-24T11:52:51.1934432-05:00" endTime="2013-07-24T11:52:51.2090431-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26b435be-38a0-4174-a8bd-bde0d055909d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

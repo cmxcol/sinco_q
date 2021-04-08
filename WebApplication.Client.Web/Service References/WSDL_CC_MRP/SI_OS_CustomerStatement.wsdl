@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:p1="http://cemex.com/SINCO/ECCMEX/CustomerStatement" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" name="SI_OS_CustomerStatement" targetNamespace="http://cemex.com/SINCO/ECCMEX/CustomerStatement" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation />
+  <wsp:UsingPolicy wsdl:required="true" />
+  <wsp:Policy wsu:Id="OP_requestCustomerStatement" />
+  <wsdl:types>
+    <xsd:schema xmlns="http://cemex.com/SINCO/ECCMEX/CustomerStatement" targetNamespace="http://cemex.com/SINCO/ECCMEX/CustomerStatement" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:element name="MT_CustomerStatementResp" type="p1:DT_CustomerStatementResp" />
+      <xsd:element name="MT_CustomerStatementReq" type="p1:DT_CustomerStatementReq" />
+      <xsd:complexType name="DT_CustomerStatementResp">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">d355104721ec11e1a5bd00000606af8a</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="E_CNAME" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789a79911d1611e1af1164d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_AUFSO" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789aaf3a1d1611e1985c64d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_TAUSO" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789aaf3b1d1611e1a82f64d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_BITOC" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789aaf3c1d1611e1c6d564d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_BITON" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789aaf3d1d1611e1b06864d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_AUFSD" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789aaf3e1d1611e1c16664d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_TAUSD" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789aaf3f1d1611e1a01e64d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_ZTERM" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789aaf401d1611e1a53264d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_NTERM" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789aaf411d1611e1cfa064d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_CARTT" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789aaf421d1611e19e7664d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_SLDAF" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789aaf431d1611e1841a64d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_CARNT" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789aaf441d1611e1913064d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_LCCUR" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789aaf451d1611e1b5b364d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_LIMCR" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789aaf461d1611e1af5264d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_LICUR" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789ae3cc1d1611e1b81264d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_UKURS" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789ae3cd1d1611e1b70264d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_IPFAC" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">789ae3ce1d1611e1a63364d4da1fabbb</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="E_EXCEPTION" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_CustomerStatementReq">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">164f9c641d1511e1b78200000606af8a</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="I_KUNNR" type="xsd:string" />
+          <xsd:element minOccurs="0" name="I_VKORG" type="xsd:string" />
+          <xsd:element minOccurs="0" name="I_VTWEG" type="xsd:string" />
+          <xsd:element minOccurs="0" name="I_SPART" type="xsd:string" />
+          <xsd:element minOccurs="0" name="I_FCURR" type="xsd:string" />
+          <xsd:element minOccurs="0" name="I_TCURR" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="MT_CustomerStatementReq">
+    <wsdl:documentation />
+    <wsdl:part name="MT_CustomerStatementReq" element="p1:MT_CustomerStatementReq" />
+  </wsdl:message>
+  <wsdl:message name="MT_CustomerStatementResp">
+    <wsdl:documentation />
+    <wsdl:part name="MT_CustomerStatementResp" element="p1:MT_CustomerStatementResp" />
+  </wsdl:message>
+  <wsdl:portType name="SI_OS_CustomerStatement">
+    <wsdl:documentation />
+    <wsdl:operation name="requestCustomerStatement">
+      <wsdl:documentation />
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_requestCustomerStatement" />
+      </wsp:Policy>
+      <wsdl:input message="p1:MT_CustomerStatementReq" />
+      <wsdl:output message="p1:MT_CustomerStatementResp" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SI_OS_CustomerStatementBinding" type="p1:SI_OS_CustomerStatement">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <wsdl:operation name="requestCustomerStatement">
+      <operation soapAction="http://sap.com/xi/WebService/soap1.1" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <wsdl:input>
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </wsdl:input>
+      <wsdl:output>
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BS_SINCO_PRD_GBL_SI_OS_CustomerStatement_x_x">
+    <wsdl:port name="HTTP_Port" binding="p1:SI_OS_CustomerStatementBinding">
+     <!-- <address location="http://mxoccsapeip01.noam.cemexnet.com:8180/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BS_SINCO_PRD_GBL&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_CustomerStatement&amp;interfaceNamespace=http%3A%2F%2Fcemex.com%2FSINCO%2FECCMEX%2FCustomerStatement" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />-->
+      <address location="http://mxoccsapeip01.noam.cemexnet.com:8180/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BS_SINCO_PRD_GBL&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_CustomerStatement&amp;interfaceNamespace=http%3A%2F%2Fcemex.com%2FSINCO%2FECCMEX%2FCustomerStatement" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    
+    </wsdl:port>
+    <wsdl:port name="HTTPS_Port" binding="p1:SI_OS_CustomerStatementBinding">
+      <address location="https://mxoccsapeip01.noam.cemexnet.com:51001/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BS_SINCO_PRD_GBL&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_CustomerStatement&amp;interfaceNamespace=http%3A%2F%2Fcemex.com%2FSINCO%2FECCMEX%2FCustomerStatement" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

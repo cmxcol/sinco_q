@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aa745445-b5e3-4f5a-aaf6-28d4fa0723ea" name="gbernal@GBERNAL 2013-07-19 15:32:04" runUser="SOAM\gbernal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e3db6095-ce6e-41b0-b542-606337b9d5bd">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gbernal_GBERNAL 2013-07-19 15_32_04" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-19T15:32:04.4973275-05:00" queuing="2013-07-19T15:32:04.8773655-05:00" start="2013-07-19T15:32:05.0223800-05:00" finish="2013-07-19T15:32:11.6260403-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SOrderTest_Execution_Failure_Mock" storage="d:\users\gbernal\desktop\aplicaciones\backupapp\sincosap\sc_v16\scsap_d\sincosap\unit_test\bin\debug\unit_test.dll" id="b37036d0-4d03-72dc-91e8-2ba79a137926">
+      <Execution timeOut="1800000" id="8d82f029-868b-4f77-b665-7d4733aefcab" />
+      <TestMethod codeBase="D:/Users/gbernal/Desktop/Aplicaciones/BackUpApp/SINCOSAP/SC_V16/SCSAP_D/SINCOSAP/Unit_Test/bin/Debug/Unit_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.SOrderTest, Unit_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SOrderTest_Execution_Failure_Mock" />
+    </UnitTest>
+    <UnitTest name="SOrderTest_Execution_Failure" storage="d:\users\gbernal\desktop\aplicaciones\backupapp\sincosap\sc_v16\scsap_d\sincosap\unit_test\bin\debug\unit_test.dll" id="a671f5cc-df6f-6d73-6010-6e159a70ef9f">
+      <Execution timeOut="1800000" id="c05a55ce-31d8-434b-aea3-2e6d7efc70d8" />
+      <TestMethod codeBase="D:/Users/gbernal/Desktop/Aplicaciones/BackUpApp/SINCOSAP/SC_V16/SCSAP_D/SINCOSAP/Unit_Test/bin/Debug/Unit_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.SOrderTest, Unit_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SOrderTest_Execution_Failure" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a671f5cc-df6f-6d73-6010-6e159a70ef9f" executionId="c05a55ce-31d8-434b-aea3-2e6d7efc70d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b37036d0-4d03-72dc-91e8-2ba79a137926" executionId="8d82f029-868b-4f77-b665-7d4733aefcab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c05a55ce-31d8-434b-aea3-2e6d7efc70d8" testId="a671f5cc-df6f-6d73-6010-6e159a70ef9f" testName="SOrderTest_Execution_Failure" computerName="GBERNAL" duration="00:00:05.3672045" startTime="2013-07-19T15:32:05.0683846-05:00" endTime="2013-07-19T15:32:10.5209298-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c05a55ce-31d8-434b-aea3-2e6d7efc70d8">
+    </UnitTestResult>
+    <UnitTestResult executionId="8d82f029-868b-4f77-b665-7d4733aefcab" testId="b37036d0-4d03-72dc-91e8-2ba79a137926" testName="SOrderTest_Execution_Failure_Mock" computerName="GBERNAL" duration="00:00:01.0386101" startTime="2013-07-19T15:32:10.5279305-05:00" endTime="2013-07-19T15:32:11.5690346-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d82f029-868b-4f77-b665-7d4733aefcab">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Unit_Test.SOrderTest.SOrderTest_Execution_Failure_Mock threw exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.</Message>
+          <StackTrace>    at Unit_Test.SOrderTest.SOrderTest_Execution_Failure_Mock() in D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\Unit_Test\SOrderTest.cs:line 477
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

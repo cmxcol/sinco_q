@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Persistence.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="PersistenceStoreContainer">
+    <EntitySet Name="catRol" EntityType="Persistence.Store.catRol" store:Type="Tables" Schema="auth_usr" />
+    <EntitySet Name="catUsr" EntityType="Persistence.Store.catUsr" store:Type="Tables" Schema="auth_usr" />
+    <EntitySet Name="relRolMPg" EntityType="Persistence.Store.relRolMPg" store:Type="Tables" Schema="auth_usr" />
+    <EntitySet Name="relRolPg" EntityType="Persistence.Store.relRolPg" store:Type="Tables" Schema="auth_usr" />
+    <EntitySet Name="catStaRg" EntityType="Persistence.Store.catStaRg" store:Type="Tables" Schema="cat" />
+    <EntitySet Name="catMPage" EntityType="Persistence.Store.catMPage" store:Type="Tables" Schema="sysc" />
+    <EntitySet Name="catPage" EntityType="Persistence.Store.catPage" store:Type="Tables" Schema="sysc" />
+    <EntitySet Name="relPgMPg" EntityType="Persistence.Store.relPgMPg" store:Type="Tables" Schema="sysc" />
+    <AssociationSet Name="FK_catUsr_catRol" Association="Persistence.Store.FK_catUsr_catRol">
+      <End Role="catRol" EntitySet="catRol" />
+      <End Role="catUsr" EntitySet="catUsr" />
+    </AssociationSet>
+    <AssociationSet Name="FK_catUsr_catStaRg" Association="Persistence.Store.FK_catUsr_catStaRg">
+      <End Role="catStaRg" EntitySet="catStaRg" />
+      <End Role="catUsr" EntitySet="catUsr" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPgMPg_catMPage" Association="Persistence.Store.FK_relPgMPg_catMPage">
+      <End Role="catMPage" EntitySet="catMPage" />
+      <End Role="relPgMPg" EntitySet="relPgMPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relPgMPg_catPage" Association="Persistence.Store.FK_relPgMPg_catPage">
+      <End Role="catPage" EntitySet="catPage" />
+      <End Role="relPgMPg" EntitySet="relPgMPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relRolMPg_catMPage" Association="Persistence.Store.FK_relRolMPg_catMPage">
+      <End Role="catMPage" EntitySet="catMPage" />
+      <End Role="relRolMPg" EntitySet="relRolMPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relRolMPg_catRol" Association="Persistence.Store.FK_relRolMPg_catRol">
+      <End Role="catRol" EntitySet="catRol" />
+      <End Role="relRolMPg" EntitySet="relRolMPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relRolPg_catPage" Association="Persistence.Store.FK_relRolPg_catPage">
+      <End Role="catPage" EntitySet="catPage" />
+      <End Role="relRolPg" EntitySet="relRolPg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_relRolPg_catRol" Association="Persistence.Store.FK_relRolPg_catRol">
+      <End Role="catRol" EntitySet="catRol" />
+      <End Role="relRolPg" EntitySet="relRolPg" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="catRol">
+    <Key>
+      <PropertyRef Name="IdRol" />
+    </Key>
+    <Property Name="IdRol" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NRol" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="catUsr">
+    <Key>
+      <PropertyRef Name="CemexID" />
+    </Key>
+    <Property Name="CemexID" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="NUsuario" Type="nvarchar" MaxLength="200" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="IdRol" Type="int" Nullable="false" />
+    <Property Name="IdStaRg" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="relRolMPg">
+    <Key>
+      <PropertyRef Name="IdRol" />
+      <PropertyRef Name="IdMPage" />
+    </Key>
+    <Property Name="IdRol" Type="int" Nullable="false" />
+    <Property Name="IdMPage" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="relRolPg">
+    <Key>
+      <PropertyRef Name="IdRol" />
+      <PropertyRef Name="IdPage" />
+    </Key>
+    <Property Name="IdRol" Type="int" Nullable="false" />
+    <Property Name="IdPage" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="catStaRg">
+    <Key>
+      <PropertyRef Name="IdStaRg" />
+    </Key>
+    <Property Name="IdStaRg" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NStaRg" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="catMPage">
+    <Key>
+      <PropertyRef Name="IdMPage" />
+    </Key>
+    <Property Name="IdMPage" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DescMPage" Type="nvarchar" MaxLength="100" />
+    <Property Name="Url" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="catPage">
+    <Key>
+      <PropertyRef Name="IdPage" />
+    </Key>
+    <Property Name="IdPage" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DescPage" Type="nvarchar" MaxLength="100" />
+    <Property Name="Url" Type="nvarchar" />
+  </EntityType>
+  <EntityType Name="relPgMPg">
+    <Key>
+      <PropertyRef Name="IdMPage" />
+      <PropertyRef Name="IdPage" />
+    </Key>
+    <Property Name="IdMPage" Type="int" Nullable="false" />
+    <Property Name="IdPage" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_catUsr_catRol">
+    <End Role="catRol" Type="Persistence.Store.catRol" Multiplicity="1" />
+    <End Role="catUsr" Type="Persistence.Store.catUsr" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catRol">
+        <PropertyRef Name="IdRol" />
+      </Principal>
+      <Dependent Role="catUsr">
+        <PropertyRef Name="IdRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_catUsr_catStaRg">
+    <End Role="catStaRg" Type="Persistence.Store.catStaRg" Multiplicity="1" />
+    <End Role="catUsr" Type="Persistence.Store.catUsr" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catStaRg">
+        <PropertyRef Name="IdStaRg" />
+      </Principal>
+      <Dependent Role="catUsr">
+        <PropertyRef Name="IdStaRg" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPgMPg_catMPage">
+    <End Role="catMPage" Type="Persistence.Store.catMPage" Multiplicity="1" />
+    <End Role="relPgMPg" Type="Persistence.Store.relPgMPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catMPage">
+        <PropertyRef Name="IdMPage" />
+      </Principal>
+      <Dependent Role="relPgMPg">
+        <PropertyRef Name="IdMPage" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relPgMPg_catPage">
+    <End Role="catPage" Type="Persistence.Store.catPage" Multiplicity="1" />
+    <End Role="relPgMPg" Type="Persistence.Store.relPgMPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catPage">
+        <PropertyRef Name="IdPage" />
+      </Principal>
+      <Dependent Role="relPgMPg">
+        <PropertyRef Name="IdPage" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relRolMPg_catMPage">
+    <End Role="catMPage" Type="Persistence.Store.catMPage" Multiplicity="1" />
+    <End Role="relRolMPg" Type="Persistence.Store.relRolMPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catMPage">
+        <PropertyRef Name="IdMPage" />
+      </Principal>
+      <Dependent Role="relRolMPg">
+        <PropertyRef Name="IdMPage" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relRolMPg_catRol">
+    <End Role="catRol" Type="Persistence.Store.catRol" Multiplicity="1" />
+    <End Role="relRolMPg" Type="Persistence.Store.relRolMPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catRol">
+        <PropertyRef Name="IdRol" />
+      </Principal>
+      <Dependent Role="relRolMPg">
+        <PropertyRef Name="IdRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relRolPg_catPage">
+    <End Role="catPage" Type="Persistence.Store.catPage" Multiplicity="1" />
+    <End Role="relRolPg" Type="Persistence.Store.relRolPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catPage">
+        <PropertyRef Name="IdPage" />
+      </Principal>
+      <Dependent Role="relRolPg">
+        <PropertyRef Name="IdPage" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_relRolPg_catRol">
+    <End Role="catRol" Type="Persistence.Store.catRol" Multiplicity="1" />
+    <End Role="relRolPg" Type="Persistence.Store.relRolPg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catRol">
+        <PropertyRef Name="IdRol" />
+      </Principal>
+      <Dependent Role="relRolPg">
+        <PropertyRef Name="IdRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

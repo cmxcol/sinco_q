@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Persistence" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="SCDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="catRol" EntityType="Persistence.catRol" />
+    <EntitySet Name="catUsr" EntityType="Persistence.catUsr" />
+    <EntitySet Name="catStaRg" EntityType="Persistence.catStaRg" />
+    <EntitySet Name="catMPage" EntityType="Persistence.catMPage" />
+    <EntitySet Name="catPage" EntityType="Persistence.catPage" />
+    <AssociationSet Name="FK_catUsr_catRol" Association="Persistence.FK_catUsr_catRol">
+      <End Role="catRol" EntitySet="catRol" />
+      <End Role="catUsr" EntitySet="catUsr" />
+    </AssociationSet>
+    <AssociationSet Name="FK_catUsr_catStaRg" Association="Persistence.FK_catUsr_catStaRg">
+      <End Role="catStaRg" EntitySet="catStaRg" />
+      <End Role="catUsr" EntitySet="catUsr" />
+    </AssociationSet>
+    <AssociationSet Name="relRolMPg" Association="Persistence.relRolMPg">
+      <End Role="catMPage" EntitySet="catMPage" />
+      <End Role="catRol" EntitySet="catRol" />
+    </AssociationSet>
+    <AssociationSet Name="relRolPg" Association="Persistence.relRolPg">
+      <End Role="catPage" EntitySet="catPage" />
+      <End Role="catRol" EntitySet="catRol" />
+    </AssociationSet>
+    <AssociationSet Name="relPgMPg" Association="Persistence.relPgMPg">
+      <End Role="catMPage" EntitySet="catMPage" />
+      <End Role="catPage" EntitySet="catPage" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="catRol">
+    <Key>
+      <PropertyRef Name="IdRol" />
+    </Key>
+    <Property Name="IdRol" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NRol" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="catUsr" Relationship="Persistence.FK_catUsr_catRol" FromRole="catRol" ToRole="catUsr" />
+    <NavigationProperty Name="catMPage" Relationship="Persistence.relRolMPg" FromRole="catRol" ToRole="catMPage" />
+    <NavigationProperty Name="catPage" Relationship="Persistence.relRolPg" FromRole="catRol" ToRole="catPage" />
+  </EntityType>
+  <EntityType Name="catUsr">
+    <Key>
+      <PropertyRef Name="CemexID" />
+    </Key>
+    <Property Name="CemexID" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="NUsuario" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="catRol" Relationship="Persistence.FK_catUsr_catRol" FromRole="catUsr" ToRole="catRol" />
+    <NavigationProperty Name="catStaRg" Relationship="Persistence.FK_catUsr_catStaRg" FromRole="catUsr" ToRole="catStaRg" />
+  </EntityType>
+  <EntityType Name="catStaRg">
+    <Key>
+      <PropertyRef Name="IdStaRg" />
+    </Key>
+    <Property Name="IdStaRg" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NStaRg" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="catUsr" Relationship="Persistence.FK_catUsr_catStaRg" FromRole="catStaRg" ToRole="catUsr" />
+  </EntityType>
+  <EntityType Name="catMPage">
+    <Key>
+      <PropertyRef Name="IdMPage" />
+    </Key>
+    <Property Name="IdMPage" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DescMPage" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Url" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="catRol" Relationship="Persistence.relRolMPg" FromRole="catMPage" ToRole="catRol" />
+    <NavigationProperty Name="catPage" Relationship="Persistence.relPgMPg" FromRole="catMPage" ToRole="catPage" />
+  </EntityType>
+  <EntityType Name="catPage">
+    <Key>
+      <PropertyRef Name="IdPage" />
+    </Key>
+    <Property Name="IdPage" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DescPage" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Url" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="catRol" Relationship="Persistence.relRolPg" FromRole="catPage" ToRole="catRol" />
+    <NavigationProperty Name="catMPage" Relationship="Persistence.relPgMPg" FromRole="catPage" ToRole="catMPage" />
+  </EntityType>
+  <Association Name="FK_catUsr_catRol">
+    <End Role="catRol" Type="Persistence.catRol" Multiplicity="1" />
+    <End Role="catUsr" Type="Persistence.catUsr" Multiplicity="*" />
+  </Association>
+  <Association Name="FK_catUsr_catStaRg">
+    <End Role="catStaRg" Type="Persistence.catStaRg" Multiplicity="1" />
+    <End Role="catUsr" Type="Persistence.catUsr" Multiplicity="*" />
+  </Association>
+  <Association Name="relRolMPg">
+    <End Role="catMPage" Type="Persistence.catMPage" Multiplicity="*" />
+    <End Role="catRol" Type="Persistence.catRol" Multiplicity="*" />
+  </Association>
+  <Association Name="relRolPg">
+    <End Role="catPage" Type="Persistence.catPage" Multiplicity="*" />
+    <End Role="catRol" Type="Persistence.catRol" Multiplicity="*" />
+  </Association>
+  <Association Name="relPgMPg">
+    <End Role="catMPage" Type="Persistence.catMPage" Multiplicity="*" />
+    <End Role="catPage" Type="Persistence.catPage" Multiplicity="*" />
+  </Association>
+</Schema>

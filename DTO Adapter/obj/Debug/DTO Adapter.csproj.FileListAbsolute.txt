@@ -1,0 +1,71 @@
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\DTO Adapter\bin\Debug\DTO Adapter.dll
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\DTO Adapter\bin\Debug\DTO Adapter.pdb
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\DTO Adapter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\DTO Adapter\obj\Debug\DTO Adapter.dll
+C:\Users\Administrator\Desktop\Dev_SINCO_2013_07_16\SC_V16\SCSAP_D\SINCOSAP\DTO Adapter\obj\Debug\DTO Adapter.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\DTO Adapter\bin\Debug\DTO Adapter.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\DTO Adapter\bin\Debug\DTO Adapter.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\DTO Adapter\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\DTO Adapter\obj\Debug\DTO Adapter.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_D\SINCOSAP\DTO Adapter\obj\Debug\DTO Adapter.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\DTO Adapter\bin\Debug\DTO Adapter.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\DTO Adapter\bin\Debug\DTO Adapter.pdb
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\DTO Adapter\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\DTO Adapter\obj\Debug\DTO Adapter.dll
+D:\Users\gbernal\Desktop\Aplicaciones\BackUpApp\SINCOSAP\SC_V16\SCSAP_Q\SINCOSAP\DTO Adapter\obj\Debug\DTO Adapter.pdb
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\DTO Adapter\bin\Debug\DTO Adapter.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\DTO Adapter\bin\Debug\DTO Adapter.pdb
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\DTO Adapter\obj\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\DTO Adapter\obj\Debug\DTO Adapter.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SC_V16\SCSAP_P\SINCOSAP\DTO Adapter\obj\Debug\DTO Adapter.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\Debug\DTO Adapter.dll.config
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\Debug\DTO Adapter.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\Debug\DTO Adapter.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\obj\Debug\DTO Adapter.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\obj\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\Debug\DTO Adapter.dll.config
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\obj\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\obj\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\obj\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\SINCO - Motivo\DTO Adapter\bin\Debug\DTO Adapter.dll.config
+C:\Users\mvargasb\Desktop\SINCO - Motivo\DTO Adapter\bin\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\SINCO - Motivo\DTO Adapter\bin\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\SINCO - Motivo\DTO Adapter\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Desktop\SINCO - Motivo\DTO Adapter\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Desktop\SINCO - Motivo\DTO Adapter\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Desktop\SINCO - Motivo\DTO Adapter\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Desktop\SINCO - Motivo\DTO Adapter\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Desktop\SINCO - Motivo\DTO Adapter\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Desktop\SINCO - Motivo\DTO Adapter\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Desktop\SINCO - Motivo\DTO Adapter\obj\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+C:\Users\mvargasb\Desktop\SINCO - Motivo\DTO Adapter\obj\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\SINCO - Motivo\DTO Adapter\obj\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\Debug\DTO Adapter.dll.config
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\obj\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\obj\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\obj\Debug\DTO Adapter.pdb

@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdmL2.master.cs" Inherits="WebApplication.Client.Web.CO.AdminSH.MP.AdmL2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../../Styles/SPublic.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   <form id="Form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager2" AsyncPostBackTimeout ="360000" runat="server">
+    </asp:ScriptManager>
+    <div class="page">
+        <div class="header">
+            <div class="HeaderOver" align="center">
+                <h1>
+                    Administrador L2
+                </h1>
+                <h3>
+                </h3>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="art-footer">
+            <div class="art-footer-t">
+            </div>
+            <div class="art-footer-b">
+            </div>
+            <div class="art-footer-body">
+                <a href="#" class="art-rss-tag-icon" title="RSS"></a>
+                <div class="art-footer-text">
+                    <p>
+                        Copyright &copy;<%= DateTime.Now.Year %>. CEMEX COLOMBIA All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+    </div>
+    </form>
+</body>
+</html>

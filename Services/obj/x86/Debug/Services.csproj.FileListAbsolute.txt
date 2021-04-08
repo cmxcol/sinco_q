@@ -1,0 +1,624 @@
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Services.dll.config
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Services.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Services.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Components.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\DTO Adapter.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Persistence.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\sapnco.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\SHUtil.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\sapnco_utils.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Components.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Persistence.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\obj\x86\Debug\Services.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\Services\obj\x86\Debug\Services.pdb
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Services.dll.config
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Services.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Services.pdb
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Components.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\DTO Adapter.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Persistence.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\sapnco.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\SHUtil.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\sapnco_utils.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Components.pdb
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Persistence.pdb
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\obj\x86\Debug\Services.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\Services\obj\x86\Debug\Services.pdb
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\Services.dll.config
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\Services.dll
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\Services.pdb
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\Components.dll
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\Persistence.dll
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\sapnco.dll
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\SHUtil.dll
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\sapnco_utils.dll
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\Components.pdb
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\Persistence.pdb
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\Calidad\SINCO_Q\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\Calidad\SINCO_Q\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\Calidad\SINCO_Q\Services\obj\x86\Debug\Services.dll
+D:\ADMAPPS\Calidad\SINCO_Q\Services\obj\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\Services.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\Components.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\Persistence.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\sapnco.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\SHUtil.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\sapnco_utils.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\Components.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\Persistence.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\obj\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\Services\obj\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\Services.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\Components.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\Persistence.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\sapnco.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\SHUtil.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\sapnco_utils.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\Components.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\Persistence.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\obj\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSION ultima luis\Services\obj\x86\Debug\Services.pdb
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\Services.dll.config
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\Services.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\Services.pdb
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\Components.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\DTO Adapter.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\Persistence.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\sapnco.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\SHUtil.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\sapnco_utils.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\Components.pdb
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\DTO Adapter.pdb
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\Persistence.pdb
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\obj\x86\Debug\Services.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\Services\obj\x86\Debug\Services.pdb
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\Services.dll.config
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\Services.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\Services.pdb
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\Components.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\Persistence.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\sapnco.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\SHUtil.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\sapnco_utils.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\Components.pdb
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\Persistence.pdb
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\obj\x86\Debug\Services.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\Services\obj\x86\Debug\Services.pdb
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\Services.dll.config
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\Services.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\Services.pdb
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\Components.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\DTO Adapter.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\Persistence.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\sapnco.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\SHUtil.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\sapnco_utils.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\Components.pdb
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\DTO Adapter.pdb
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\Persistence.pdb
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\obj\x86\Debug\Services.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\Services\obj\x86\Debug\Services.pdb
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\Services.dll.config
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\Services.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\Services.pdb
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\Components.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\Persistence.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\sapnco.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\SHUtil.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\sapnco_utils.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\Components.pdb
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\Persistence.pdb
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\obj\x86\Debug\Services.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\Services\obj\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Services.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Components.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Persistence.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\sapnco.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\SHUtil.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\sapnco_utils.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Components.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Persistence.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\obj\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\Services\obj\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Services.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Components.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Persistence.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\sapnco.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\SHUtil.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\sapnco_utils.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Components.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Persistence.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\obj\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\Services\obj\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Services.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Components.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Persistence.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\sapnco.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\SHUtil.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\sapnco_utils.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Components.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Persistence.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\obj\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\Services\obj\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\Services.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\Components.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\Persistence.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\sapnco.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\SHUtil.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\sapnco_utils.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\Components.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\Persistence.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\obj\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\Services\obj\x86\Debug\Services.pdb
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\Services.dll.config
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\Services.dll
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\Services.pdb
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\Components.dll
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\Persistence.dll
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\sapnco.dll
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\SHUtil.dll
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\sapnco_utils.dll
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\Components.pdb
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\Persistence.pdb
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Documents\SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Documents\SINCO\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\mvargasb\Documents\SINCO\Services\obj\x86\Debug\Services.dll
+C:\Users\mvargasb\Documents\SINCO\Services\obj\x86\Debug\Services.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\Services.dll.config
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\Services.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\Services.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\Components.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\Persistence.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\sapnco.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\SHUtil.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\sapnco_utils.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\Components.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\Persistence.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\obj\x86\Debug\Services.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\Services\obj\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\Services.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\Components.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\Persistence.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\sapnco.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\SHUtil.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\sapnco_utils.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\Components.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\Persistence.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\obj\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\Services\obj\x86\Debug\Services.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\Services.dll.config
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\Services.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\Services.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\Components.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\Persistence.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\sapnco.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\SHUtil.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\sapnco_utils.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\Components.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\Persistence.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\obj\x86\Debug\Services.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\Services\obj\x86\Debug\Services.pdb
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\Services.dll.config
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\Services.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\Services.pdb
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\Components.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\Persistence.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\sapnco.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\SHUtil.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\sapnco_utils.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\Components.pdb
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\Persistence.pdb
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\obj\x86\Debug\Services.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\Services\obj\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\Services.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\Components.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\Persistence.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\sapnco.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\SHUtil.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\sapnco_utils.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\Components.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\Persistence.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\obj\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\Services\obj\x86\Debug\Services.pdb
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\Services.dll.config
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\Services.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\Services.pdb
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\Components.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\Persistence.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\sapnco.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\SHUtil.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\sapnco_utils.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\Components.pdb
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\Persistence.pdb
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\obj\x86\Debug\Services.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\Services\obj\x86\Debug\Services.pdb
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\Services.dll.config
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\Services.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\Services.pdb
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\Components.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\Persistence.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\sapnco.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\SHUtil.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\sapnco_utils.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\Components.pdb
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\Persistence.pdb
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\obj\x86\Debug\Services.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\Services\obj\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\Services.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\Components.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\Persistence.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\sapnco.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\SHUtil.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\sapnco_utils.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\Components.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\Persistence.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\obj\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\Services\obj\x86\Debug\Services.pdb
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\Services.dll.config
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\Services.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\Services.pdb
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\Components.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\Persistence.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\sapnco.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\SHUtil.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\sapnco_utils.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\Components.pdb
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\Persistence.pdb
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\obj\x86\Debug\Services.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\Services\obj\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Services.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Services.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Components.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Persistence.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\sapnco.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\SHUtil.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\sapnco_utils.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Components.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Persistence.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\obj\x86\Debug\Services.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\obj\x86\Debug\Services.pdb
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Services.dll.config
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Services.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Services.pdb
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Components.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Persistence.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\sapnco.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\SHUtil.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\sapnco_utils.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Components.pdb
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Persistence.pdb
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\obj\x86\Debug\Services.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\Services\obj\x86\Debug\Services.pdb
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\Services.dll.config
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\Services.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\Services.pdb
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\Components.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\Persistence.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\sapnco.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\SHUtil.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\sapnco_utils.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\Components.pdb
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\Persistence.pdb
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\obj\x86\Debug\Services.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\Services\obj\x86\Debug\Services.pdb

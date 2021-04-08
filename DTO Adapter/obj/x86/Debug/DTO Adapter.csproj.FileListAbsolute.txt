@@ -1,0 +1,321 @@
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+D:\Felipe\Apps\SCSAP_P\SINCOSAP\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+D:\CHRISTIAN MEDINA CX\APP CEMEX\SINCO\SCSAP_P\SINCOSAP\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\Calidad\SINCO_Q\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\ADMAPPS\Calidad\SINCO_Q\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\SINCO_Q\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\SINCO_Q\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\Calidad\SINCO_Q\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\Calidad\SINCO_Q\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\Calidad\SINCO_Q\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\Calidad\SINCO_Q\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\Calidad\SINCO_Q\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\Calidad\SINCO_Q\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\Calidad\SINCO_Q\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\Calidad\SINCO_Q\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\SINCO_Q\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Version cambio descuentos SINCO\SINCO VERSION SIN PRECOMPILAR ACTUAL\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+C:\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO VERSION ultima luis\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\SINCO PRUEBA SendEmailJohan\SINCO VERSION ultima luis\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+\\Lurrea01\c$\Users\jsanchezrjs\Desktop\JohanPruebas\SINCO Proforma\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\SINCO Proforma\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\ADMAPPS\Calidad\SINCO Proforma\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\SINCO Proforma\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\Calidad\SINCO Proforma\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\Calidad\SINCO Proforma\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\Calidad\SINCO Proforma\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\Calidad\SINCO Proforma\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\Calidad\SINCO Proforma\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\SINCO Proforma\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO 23-10-2018\SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO VERSIONES\Copia\SINCO 23-10-2018\SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\SINCO PROFORMA 2019-11-1\SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Documents\SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+C:\Users\mvargasb\Documents\SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Documents\SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Documents\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Documents\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Documents\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Documents\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Documents\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Documents\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Documents\SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Documents\SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+C:\Users\mvargasb\Documents\SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Documents\SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\25-01-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-02-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\SINCO - BloCliente Excep\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Desktop\04-04-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\14-06-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\14-06-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+C:\Users\mvargasb\Desktop\01-11-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\19-11-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\sinco ultima version\19-11-2019 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.csprojResolveAssemblyReference.cache
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\Archivos SINCO\12-2-2020 SINCO\12-2-2020 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll.config
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\DTO Adapter\bin\x86\Debug\DTO Adapter.pdb
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\DTO Adapter\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.dll
+D:\ADMAPPS\Calidad\SINCO_AUTORIZACIONES\7-5-2020 SINCO\DTO Adapter\obj\x86\Debug\DTO Adapter.pdb

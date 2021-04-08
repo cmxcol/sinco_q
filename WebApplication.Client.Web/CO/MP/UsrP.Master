@@ -1,0 +1,206 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UsrP.master.cs" Inherits="WebApplication.Client.Web.CO.Master.UsrP" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="~/CO/Styles/SMaster.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .overlay {
+            position: fixed;
+            z-index: 98;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: white;
+            filter: alpha(opacity=80);
+            opacity: 0.8;
+        }
+
+        .overlayContent {
+            z-index: 99;
+            margin: 250px auto;
+            width: 45px;
+            height: 45px;
+        }
+
+            .overlayContent h2 {
+                font-size: 18px;
+                font-weight: bold;
+                color: #000;
+            }
+
+            .overlayContent img {
+                width: 45px;
+                height: 45px;
+            }
+    </style>
+    <script type="text/javascript" language="JavaScript">
+        var timerID = null;
+        var timerRunning = false;
+        function stopclock() {
+            if (timerRunning)
+                clearTimeout(timerID);
+            timerRunning = false;
+        }
+
+        function showtime() {
+            var now = new Date();
+            var hours = now.getHours();
+            var minutes = now.getMinutes();
+            var seconds = now.getSeconds();
+            var timeValue = "" + ((hours > 12) ? hours - 12 : hours)
+            var date = now.format("yyyy-MM-dd");
+
+
+            if (timeValue == "0") timeValue = 12;
+            timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+            timeValue += ((seconds < 10) ? ":0" : ":") + seconds
+            timeValue += (hours >= 12) ? " P.M." : " A.M."
+            document.getElementById('lblFeHr').innerText = date + " " + timeValue;
+
+
+            timerID = setTimeout("showtime()", 1000);
+            timerRunning = true;
+        }
+        function startclock() {
+            stopclock();
+            showtime();
+        }
+    </script>
+</head>
+<body onload="startclock()">
+    <form id="Form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager2" AsyncPostBackTimeout="360000" runat="server">
+        </asp:ScriptManager>
+        <div class="page">
+            <div class="headerBase">
+                <div class="HeaderOverinner">
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="width:35%">
+                                <table style="width:100%;">
+                                    <tr>
+                                        <td colspan="2" class="tblogo">
+                                            <a href="#" class="LogoCemex" title="CLW"></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td style="width:25%">&nbsp;
+                            </td>
+                            <td style="width:11%"></td>
+                            <td style="width:24%">
+                                <table style="width:100%;" class="tbHFunc">
+                                    <tr>
+                                        <td>
+                                            <div class="MUsrP">
+                                                <asp:Menu ID="MUsr" runat="server" CssClass="menuUsr" EnableViewState="false" Orientation="Horizontal"
+                                                    Visible="true" Font-Bold="true" Font-Italic="False">
+                                                    <Items>
+                                                        <asp:MenuItem NavigateUrl="~/CO/PG/Soporte.aspx" Text="Soporte" />
+                                                        <asp:MenuItem Text="|" Selectable="false" Selected="false" Enabled="false" />
+                                                        <asp:MenuItem NavigateUrl="~/Account/CerrarSession.aspx" Text="Cerrar Sesión" />
+                                                    </Items>
+                                                </asp:Menu>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align:left;">
+                                            <asp:Label ID="lblRUsr" runat="server" CssClass="tbfh" Text="Usuario: "></asp:Label>
+                                            <asp:Label ID="lblUsr" runat="server" Text="" Font-Size="XX-Small"></asp:Label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align:left;">
+                                            <asp:Label ID="lblFeHr" runat="server" CssClass="clock" ClientIDMode="Static"></asp:Label>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="clear hideSkiplink">
+                    <div align="center">
+                        <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false"
+                            IncludeStyleBlock="false" Orientation="Horizontal" Visible="true">
+                            <Items>
+                                <asp:MenuItem NavigateUrl="~/CO/PG/Home.aspx" Text="Home" />
+                                <asp:MenuItem Text="|" Selectable="false" Selected="false" Enabled="false" />
+                                <asp:MenuItem Text="Pedidos">
+                                    <asp:MenuItem NavigateUrl="~/CO/PG/Usr/ProgPedidos.aspx" Text="Programar" />
+                                    <asp:MenuItem NavigateUrl="~/CO/PG/Usr/ModPedidos.aspx" Text="Modificar" />
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="|" Selectable="false" Selected="false" Enabled="false" />
+                                <asp:MenuItem Text="Descuentos">
+                                    <asp:MenuItem NavigateUrl="~/CO/PG/Usr/DescVal.aspx" Text="Validar " />
+                                </asp:MenuItem>
+                                 <%--<asp:MenuItem Text="Proforma">
+                                    <asp:MenuItem NavigateUrl="~/CO/PG/Usr/Proforma.aspx" Text="Crear" />
+                                </asp:MenuItem>--%>
+                            </Items>
+                        </asp:Menu>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <asp:UpdatePanel ID="Upnl_ProgPage" runat="server">
+                    <ContentTemplate>
+                        <fieldset style="border: none; height: 100%">
+                            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                        </fieldset>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+                <asp:UpdateProgress ID="UpPrg_ProgPage" runat="server" DisplayAfter="0" AssociatedUpdatePanelID="Upnl_ProgPage">
+                    <ProgressTemplate>
+                        <div class="overlay">
+                            <div class="overlayContent">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <h2>Procesando...</h2>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align:center;">
+                                            <img id="imgPrg" src="../../Images/ajax-loader.gif" alt="Loading" border="0" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </ProgressTemplate>
+                </asp:UpdateProgress>
+            </div>
+            <div class="art-footer">
+                <div class="art-footer-t">
+                </div>
+                <div class="art-footer-l">
+                </div>
+                <div class="art-footer-b">
+                </div>
+                <div class="art-footer-r">
+                </div>
+                <div class="art-footer-body">
+                    <a href="#" class="art-rss-tag-icon" title="RSS"></a>
+                    <div class="art-footer-text">
+                        <p>
+                            Copyright &copy;
+                        <%= DateTime.Now.Year %>. CEMEX COLOMBIA All Rights Reserved.
+                        </p>
+                    </div>
+                    <div class="cleared">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+    </form>
+</body>
+</html>

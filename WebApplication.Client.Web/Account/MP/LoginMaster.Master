@@ -1,0 +1,136 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LoginMaster.master.cs"
+    Inherits="WebApplication.Client.Web.Account.MP.LoginMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="~/Account/Style/SPublic.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript" language="JavaScript">
+        var timerID = null;
+        var timerRunning = false;
+        function stopclock() {
+            if (timerRunning)
+                clearTimeout(timerID);
+            timerRunning = false;
+        }
+
+        function showtime() {
+            var now = new Date();
+            var hours = now.getHours();
+            var minutes = now.getMinutes();
+            var seconds = now.getSeconds();
+            var timeValue = "" + ((hours > 12) ? hours - 12 : hours)
+            var date = now.format("yyyy-MM-dd");
+
+
+            if (timeValue == "0") timeValue = 12;
+            timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+            timeValue += ((seconds < 10) ? ":0" : ":") + seconds
+            timeValue += (hours >= 12) ? " P.M." : " A.M."
+            document.getElementById('lblFeHr').innerText = date + " " + timeValue;
+
+
+            timerID = setTimeout("showtime()", 1000);
+            timerRunning = true;
+        }
+        function startclock() {
+            stopclock();
+            showtime();
+        }
+    </script>
+</head>
+<body onload="startclock()">
+    <form id="Form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager2" AsyncPostBackTimeout ="360000" runat="server">
+    </asp:ScriptManager>
+    <div class="page">
+        <div class="headerBase">
+            <div class="HeaderOverinner">
+                <table style="width:100%;">
+                    <tr>
+                        <td style="width:35%">
+                            <table style="width:100%;">
+                                <tr>
+                                    <td colspan="2" class="tblogo">
+                                        <a href="#" class="LogoCemex" title="CLW"></a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <%--                            <div class="art-logo">
+                                <h1 id="H1" class="art-logo-name">
+                                    SINCO
+                                </h1>
+
+                            </div>--%>
+                        </td>
+                        <td style="width:25%">
+                        </td>
+                        <td style="width:11%">
+                        </td>
+                        <td style="width:24%">
+                            <table style="width:100%;" class="tbHFunc">
+                                <tr>
+                                    <td>
+                                        <div class="MUsrP">
+                                            <asp:Menu ID="MUsr" runat="server" CssClass="menuUsr" EnableViewState="false" Orientation="Horizontal"
+                                                Visible="true" Font-Bold="true" Font-Italic="False"  DynamicTopSeparatorImageUrl =  "../Images/menuseparator.png" >
+                                                <Items>
+                                                    <asp:MenuItem NavigateUrl="~/Account/Soporte.aspx" Text="Soporte"/>
+                                                    <asp:MenuItem Text="|"  Selectable = "false" Selected ="false" Enabled ="false"/>
+                                                    <asp:MenuItem NavigateUrl="~/Account/Login.aspx" Text="Log In" />
+                                                </Items>
+                                            </asp:Menu>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <asp:Label ID="lblFeHr" runat="server" CssClass="clock" ClientIDMode="Static"></asp:Label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="clear hideSkiplink" align="left">
+                <div align="center">
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="art-footer">
+            <div class="art-footer-t">
+            </div>
+            <div class="art-footer-l">
+            </div>
+            <div class="art-footer-b">
+            </div>
+            <div class="art-footer-r">
+            </div>
+            <div class="art-footer-body">
+                <a href="#" class="art-rss-tag-icon" title="RSS"></a>
+                <div class="art-footer-text">
+                    <p>
+                        Copyright &copy;
+                        <%= DateTime.Now.Year %>. CEMEX COLOMBIA All Rights Reserved.</p>
+                </div>
+                <div class="cleared">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+    </div>
+    </form>
+</body>
+</html>

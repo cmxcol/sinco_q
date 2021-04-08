@@ -1,0 +1,360 @@
+30-08-2018
+	proforma OK se pasa a productivo el dia lun 02-09-2018. hoy se alamacena en el servidor 13a
+	D:\ADMAPPS\Desarrollo\SINCO VERSION ProformaModuloFinal
+31-08-2018
+	se inicia con la modificacion a sinco para que pueda elegir comercial
+06-09-2018
+	vuelve proforma a desarrollo para completar nuevos requerimientos
+10-09-2018
+	add tipo medida
+	insert into values('EA','3')
+	Lista para pruebas de calidad. Requerim Completados
+13-09-2018
+	se pasa a calidad
+10-10-2018
+	se han realizado las pruebas Capacitaciones nos envia un correo con las correciones a desarrollar.
+11-10-2018
+	se termina con los ajustes de la proforma, se procede a crear un solo proyecto.
+	SE IMPLEMENTA UN SOLO APLICATIVO OK 
+
+05-01-2019
+
+	GENERACIÓN DE PROFORMA
+		- Se modificó la plantila de la proforma
+		- Se insertan más lineas de información en la plantilla
+  		  (Este cambio se realizó ya que la información generada en el PDF no se mostraba muy legible)
+
+04-02-2019
+	
+	AJUSTES EN LA CREACIÓN DE EXCEPCIONES (Validadción de fechas)
+
+	  - Se configuró la validación de la inserción de Excepción de Cartera, para permitir crear
+		  varias excepciones de un mismo tipo pero de fecha distinta
+
+		IF (COALESCE(@dtVig,'') >= CAST(SYSDATETIME() as DATE)) BEGIN
+
+		IF (cast (@dtVig as date) > cast((SELECT TOP (1) dtVig   FROM tbExCli WHERE IdCliente = @IdCliente AND IdTEx = @IdTEx AND (COALESCE(@dtVig,'') >= CAST(SYSDATETIME() as DATE))  order by dtVig desc) as date))  OR  (SELECT COUNT(dtVig)   FROM tbExCli WHERE IdCliente = @IdCliente AND IdTEx = @IdTEx AND (cast(@dtVig as date) >= CAST(SYSDATETIME() as DATE))) = 0 
+
+	  - En la base de datos SCDB_P el procedimiento almacenado SPI_Ex es el encargado de realizar la inserción
+		
+
+	
+	AJUSTES EN LA CREACIÓN DE EXCEPCIONES (Motivo)
+
+	  - En el módulo para crear excepciones se agrega la columna llamada "Motivo";
+	    para el reporte y asignación de dicho dato en la excepción
+
+		  * Este cambio se realizo sobre EConfig.aspx y EConfig.aspx.cs respectivamente, para la visualización
+		    y gestion de los datos
+		
+	  - En la base de datos se realizaron los siguientes cambios:
+
+                  * Se crea la tabla [cat].[catMotivos] para almacenar el tipo de motivo con su respectivo identificador
+
+			create table [SCDB_P].[cat].[catMotivos]( IdMotivo int not null, Descripcion nvarchar(200) null )
+
+		  * Se agregan las columnas Motivo y DescMotivo en la tabla [tdExCli] para almacenar los datos
+		    pertenecientes a cada excepción
+
+		  * En el procedimiento almacenado [dbo].[SPI_Ex] se agregaron los parametros y asignaciones
+		    corresopndienes para la insercion de los motivos en la base de datos
+
+			@Motivo  INT,
+			@DescMotivo NVARCHAR(200) = '',
+
+			INSERT INTO tbExCli(IdCliente, IdTEx, dtVig, IdPais, IdRol, MsgEx, IdEmp, Comercial, Motivo, DescMotivo) VALUES(@IdCliente,@IdTEx,@DateVig,@IdPais,@IdRol,@MsgEx,@IdEmp,@IdComcial, @Motivo, @DescMotivo)
+			INSERT INTO tbExCli(IdCliente, IdTEx, dtVig, IdPais, IdRol, MsgEx, IdEmp,IdStaEx, Comercial, Motivo, DescMotivo) VALUES(@IdCliente,@IdTEx,@DateVig,@IdPais,@IdRol,@MsgEx,@IdEmp,@IdStaEx, @IdComcial, @Motivo, @DescMotivo)
+
+		  * En el procedimiento almacenado [dbo].[SPU_Ex] se agregaron los parametros relacionado con los motivos
+		    para la actualización de dichos datos en la base de datos.
+
+			@Motivo  INT,
+			@DescMotivo NVARCHAR(200) = '',
+
+			UPDATE tbExCli SET Comercial = @IdComcial, Motivo = @Motivo, DescMotivo = @DescMotivo WHERE IdEx = @IdEx
+
+		  * Al procedimiento almacenado llamado [dbo].[SPSIT_CE] se agrego el @IDCON = 13 para la consulta del
+		    motivo y el tipo de excepción requeridas para los reportes del sistema. Adicionalmente, en el
+		    @IDCON = 7 con @TTAB = 1 se agregó la tabla y campos necesarios para la consulta de motivos en las excepciones
+
+			IF @IDCON = 13 BEGIN
+				SELECT E.DescMotivo, T.NTEx as IdTEx
+				from tbExCli E INNER JOIN cat.catTEx T on E.IdTEx = T.IdTEx 
+				where E.IdEx = @IdEx
+			END
+
+			IF @IDCON = 7 BEGIN
+			IF @TTAB = 1 BEGIN
+				SELECT TEC.IdEx, TEC.IdCliente,CTE.NTEx,convert(nvarchar(10),TEC.dtVig) dtVig,TEC.MsgEx,TEC.IdEmp,(Select CASE WHEN COUNT(IdDocument) IS NULL THEN 0 ELSE  COUNT(IdDocument) END from auth_ccs.tbDocument where IdEx = TEC.IdEx) CountDoc,CR.NRol, TEC.Comercial, concat(CMT.Descripcion, TEC.DescMotivo ) as Motivo
+				FROM tbExCli TEC 
+				INNER JOIN 	cat.catTEx CTE ON TEC.IdTEx = CTE.IdTEx	
+				INNER JOIN auth_usr.catRol CR ON TEC.IdRol = CR.IdRol 
+				INNER JOIN cat.catMotivos CMT ON TEC.Motivo = CMT.IdMotivo
+				WHERE TEC.IdPais = @IdPais 
+			END
+			END
+
+
+15-02-2019
+
+	AJUSTES EN LA EDICIÓN DE EXCEPCIONES
+
+		- Se modifica el aplicativo para permitir editar las fechas de vigencia sin restricciones
+		- Se modifica el aplicativo para permitir editar las fechas de vigencia sin restricciones
+	 	- Se modifica el mecanismo para el almacenamiento de documentos en las excepciones
+
+28-02-2019
+	
+	AJUSTES EN LA GENERACIÓN DE PROFORMA (Validadción de fechas)
+
+		-Se modifíca el aplicativo apra permitir ingresar un cargo tecleado por el usuario (Proforma.aspx.cs)
+		- En la base de datos se realizaron los siguientes cambios:
+
+		 * Al procedimiento almacenado llamado [dbo].[SP_Prfm_GetSetDatos] se agrego el @TCOM=6 para la consulta de los cargos
+
+			ELSE IF @TCOM = 6 BEGIN--cargarCargos
+				SELECT NCargo as nombre, convert(varchar(20),IdCargo) as valor
+				FROM [SCDB_P].[hr].[catCargos]
+			END
+
+01-03-2019
+
+	AJUSTES AUTORIZACIONES
+		-Se modifica el aplicativo para que se puede autorizar max 30 o 15 dias la autorizacion
+		-Se modifica el procedimiento para que [dbo].[SPI_Ex] 
+		
+
+03-04-2019
+
+	MÓDULO DE CLIENTES SIN EXCEPCIONES
+		-Se agrega un nuevo módulo para la gestión de los clientes que no se les permitirá hacer autorizaciones
+		 situadas en las direcciones:
+			*WebApplication.Client.Web.CO.PG.Adm.CBloMasivo
+			*WebApplication.Client.Web.CO.PG.Adm.CBloqueados
+		-Se realiza la respectiva traza sobre los módulos, agregando las funcionalidades para el módulo anterior	
+		
+		-En la base de datos [SCDB_P] se crea la nueva tabla [bloExCli], así:
+			CREATE TABLE [SCDB_P].[dbo].[bloExCli](
+				id bigint not null IDENTITY(1,1),
+				codCliente bigint not null,
+				deudor nvarchar (80) null,
+				IdTEx nvarchar (20) null,
+				userUp nvarchar (80) null,
+				Primary Key (id ) 
+			)
+
+		-
+
+		-En la base de datos [SCDB_P] se crea el procedimiento almacenado [dbo].[bloExCliente] con los siguientes TCOMs:
+			*TCOM = 1 -->Create new register
+			*TCOM = 2 -->Read clients
+			*TCOM = 3 -->Update client
+			*TCOM = 4 -->Delete client
+			*TCOM = 5 -->Exist client?
+			*TCOM = 6 -->Find client by codCliente
+			*TCOM =7/8-->Find client by Id
+			*TCOM = 9 -->Truncate Table [SCDB_P].[dbo].[bloExCli]
+
+		-Se hicieron las respectivas inserciones en dicahs tablas
+
+			*INSERT INTO [SCDB_P].[sysc].[catPage] VALUES ('Clientes Sin Excepciones', '/CO/PG/Adm/CBloqueados.aspx', 'SINCO_Q',3 )
+			*INSERT INTO [SCDB_P].[auth_usr].[relPaRolPg] VALUES (1,3,#IdPage)
+	
+			*INSERT INTO [SCDB_P].[sysc].[catPage] VALUES ('Carga de Clientes Sin Excepciones', '/CO/PG/Adm/CBloMasivo.aspx', 'SINCO_Q',3 )
+			*INSERT INTO [SCDB_P].[auth_usr].[relPaRolPg] VALUES (1,3,#IdPage)
+
+		-Éste nuevo módulo esta disponible para el rol [Administrador de Cartera] id = 3
+
+14-06-2019
+
+	MÓDULO DE VIGENCIA DE CLIENTES NACIONALES
+
+		-Se agrega un nuevo módulo para la gestión de las vigencias de clientes nacionales situadas en las direcciones:
+			*WebApplication.Client.Web.CO.PG.Adm.VigenciaMasivo
+			*WebApplication.Client.Web.CO.PG.Adm.Vigencia
+
+		-Se realiza la respectiva traza sobre los módulos, agregando las funcionalidades para el módulo anterior	
+		
+
+		-En la base de datos [SCDB_P] se crea el procedimiento almacenado [dbo].[vigenciaCliNal] con los siguientes TCOMs:
+			*TCOM = 1 -->Create new register
+			*TCOM = 2 -->Read clients
+			*TCOM = 3 -->Update client
+			*TCOM = 4 -->Delete client
+			*TCOM = 5 -->Exist client?
+			*TCOM = 6 -->Find client by codCliente
+			*TCOM =7/8-->Find client by Id 
+
+
+		-Se hicieron las respectivas inserciones en dicahs tablas
+
+			*INSERT INTO [SCDB_P].[sysc].[catPage] VALUES ('Vigencia - Clientes Nacionales', '/CO/PG/Adm/Vigencia.aspx', 'SINCO',3 )
+			*INSERT INTO [SCDB_P].[auth_usr].[relPaRolPg] VALUES (1,3,#IdPage)
+	
+			*INSERT INTO [SCDB_P].[sysc].[catPage] VALUES ('Carga de Vigencia Cli/Nacionales', '/CO/PG/Adm/VigenciaMasivo.aspx', 'SINCO',3 )
+			*INSERT INTO [SCDB_P].[auth_usr].[relPaRolPg] VALUES (1,3,#IdPage)
+
+		-Éste nuevo módulo esta disponible para el rol [Administrador de Cartera] id = 3
+
+
+11-10-2019
+
+	<>
+
+		-En la base de datos [SCDB_P] se crea la nueva tabla [bloCliSeg], así:
+
+  			CREATE TABLE [SCDB_P].[cat].[bloCliSeg](
+				id bigint not null IDENTITY(1,1),
+				idCliente bigint not null,
+				idSegmento varchar(30) not null,
+				Primary Key (id	) 
+			)
+
+			CREATE TABLE [SCDB_P].[cat].[bloAutSeg](
+				id bigint not null IDENTITY(1,1),
+				idEmp bigint not null,
+				idSegmento varchar(30) not null,
+				FOREIGN KEY (idEmp) REFERENCES [SCDB_P].[hr].[Emp](idEmp),
+				Primary Key (id ) 
+			)
+
+	//---------------------------------------------------------------------------------------
+			CREATE TABLE [SCDB_P].[cat].[bloCliAut](
+				id bigint not null IDENTITY(1,1),
+				idCliente bigint not null,
+				nomCliente varchar(70) not null,
+				idEmp bigint not null,
+				FOREIGN KEY (idEmp) REFERENCES [SCDB_P].[hr].[Emp](idEmp),
+				Primary Key (id ) 
+			)
+	//---------------------------------------------------------------------------------------
+ 			select * from [SCDB_P].[hr].[Emp] where idemp=9000052007
+
+
+  			SELECT * FROM [SCDB_P].[cat].[bloCliSeg]
+			INSERT INTO [SCDB_P].[cat].[bloCliSeg] VALUES ('50117857', '9000052007')
+				
+
+			SELECT * FROM [SCDB_P].[cat].[bloAutSeg]
+			INSERT INTO [SCDB_P].[cat].[bloAutSeg] VALUES ('9000038120', '9000052007')
+
+
+<Relación CLiente/Autorizante>
+
+
+		-En la base de datos [SCDB_P] se creo la tabla [cat].[bloCliAut] se almacenaron
+		 registros para relacionar los clientes a Autorizantes según lo solicitado.
+		 Esto fue con los siguientes Scripts:
+
+			*INSERT INTO [SCDB_P].[cat].[bloCliAut] VALUES (50702696, 'AGREGADOS DEL OCCIDENTE DE RISARALDA SAS', 9000043848)
+
+			*INSERT INTO [SCDB_P].[cat].[bloCliAut] VALUES (50702696, 'AGREGADOS DEL OCCIDENTE DE RISARALDA SAS', 9000052603)
+
+			*INSERT INTO [SCDB_P].[cat].[bloCliAut] VALUES (50118445, 'SOLETANCHE BACHY CIMAS S A', 9000030441)
+
+
+
+<10-22-2019>    *-*-*-*-*-*-MATE EXPRESS-*-*-*-*-*-*
+
+
+	-Para la inclusión del módulo para Materiales Express:
+
+		*Se agregaron páginas, Web Services y demas sobre el código fuente del aplicativo.
+	
+		*Se ejecutaron los siguientes scripts en la base de datos, segun corresponde:
+
+		--Sociedad para los comerciales
+		INSERT INTO [SCDB_P].[rel].[relPaOrg] VALUES (#idPais,7460)
+
+		--Rol
+		INSERT INTO [SCDB_P].[auth_usr].[catRol] VALUES ('Administrador Mate Express')
+	
+		--Pais
+		INSERT INTO [SCDB_P].[sysc].[catPais] VALUES ('MateExpress','ME', 1)	
+
+		--Master Page
+		INSERT INTO [SCDB_P].[sysc].[catMPage] VALUES ('Master Page Mate Express', '/ME/MP/AdmME.Master', '/SINCO_Q')
+
+		--Rol & Master Page
+		INSERT INTO [SCDB_P].[auth_usr].[relPaRolMPg] VALUES (#idPais, 7, 8)
+
+		--HOME
+		INSERT INTO [SCDB_P].[sysc].[catPage] VALUES ('Pagina Home para Mate Express', '/ME/PG/Home.aspx', 'SINCO_Q', 2)--[id->45]
+
+		--Rol & HOME
+		INSERT INTO [SCDB_P].[auth_usr].[relPaRolPg] VALUES (3,7,45)
+
+		--Página Programación
+		INSERT INTO [SCDB_P].[sysc].[catPage] VALUES('Programación de Pedidos ME', '/ME/PG/Usr/ProgPedidos.aspx', 'SINCO_Q', 3)--[id->46]
+
+		--Rol & Página Programación
+		INSERT INTO [SCDB_P].[auth_usr].[relPaRolPg] VALUES (3,7, 46)
+
+
+		--Página Comerciales
+		SELECT * FROM  [SCDB_P].[sysc].[catPage] 
+		INSERT INTO [SCDB_P].[sysc].[catPage] VALUES('Configuración de Vendedores ME', '/ME/PG/Adm/CVen.aspx', 'SINCO_Q', 3)--[id->47]
+
+		--Rol & Página Comerciales
+		SELECT * FROM  [SCDB_P].[auth_usr].[relPaRolPg]
+		INSERT INTO [SCDB_P].[auth_usr].[relPaRolPg] VALUES (3,7, 47)
+
+		--Página Clientes Excepciones 
+		SELECT * FROM  [SCDB_P].[sysc].[catPage] 
+		INSERT INTO [SCDB_P].[sysc].[catPage] VALUES('Configuración de Excepciones a Clientes ME', '/ME/PG/Adm/EConfig.aspx', 'SINCO_Q', 3)--[id->48]
+
+		--Rol & Página Excepciones 
+		SELECT * FROM  [SCDB_P].[auth_usr].[relPaRolPg]
+		INSERT INTO [SCDB_P].[auth_usr].[relPaRolPg] VALUES (3,7, 48)
+
+
+
+		--Página Clientes Bloqueados
+		INSERT INTO [SCDB_P].[sysc].[catPage] VALUES('Programación de Pedidos ME', '/ME/PG/Adm/CBloqueados.aspx', 'SINCO_Q', 3)--[id->49]
+
+		--Rol & Página Clientes Bloqueados
+		INSERT INTO [SCDB_P].[auth_usr].[relPaRolPg] VALUES (3,7, 49)
+
+		--Página Bloqueos
+		INSERT INTO [SCDB_P].[sysc].[catPage] VALUES('Carga de Bloqueos de Clientes ME', '/ME/PG/Adm/CBloqueos.aspx', 'SINCO_Q', 3)--[id->50]
+
+		--Rol & Página Bloqueos
+		INSERT INTO [SCDB_P].[auth_usr].[relPaRolPg] VALUES (3,7, 50)
+
+		--Página Vigencia
+		INSERT INTO [SCDB_P].[sysc].[catPage] VALUES('Vigencia - Clientes Nacionales', '/ME/PG/Adm/Vigencia.aspx', 'SINCO_Q', 3)--[id->51]
+
+		--Rol & Página Vigencia
+		INSERT INTO [SCDB_P].[auth_usr].[relPaRolPg] VALUES (3,7, 51)
+
+		--Página Vigencias
+		INSERT INTO [SCDB_P].[sysc].[catPage] VALUES('Carga de Vigencia Cli/Nacionales ME', '/ME/PG/Adm/VigenciaMasivo.aspx', 'SINCO_Q', 3)--[id->52]	
+
+		--Rol & Página Vigencias
+		INSERT INTO [SCDB_P].[auth_usr].[relPaRolPg] VALUES (3,7, 52)
+
+	 	--Página Clientes Bloqueados Masivo
+		INSERT INTO [SCDB_P].[sysc].[catPage] VALUES('Carga de Clientes Sin Excepciones ME', '/ME/PG/Adm/CBloMasivo.aspx', 'SINCO_Q', 3)--[id->53]
+
+		--Rol & Página Clientes Bloqueados Masivo
+		INSERT INTO [SCDB_P].[auth_usr].[relPaRolPg] VALUES (3,7, 53)
+
+		--ADD columna IdPais a la tabla vigencia
+		ALTER TABLE [SCDB_P].[cat].[Vigencia] ADD IdPais INT;
+
+		--Asignar pais a los clientes existentes
+		UPDATE [SCDB_P].[cat].[Vigencia] SET IdPais = 1
+
+	  	--ADD columna IdPais a la tabla bloExCli
+		ALTER TABLE [SCDB_P].[dbo].[bloExCli] ADD IdPais INT;
+
+		--Asignar pais a los clientes bloqueados
+		UPDATE [SCDB_P].[dbo].[bloExCli] SET IdPais = 1
+
+		--ADD columna IdPais a la tabla de Bloqueo Cliente/Autorizante
+		ALTER TABLE [SCDB_P].[cat].[bloCliAut] ADD IdPais INT;
+
+		--Asignar pais a los bloqueos de Cliente/Autorizante existentes
+		UPDATE [SCDB_P].[cat].[bloCliAut] SET IdPais = 1
+
+

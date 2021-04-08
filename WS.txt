@@ -1,0 +1,66 @@
+Version funcional productivo
+
+
+Productivo
+
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\WebApplication.Client.Web\Service References\WSDL_CC_MRP\configuration91.svcinfo
+
+ <endpoint name="HTTP_Port" contract="WSDL_CC_MRP.SI_OS_CustomerStatement" bindingType="basicHttpBinding" address="http://mxoccsapawp01.noam.cemexnet.com:8180/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BS_SINCO_PRD_GBL&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_CustomerStatement&amp;interfaceNamespace=http%3A%2F%2Fcemex.com%2FSINCO%2FECCMEX%2FCustomerStatement" bindingConfiguration="SI_OS_CustomerStatementBinding">
+ <serializedValue>http://mxoccsapawp01.noam.cemexnet.com:8180/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BS_SINCO_PRD_GBL&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_CustomerStatement&amp;interfaceNamespace=http%3A%2F%2Fcemex.com%2FSINCO%2FECCMEX%2FCustomerStatement</serializedValue>
+
+Calidad
+
+<endpoint name="HTTP_Port" contract="WSDL_CC_MRP.SI_OS_CustomerStatement" bindingType="basicHttpBinding" address="http://mxoccsapeip01.noam.cemexnet.com:8180/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BS_SINCO_PRD_GBL&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_CustomerStatement&amp;interfaceNamespace=http://cemex.com/SINCO/ECCMEX/CustomerStatement" bindingConfiguration="SI_OS_CustomerStatementBinding">
+<serializedValue>http://mxoccsapeip01.noam.cemexnet.com:8180/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BS_SINCO_PRD_GBL&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_CustomerStatement&amp;interfaceNamespace=http%3A%2F%2Fcemex.com%2FSINCO%2FECCMEX%2FCustomerStatement</serializedValue>
+
+
+
+
+
+Productivo
+
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\WebApplication.Client.Web\Service References\WSDL_CC_MRP\SI_OS_CustomerStatement.wsdl
+
+ <address location="http://mxoccsapeip01.noam.cemexnet.com:8180/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BS_SINCO_PRD_GBL&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_CustomerStatement&amp;interfaceNamespace=http%3A%2F%2Fcemex.com%2FSINCO%2FECCMEX%2FCustomerStatement" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+
+Calidad
+
+<address location="http://mxoccsapeip01.noam.cemexnet.com:8180/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BS_SINCO_PRD_GBL&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_CustomerStatement&amp;interfaceNamespace=http%3A%2F%2Fcemex.com%2FSINCO%2FECCMEX%2FCustomerStatement" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+
+
+
+
+Productivo
+
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\WebApplication.Client.Web\CO\PG\Usr\ProgPedidos.aspx.cs
+
+ cli.ClientCredentials.UserName.UserName = "WSPOSINCOGBL";
+ cli.ClientCredentials.UserName.Password = "C3m3X2020";
+
+Calidad
+
+cli.ClientCredentials.UserName.UserName = "WSPISINCO";
+cli.ClientCredentials.UserName.Password = "inicio01";
+
+
+Productivo
+
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\WebApplication.Client.Web\Service References\WSDL_CC_MRP\configuration.svcinfo
+
+<endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://mxoccsapeip01.noam.cemexnet.com:8180/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BS_SINCO_PRD_GBL&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_CustomerStatement&amp;interfaceNamespace=http%3A%2F%2Fcemex.com%2FSINCO%2FECCMEX%2FCustomerStatement; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;SI_OS_CustomerStatementBinding&quot; contract=&quot;WSDL_CC_MRP.SI_OS_CustomerStatement&quot; name=&quot;HTTP_Port&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://mxoccsapeip01.noam.cemexnet.com:8180/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BS_SINCO_PRD_GBL&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_CustomerStatement&amp;interfaceNamespace=http%3A%2F%2Fcemex.com%2FSINCO%2FECCMEX%2FCustomerStatement; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;SI_OS_CustomerStatementBinding&quot; contract=&quot;WSDL_CC_MRP.SI_OS_CustomerStatement&quot; name=&quot;HTTP_Port&quot; /&gt;" contractName="WSDL_CC_MRP.SI_OS_CustomerStatement" name="HTTP_Port" />
+
+Calidad
+
+<endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://mxoccsapeip01.noam.cemexnet.com:8180/XISOAPAdapter/MessageServlet?senderParty=&amp;amp;senderService=BS_SINCO_PRD_GBL&amp;amp;receiverParty=&amp;amp;receiverService=&amp;amp;interface=SI_OS_CustomerStatement&amp;amp;interfaceNamespace=http%3A%2F%2Fcemex.com%2FSINCO%2FECCMEX%2FCustomerStatement&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;SI_OS_CustomerStatementBinding&quot; contract=&quot;WSDL_CC_MRP.SI_OS_CustomerStatement&quot; name=&quot;HTTP_Port&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://mxoccsapeip01.noam.cemexnet.com:8180/XISOAPAdapter/MessageServlet?senderParty=&amp;amp;senderService=BS_SINCO_PRD_GBL&amp;amp;receiverParty=&amp;amp;receiverService=&amp;amp;interface=SI_OS_CustomerStatement&amp;amp;interfaceNamespace=http%3A%2F%2Fcemex.com%2FSINCO%2FECCMEX%2FCustomerStatement&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;SI_OS_CustomerStatementBinding&quot; contract=&quot;WSDL_CC_MRP.SI_OS_CustomerStatement&quot; name=&quot;HTTP_Port&quot; /&gt;" contractName="WSDL_CC_MRP.SI_OS_CustomerStatement" name="HTTP_Port" />
+
+
+
+Productivo
+
+D:\ADMAPPS\APPS Versiones\SINCO\12-2-2020 SINCO\12-2-2020 SINCO\WebApplication.Client.Web\Web.config
+
+<endpoint address="http://mxoccsapawp01.noam.cemexnet.com:8180/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BS_SINCO_PRD_GBL&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_CustomerStatement&amp;interfaceNamespace=http%3A%2F%2Fcemex.com%2FSINCO%2FECCMEX%2FCustomerStatement" binding="customBinding" bindingConfiguration="CHTB" contract="WSDL_CC_MRP.SI_OS_CustomerStatement" name="HTTP_Port" />
+
+Calidad
+
+ <endpoint address="http://mxoccsapeip01.noam.cemexnet.com:8180/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BS_SINCO_PRD_GBL&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_CustomerStatement&amp;interfaceNamespace=http%3A%2F%2Fcemex.com%2FSINCO%2FECCMEX%2FCustomerStatement" binding="customBinding" bindingConfiguration="CHTB" contract="WSDL_CC_MRP.SI_OS_CustomerStatement" name="HTTP_Port" />
